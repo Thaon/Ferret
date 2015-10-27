@@ -27,6 +27,10 @@ public:
 	BehaviourComponent* GetBehaviour() { return behaviourComponent; }
 
 	void attachInputMgr(cInputMgr* inputMgr);  // Attach the Input Manager
+	
+	void AddBehaviour() { behaviour = new Behaviour(); }
+	void SetBehaviour(Behaviour* value) { behaviour = value; }
+	Behaviour* GetBehaviour() { return behaviour; }
 
 	//getters
 	std::string GetName() { return m_name; }
