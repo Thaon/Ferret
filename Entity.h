@@ -17,6 +17,9 @@ private:
 	BehaviourComponent* behaviourComponent;
 
 public:
+	Entity(){}
+	Entity(std::string name) { m_name = name; }
+
 	void AddTransform() { transformComponent = new TransformComponent(); }
 	TransformComponent* GetTransform() { return transformComponent; }
 
@@ -24,13 +27,8 @@ public:
 	SpriteComponent* GetSpriteComponent() { return spriteComponent; }
 
 	void AddBehaviour() { behaviourComponent = new BehaviourComponent(); }
+	void SetBehaviour(BehaviourComponent* value) { behaviourComponent = value; }
 	BehaviourComponent* GetBehaviour() { return behaviourComponent; }
-
-	void attachInputMgr(cInputMgr* inputMgr);  // Attach the Input Manager
-	
-	void AddBehaviour() { behaviour = new Behaviour(); }
-	void SetBehaviour(Behaviour* value) { behaviour = value; }
-	Behaviour* GetBehaviour() { return behaviour; }
 
 	//getters
 	std::string GetName() { return m_name; }

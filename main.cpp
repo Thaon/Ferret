@@ -3,17 +3,9 @@
 
 #define GLX_GLXEXT_LEGACY //Must be declared so that our local glxext.h is picked up, rather than the system one
 
-#include <iostream>
+#include "FerretGame.h"
 
-#include <windows.h>
-#include "windowOGL.h"
-#include "GameConstants.h"
-#include "cWNDManager.h"
-#include "cInputMgr.h"
-
-#include "Entity.h"
-
-#include "RenderSystem.h"
+#include "RocketBehaviour.cpp"
 
 int WINAPI WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -26,34 +18,23 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	const int windowHeight = 768;
 	const int windowBPP = 16;
 
-	// This is the input manager
-	static cInputMgr* theInputMgr = cInputMgr::getInstance();
+	FerretGame game;
+	game.Init(windowWidth, windowHeight, windowBPP);
 
-	//Clear key buffers
-	theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
+	Entity test("test");
+	test.AddTransform();
+	test.AddSprite();
+	test.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");
+	test.AddBehaviour();
+	test.SetBehaviour(new RocketBehaviour);
 
-	//create instances
+	game.GetSceneGraph()->Instantiate(&test, glm::vec2(100, 100), 0);
 
-
-	//This is the mainloop, we render frames until isRunning returns false
-	while (pgmWNDMgr->isWNDRunning())
-	{
-		pgmWNDMgr->processWNDEvents(); //Process any window events
-
-									   //We get the time that passed since the last frame
-		float elapsedTime = pgmWNDMgr->getElapsedSeconds();
-
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		spriteBkgd.render();
-		rocketSprite.update();
-		rocketSprite.render();
-
-		pgmWNDMgr->swapBuffers();
-		//theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
-	}
-
-	theOGLWnd.shutdown(); //Free any resources
-	pgmWNDMgr->destroyWND(); //Destroy the program window
+	game.Run();
 
 	return 0; //Return success
 }
+
+//to do:
+//behaviour system (update(deltatime))
+//input system (implement new OnKeyPressed etc..)

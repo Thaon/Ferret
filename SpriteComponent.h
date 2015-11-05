@@ -1,10 +1,6 @@
 #pragma once
 // Image Texture loading library
 #include <string>
-#include "IL\il.h"
-#include "IL\ilu.h"
-#include "IL\ilut.h"
-#include "glm\glm.hpp"
 #include "cTexture.h"
 #include <cstdlib>
 
@@ -24,6 +20,8 @@ private:
 	glm::vec2 spriteTexCoordData[4];
 
 	// Texture width & Height
+	cTexture texture;
+
 	int textureWidth;
 	int textureHeight;
 	GLuint GLTextureID;
@@ -32,7 +30,7 @@ public:
 	SpriteComponent();
 
 	//getters
-	glm::vec2 GetCenter();
+	glm::vec2 GetCenter(glm::vec2 position);
 	GLuint GetTexture();  // Return the sprites current image
 	RECT* GetRekt();
 	glm::vec2* GetTexCoordData();

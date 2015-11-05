@@ -1,7 +1,5 @@
 #pragma once
 #include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/geometric.hpp>
 
 class TransformComponent
 {
@@ -24,7 +22,7 @@ public:
 	//setters
 	void SetPosition(float newX, float newY) { position.x = newX; position.y = newY; }
 	void SetPosition(glm::vec2 newPosition) { position = newPosition; }
-	void SetRotation(float newOrientation) { orientation = newOrientation; }
-	void SetScale(float newScale) { scale = newScale; }
+	void SetRotation(float newOrientation) { orientation += newOrientation; }
+	void SetScale(float newScale) { scale.x = newScale; scale.x = newScale;}
 
 };

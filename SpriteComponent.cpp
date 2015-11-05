@@ -38,9 +38,9 @@ void SpriteComponent::setTextureDimensions(int texWidth, int textHeight)
 	textureHeight = textHeight;
 }
 
-glm::vec2 SpriteComponent::GetCenter()
+glm::vec2 SpriteComponent::GetCenter(glm::vec2 position)
 {
-	spriteCenter = glm::vec2(textureWidth / 2, textureHeight / 2);
+	spriteCenter = glm::vec2(position.x + textureWidth / 2, position.y + textureHeight / 2);
 	return spriteCenter;
 }
 
@@ -56,8 +56,8 @@ glm::vec2* SpriteComponent::GetTexCoordData()
 
 void SpriteComponent::SetSprite(std::string path)
 {
-	cTexture texture;
 	texture.createTexture(path.c_str());
 	setTexture(texture.getTexture());
 	setTextureDimensions(texture.getTWidth(), texture.getTHeight());
+	setSpriteTexCoordData();
 }
