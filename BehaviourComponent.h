@@ -17,6 +17,9 @@ public:
 	TransformComponent* GetTransform() { return transformComponent; }
 	void SetSpriteComponent(SpriteComponent* value) { spriteComponent = value; }
 	SpriteComponent* GetSpriteComponent() { return spriteComponent; }
+
+	virtual void OnCollision(Entity* other) {}
+
 	virtual void Start() {};
-	virtual void Update() {};
+	virtual void Update(float deltaTime) {};
 };
