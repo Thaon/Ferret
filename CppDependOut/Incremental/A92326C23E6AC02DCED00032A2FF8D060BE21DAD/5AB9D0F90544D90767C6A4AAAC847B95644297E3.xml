@@ -1,0 +1,450 @@
+<Root>
+<Comments>
+<c f="1" b="10" e="10"/>
+<c f="1" b="11" e="10"/>
+<c f="1" b="13" e="13"/>
+<c f="1" b="14" e="13"/>
+<c f="1" b="21" e="21"/>
+<c f="1" b="22" e="21"/>
+</Comments>
+<Macros>
+<m f="1" bl="11" bc="11" el="11" ec="11"/>
+<m f="1" bl="12" bc="14" el="12" ec="14"/>
+<m f="1" bl="12" bc="28" el="12" ec="28"/>
+<m f="1" bl="15" bc="15" el="15" ec="15"/>
+<m f="1" bl="18" bc="15" el="18" ec="15"/>
+<m f="1" bl="20" bc="10" el="20" ec="10"/>
+<m f="1" bl="20" bc="32" el="20" ec="32"/>
+<m f="1" bl="27" bc="13" el="27" ec="13"/>
+<m f="1" bl="27" bc="35" el="27" ec="35"/>
+<m f="1" bl="29" bc="16" el="29" ec="16"/>
+<m f="1" bl="29" bc="35" el="29" ec="35"/>
+<m f="1" bl="41" bc="15" el="41" ec="15"/>
+<m f="1" bl="45" bc="15" el="45" ec="15"/>
+</Macros>
+<Comments/>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_d6a2ffa37bdf20d91b82e293ed1b2ab9" file="2" linestart="7" lineend="18">
+<cr access="public" kind="class" name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_f5ddd4e16d69e4146220cba7b5f9e9af" file="2" linestart="7" lineend="7"/>
+<asd access="public"/>
+<c name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_887a1fc5ea8809051b61aefd09c4de58" file="2" linestart="10" lineend="10" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="initOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_587aa14c3ae4128140e90fd9e9f3a015" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="renderOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_ac5c324fda1caf75f4151d881ca8c14a" file="2" linestart="13" lineend="13" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rotAngle" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="shutdown" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_a4a5a1d40fcd6f1924fb22a4debef1a2" file="2" linestart="14" lineend="14" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="onResize" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_5b5382b79b959436b28c7ae88c3cb996" file="2" linestart="16" lineend="16" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_fad2829feff909cfe1b79e3a6cded773" file="2" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const windowOGL &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="5c67ba9747117b1c6a81bdc2fd6ac0ba_d6a2ffa37bdf20d91b82e293ed1b2ab9"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<c name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_bf774a574238d1fe06802a7327ac4d44" file="2" linestart="7" lineend="7" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="windowOGL &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="5c67ba9747117b1c6a81bdc2fd6ac0ba_d6a2ffa37bdf20d91b82e293ed1b2ab9"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="windowOGL" id="ebe39e7bd3b6d8b726557f1881df4b4d_887a1fc5ea8809051b61aefd09c4de58" file="1" linestart="3" lineend="6" previous="5c67ba9747117b1c6a81bdc2fd6ac0ba_887a1fc5ea8809051b61aefd09c4de58" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="4" cb="1" le="6" ce="1"/>
+
+</Stmt>
+</c>
+<m name="initOGL" id="ebe39e7bd3b6d8b726557f1881df4b4d_587aa14c3ae4128140e90fd9e9f3a015" file="1" linestart="8" lineend="23" previous="5c67ba9747117b1c6a81bdc2fd6ac0ba_587aa14c3ae4128140e90fd9e9f3a015" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="9" cb="1" le="23" ce="1">
+<ce lb="11" cb="2" le="11" ce="19" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42">
+<exp pvirg="true"/>
+<n32 lb="11" cb="2">
+<drx lb="11" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42" nm="glEnable"/>
+</n32>
+<n32 lb="11" cb="11">
+<n45 lb="11" cb="11">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="12" cb="2" le="12" ce="50" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_e1f9d042505e3dbf117d4dc1540acbac">
+<exp pvirg="true"/>
+<n32 lb="12" cb="2">
+<drx lb="12" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_e1f9d042505e3dbf117d4dc1540acbac" nm="glBlendFunc"/>
+</n32>
+<n32 lb="12" cb="14">
+<n45 lb="12" cb="14">
+<flit/>
+</n45>
+</n32>
+<n32 lb="12" cb="28">
+<n45 lb="12" cb="28">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="14" cb="2" le="14" ce="32" nbparm="4" id="33c672c5ccce976484cd3521ee4ffa73_d1f12406c0a4ce59b04cd8473318c989">
+<exp pvirg="true"/>
+<n32 lb="14" cb="2">
+<drx lb="14" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d1f12406c0a4ce59b04cd8473318c989" nm="glViewport"/>
+</n32>
+<n45 lb="14" cb="13">
+<flit/>
+</n45>
+<n45 lb="14" cb="16"/>
+<n32 lb="14" cb="19">
+<drx lb="14" cb="19" kind="lvalue" nm="width"/>
+</n32>
+<n32 lb="14" cb="26">
+<drx lb="14" cb="26" kind="lvalue" nm="height"/>
+</n32>
+</ce>
+<ce lb="15" cb="2" le="15" ce="28" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2">
+<exp pvirg="true"/>
+<n32 lb="15" cb="2">
+<drx lb="15" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2" nm="glMatrixMode"/>
+</n32>
+<n32 lb="15" cb="15">
+<n45 lb="15" cb="15">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="16" cb="2" le="16" ce="17" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="16" cb="2">
+<drx lb="16" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+<ce lb="17" cb="2" le="17" ce="44" nbparm="6" id="33c672c5ccce976484cd3521ee4ffa73_14077fc24048a108e023254cf0cd7dc4">
+<exp pvirg="true"/>
+<n32 lb="17" cb="2">
+<drx lb="17" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_14077fc24048a108e023254cf0cd7dc4" nm="glOrtho"/>
+</n32>
+<n40 lb="17" cb="10"/>
+<n32 lb="17" cb="15">
+<n32 lb="17" cb="15">
+<drx lb="17" cb="15" kind="lvalue" nm="width"/>
+</n32>
+</n32>
+<n32 lb="17" cb="22">
+<n32 lb="17" cb="22">
+<drx lb="17" cb="22" kind="lvalue" nm="height"/>
+</n32>
+</n32>
+<n40 lb="17" cb="30"/>
+<n40 lb="17" cb="35"/>
+<uo lb="17" cb="40" le="17" ce="41" kind="-">
+<n40 lb="17" cb="41">
+<flit/>
+</n40>
+</uo>
+</ce>
+<ce lb="18" cb="2" le="18" ce="27" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2">
+<exp pvirg="true"/>
+<n32 lb="18" cb="2">
+<drx lb="18" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2" nm="glMatrixMode"/>
+</n32>
+<n32 lb="18" cb="15">
+<n45 lb="18" cb="15">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="19" cb="2" le="19" ce="17" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="19" cb="2">
+<drx lb="19" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+<ce lb="20" cb="2" le="20" ce="51" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320">
+<exp pvirg="true"/>
+<n32 lb="20" cb="2">
+<drx lb="20" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320" nm="glClear"/>
+</n32>
+<n32 lb="20" cb="10" le="20" ce="32">
+<xop lb="20" cb="10" le="20" ce="32" kind="|">
+<n45 lb="20" cb="10">
+<flit/>
+</n45>
+<n45 lb="20" cb="32">
+<flit/>
+</n45>
+</xop>
+</n32>
+</ce>
+<rx lb="22" cb="5" le="22" ce="12" pvirg="true">
+<n9 lb="22" cb="12"/>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="renderOGL" id="ebe39e7bd3b6d8b726557f1881df4b4d_ac5c324fda1caf75f4151d881ca8c14a" file="1" linestart="25" lineend="31" previous="5c67ba9747117b1c6a81bdc2fd6ac0ba_ac5c324fda1caf75f4151d881ca8c14a" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rotAngle" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="26" cb="1" le="31" ce="1">
+<ce lb="27" cb="5" le="27" ce="54" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320">
+<exp pvirg="true"/>
+<n32 lb="27" cb="5">
+<drx lb="27" cb="5" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320" nm="glClear"/>
+</n32>
+<n32 lb="27" cb="13" le="27" ce="35">
+<xop lb="27" cb="13" le="27" ce="35" kind="|">
+<n45 lb="27" cb="13">
+<flit/>
+</n45>
+<n45 lb="27" cb="35">
+<flit/>
+</n45>
+</xop>
+</n32>
+</ce>
+<ce lb="28" cb="5" le="28" ce="20" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="28" cb="5">
+<drx lb="28" cb="5" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+<ce lb="29" cb="2" le="29" ce="42" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_0071604b66960728458bd4a347ac7857">
+<exp pvirg="true"/>
+<n32 lb="29" cb="2">
+<drx lb="29" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_0071604b66960728458bd4a347ac7857" nm="glPolygonMode"/>
+</n32>
+<n32 lb="29" cb="16">
+<n45 lb="29" cb="16">
+<flit/>
+</n45>
+</n32>
+<n32 lb="29" cb="35">
+<n45 lb="29" cb="35">
+<flit/>
+</n45>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<m name="shutdown" id="ebe39e7bd3b6d8b726557f1881df4b4d_a4a5a1d40fcd6f1924fb22a4debef1a2" file="1" linestart="33" lineend="36" previous="5c67ba9747117b1c6a81bdc2fd6ac0ba_a4a5a1d40fcd6f1924fb22a4debef1a2" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="34" cb="1" le="36" ce="1"/>
+
+</Stmt>
+</m>
+<m name="onResize" id="ebe39e7bd3b6d8b726557f1881df4b4d_5b5382b79b959436b28c7ae88c3cb996" file="1" linestart="38" lineend="48" previous="5c67ba9747117b1c6a81bdc2fd6ac0ba_5b5382b79b959436b28c7ae88c3cb996" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="39" cb="1" le="48" ce="1">
+<ce lb="40" cb="2" le="40" ce="32" nbparm="4" id="33c672c5ccce976484cd3521ee4ffa73_d1f12406c0a4ce59b04cd8473318c989">
+<exp pvirg="true"/>
+<n32 lb="40" cb="2">
+<drx lb="40" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d1f12406c0a4ce59b04cd8473318c989" nm="glViewport"/>
+</n32>
+<n45 lb="40" cb="13">
+<flit/>
+</n45>
+<n45 lb="40" cb="16"/>
+<n32 lb="40" cb="19">
+<drx lb="40" cb="19" kind="lvalue" nm="width"/>
+</n32>
+<n32 lb="40" cb="26">
+<drx lb="40" cb="26" kind="lvalue" nm="height"/>
+</n32>
+</ce>
+<ce lb="41" cb="2" le="41" ce="28" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2">
+<exp pvirg="true"/>
+<n32 lb="41" cb="2">
+<drx lb="41" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2" nm="glMatrixMode"/>
+</n32>
+<n32 lb="41" cb="15">
+<n45 lb="41" cb="15">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="42" cb="2" le="42" ce="15" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285">
+<exp pvirg="true"/>
+<n32 lb="42" cb="2">
+<drx lb="42" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285" nm="glPushMatrix"/>
+</n32>
+</ce>
+<ce lb="43" cb="2" le="43" ce="17" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="43" cb="2">
+<drx lb="43" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+<ce lb="44" cb="2" le="44" ce="36" nbparm="6" id="33c672c5ccce976484cd3521ee4ffa73_14077fc24048a108e023254cf0cd7dc4">
+<exp pvirg="true"/>
+<n32 lb="44" cb="2">
+<drx lb="44" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_14077fc24048a108e023254cf0cd7dc4" nm="glOrtho"/>
+</n32>
+<n32 lb="44" cb="10">
+<n45 lb="44" cb="10"/>
+</n32>
+<n32 lb="44" cb="13">
+<n32 lb="44" cb="13">
+<drx lb="44" cb="13" kind="lvalue" nm="width"/>
+</n32>
+</n32>
+<n32 lb="44" cb="20">
+<n32 lb="44" cb="20">
+<drx lb="44" cb="20" kind="lvalue" nm="height"/>
+</n32>
+</n32>
+<n32 lb="44" cb="28">
+<n45 lb="44" cb="28"/>
+</n32>
+<n32 lb="44" cb="31" le="44" ce="32">
+<uo lb="44" cb="31" le="44" ce="32" kind="-">
+<n45 lb="44" cb="32">
+<flit/>
+</n45>
+</uo>
+</n32>
+<n32 lb="44" cb="35">
+<n45 lb="44" cb="35"/>
+</n32>
+</ce>
+<ce lb="45" cb="2" le="45" ce="27" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2">
+<exp pvirg="true"/>
+<n32 lb="45" cb="2">
+<drx lb="45" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2" nm="glMatrixMode"/>
+</n32>
+<n32 lb="45" cb="15">
+<n45 lb="45" cb="15">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="46" cb="2" le="46" ce="15" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285">
+<exp pvirg="true"/>
+<n32 lb="46" cb="2">
+<drx lb="46" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285" nm="glPushMatrix"/>
+</n32>
+</ce>
+<ce lb="47" cb="2" le="47" ce="17" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="47" cb="2">
+<drx lb="47" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

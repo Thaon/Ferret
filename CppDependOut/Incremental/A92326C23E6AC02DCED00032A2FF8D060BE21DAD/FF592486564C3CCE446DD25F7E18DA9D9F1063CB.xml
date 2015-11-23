@@ -1,0 +1,132 @@
+<Root>
+<Comments>
+<c f="1" b="15" e="15"/>
+<c f="1" b="16" e="15"/>
+<c f="1" b="17" e="17"/>
+<c f="1" b="18" e="17"/>
+</Comments>
+<Macros/>
+<Comments/>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="InputSystem" id="a2fd032c969bcb2e0ce15c9bcfb82b30_9a6d8776fff990a5124fe2bf3927d1c5" file="2" linestart="7" lineend="16">
+<cr access="public" kind="class" name="InputSystem" id="a2fd032c969bcb2e0ce15c9bcfb82b30_9e2946306d569e4ebea001bb3d5fbec0" file="2" linestart="7" lineend="7"/>
+<asd access="private"/>
+<fl name="theInputMgr" id="a2fd032c969bcb2e0ce15c9bcfb82b30_cab013ae72711f9956fbb68f495ef617" file="2" linestart="10" lineend="10" isPtr="true" isLiteral="true" access="private" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fl>
+<asd access="public"/>
+<c name="InputSystem" id="a2fd032c969bcb2e0ce15c9bcfb82b30_394a3ed7d7c62f3967cc0535265a0418" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~InputSystem" id="a2fd032c969bcb2e0ce15c9bcfb82b30_fe593269ed980c122c70d2d687455b17" file="2" linestart="13" lineend="13" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="Init" id="a2fd032c969bcb2e0ce15c9bcfb82b30_dabe081e5f5bea7daa8aa9043bee497e" file="2" linestart="15" lineend="15" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<c name="InputSystem" id="a2fd032c969bcb2e0ce15c9bcfb82b30_b24f92be392d85b5391327a7acd387f9" file="2" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const InputSystem &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="a2fd032c969bcb2e0ce15c9bcfb82b30_9a6d8776fff990a5124fe2bf3927d1c5"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="InputSystem" id="e707ab6aa77868cf9d90500a51a4d036_394a3ed7d7c62f3967cc0535265a0418" file="1" linestart="4" lineend="6" previous="a2fd032c969bcb2e0ce15c9bcfb82b30_394a3ed7d7c62f3967cc0535265a0418" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="5" cb="1" le="6" ce="1"/>
+
+</Stmt>
+</c>
+<d name="~InputSystem" id="e707ab6aa77868cf9d90500a51a4d036_fe593269ed980c122c70d2d687455b17" file="1" linestart="9" lineend="11" previous="a2fd032c969bcb2e0ce15c9bcfb82b30_fe593269ed980c122c70d2d687455b17" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="10" cb="1" le="11" ce="1"/>
+
+</Stmt>
+</d>
+<m name="Init" id="e707ab6aa77868cf9d90500a51a4d036_dabe081e5f5bea7daa8aa9043bee497e" file="1" linestart="13" lineend="19" previous="a2fd032c969bcb2e0ce15c9bcfb82b30_dabe081e5f5bea7daa8aa9043bee497e" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="14" cb="1" le="19" ce="1">
+<xop lb="16" cb="2" le="16" ce="39" kind="=">
+<mex lb="16" cb="2" kind="lvalue" id="a2fd032c969bcb2e0ce15c9bcfb82b30_cab013ae72711f9956fbb68f495ef617" nm="theInputMgr" arrow="1">
+<n19 lb="16" cb="2"/>
+</mex>
+<ce lb="16" cb="16" le="16" ce="39" nbparm="0" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde">
+<exp pvirg="true"/>
+<n32 lb="16" cb="16" le="16" ce="27">
+<drx lb="16" cb="16" le="16" ce="27" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" nm="getInstance"/>
+</n32>
+</ce>
+</xop>
+<mce lb="18" cb="2" le="18" ce="92" nbparm="1" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14">
+<exp pvirg="true"/>
+<mex lb="18" cb="2" le="18" ce="15" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" nm="clearBuffers" arrow="1">
+<n32 lb="18" cb="2">
+<mex lb="18" cb="2" kind="lvalue" id="a2fd032c969bcb2e0ce15c9bcfb82b30_cab013ae72711f9956fbb68f495ef617" nm="theInputMgr" arrow="1">
+<n19 lb="18" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="18" cb="28" le="18" ce="73">
+<xop lb="18" cb="28" le="18" ce="73" kind="|">
+<n32 lb="18" cb="28" le="18" ce="41">
+<n32 lb="18" cb="28" le="18" ce="41">
+<mex lb="18" cb="28" le="18" ce="41" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" nm="KEYS_DOWN_BUFFER" arrow="1">
+<n32 lb="18" cb="28">
+<mex lb="18" cb="28" kind="lvalue" id="a2fd032c969bcb2e0ce15c9bcfb82b30_cab013ae72711f9956fbb68f495ef617" nm="theInputMgr" arrow="1">
+<n19 lb="18" cb="28"/>
+</mex>
+</n32>
+</mex>
+</n32>
+</n32>
+<n32 lb="18" cb="60" le="18" ce="73">
+<n32 lb="18" cb="60" le="18" ce="73">
+<mex lb="18" cb="60" le="18" ce="73" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" nm="KEYS_PRESSED_BUFFER" arrow="1">
+<n32 lb="18" cb="60">
+<mex lb="18" cb="60" kind="lvalue" id="a2fd032c969bcb2e0ce15c9bcfb82b30_cab013ae72711f9956fbb68f495ef617" nm="theInputMgr" arrow="1">
+<n19 lb="18" cb="60"/>
+</mex>
+</n32>
+</mex>
+</n32>
+</n32>
+</xop>
+</n32>
+</mce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

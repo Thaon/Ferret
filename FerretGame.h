@@ -5,6 +5,7 @@
 #include"RenderSystem.h"
 #include "BehaviourSystem.h"
 #include "CollisionSystem.h"
+#include "cSoundMgr.h"
 
 class FerretGame
 {

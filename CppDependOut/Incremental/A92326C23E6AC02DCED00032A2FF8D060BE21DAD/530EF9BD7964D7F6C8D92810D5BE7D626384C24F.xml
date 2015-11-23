@@ -1,0 +1,1384 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="7"/>
+<c f="1" b="8" e="7"/>
+<c f="1" b="12" e="16"/>
+<c f="1" b="17" e="16"/>
+<c f="1" b="26" e="30"/>
+<c f="1" b="31" e="30"/>
+<c f="1" b="33" e="33"/>
+<c f="1" b="34" e="33"/>
+<c f="1" b="37" e="37"/>
+<c f="1" b="38" e="37"/>
+<c f="1" b="42" e="42"/>
+<c f="1" b="43" e="42"/>
+<c f="1" b="43" e="43"/>
+<c f="1" b="44" e="43"/>
+<c f="1" b="44" e="44"/>
+<c f="1" b="45" e="44"/>
+<c f="1" b="45" e="45"/>
+<c f="1" b="46" e="45"/>
+<c f="1" b="46" e="46"/>
+<c f="1" b="48" e="46"/>
+<c f="1" b="50" e="54"/>
+<c f="1" b="55" e="54"/>
+<c f="1" b="59" e="59"/>
+<c f="1" b="60" e="59"/>
+<c f="1" b="60" e="60"/>
+<c f="1" b="61" e="60"/>
+<c f="1" b="64" e="68"/>
+<c f="1" b="69" e="68"/>
+<c f="1" b="76" e="80"/>
+<c f="1" b="81" e="80"/>
+<c f="1" b="92" e="96"/>
+<c f="1" b="97" e="96"/>
+<c f="1" b="108" e="112"/>
+<c f="1" b="113" e="112"/>
+<c f="1" b="124" e="128"/>
+<c f="1" b="129" e="128"/>
+<c f="1" b="136" e="140"/>
+<c f="1" b="141" e="140"/>
+<c f="1" b="143" e="143"/>
+<c f="1" b="144" e="143"/>
+<c f="1" b="150" e="150"/>
+<c f="1" b="151" e="150"/>
+<c f="1" b="157" e="157"/>
+<c f="1" b="158" e="157"/>
+<c f="1" b="163" e="167"/>
+<c f="1" b="168" e="167"/>
+<c f="1" b="174" e="178"/>
+<c f="1" b="179" e="178"/>
+<c f="1" b="183" e="187"/>
+<c f="1" b="188" e="187"/>
+<c f="1" b="192" e="196"/>
+<c f="1" b="197" e="196"/>
+<c f="1" b="201" e="205"/>
+<c f="1" b="206" e="205"/>
+<c f="1" b="210" e="214"/>
+<c f="1" b="215" e="214"/>
+<c f="1" b="219" e="223"/>
+<c f="1" b="224" e="223"/>
+<c f="1" b="228" e="232"/>
+<c f="1" b="233" e="232"/>
+<c f="1" b="237" e="241"/>
+<c f="1" b="242" e="241"/>
+</Comments>
+<Macros>
+<m f="1" bl="10" bc="33" el="10" ec="33"/>
+<m f="1" bl="19" bc="19" el="19" ec="19"/>
+<m f="1" bl="170" bc="15" el="170" ec="28"/>
+<m f="1" bl="171" bc="15" el="171" ec="28"/>
+</Macros>
+<Comments>
+<c f="2" b="1" e="7"/>
+<c f="2" b="8" e="7"/>
+<c f="2" b="16" e="16"/>
+<c f="2" b="17" e="16"/>
+<c f="2" b="17" e="17"/>
+<c f="2" b="18" e="17"/>
+<c f="2" b="18" e="18"/>
+<c f="2" b="19" e="18"/>
+<c f="2" b="19" e="19"/>
+<c f="2" b="20" e="19"/>
+<c f="2" b="20" e="20"/>
+<c f="2" b="21" e="20"/>
+<c f="2" b="21" e="21"/>
+<c f="2" b="23" e="21"/>
+<c f="2" b="28" e="28"/>
+<c f="2" b="29" e="28"/>
+<c f="2" b="34" e="34"/>
+<c f="2" b="35" e="34"/>
+<c f="2" b="35" e="35"/>
+<c f="2" b="36" e="35"/>
+<c f="2" b="36" e="36"/>
+<c f="2" b="37" e="36"/>
+<c f="2" b="37" e="37"/>
+<c f="2" b="38" e="37"/>
+<c f="2" b="38" e="38"/>
+<c f="2" b="39" e="38"/>
+<c f="2" b="39" e="39"/>
+<c f="2" b="40" e="39"/>
+<c f="2" b="40" e="40"/>
+<c f="2" b="41" e="40"/>
+<c f="2" b="41" e="41"/>
+<c f="2" b="42" e="41"/>
+<c f="2" b="42" e="42"/>
+<c f="2" b="43" e="42"/>
+<c f="2" b="43" e="43"/>
+<c f="2" b="44" e="43"/>
+<c f="2" b="44" e="44"/>
+<c f="2" b="45" e="44"/>
+<c f="2" b="45" e="45"/>
+<c f="2" b="46" e="45"/>
+<c f="2" b="46" e="46"/>
+<c f="2" b="47" e="46"/>
+<c f="2" b="47" e="47"/>
+<c f="2" b="48" e="47"/>
+<c f="2" b="48" e="48"/>
+<c f="2" b="49" e="48"/>
+<c f="2" b="49" e="49"/>
+<c f="2" b="50" e="49"/>
+<c f="2" b="50" e="50"/>
+<c f="2" b="52" e="50"/>
+</Comments>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b" file="2" linestart="12" lineend="52">
+<cr access="public" kind="class" name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_ce32d0d1452af2b32e08e2792b6178ab" file="2" linestart="12" lineend="12"/>
+<asd access="private"/>
+<fl name="keysDownBuffer" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" file="2" linestart="16" lineend="16" isArray="true" isLiteral="true" access="private" proto="bool [256]">
+<cat>
+<bt name="bool"/>
+</cat>
+</fl>
+<fl name="keysPressedBuffer" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" file="2" linestart="17" lineend="17" isArray="true" isLiteral="true" access="private" proto="bool [256]">
+<cat>
+<bt name="bool"/>
+</cat>
+</fl>
+<fl name="mousePos" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" file="2" linestart="18" lineend="18" access="private" proto="glm::ivec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="int"/>
+<Stmt>
+<drx lb="107" cb="29" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fl>
+<fl name="leftMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_cd120bbd9843ec57abd800500f6896c2" file="2" linestart="19" lineend="19" isLiteral="true" access="private" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="middleMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_446535b2f3d38624d047a9f2dd24a314" file="2" linestart="20" lineend="20" isLiteral="true" access="private" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="rightMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_38b248a100b60ebbe75c69c5ee2ed077" file="2" linestart="21" lineend="21" isLiteral="true" access="private" proto="bool">
+<bt name="bool"/>
+</fl>
+<v name="pInstance" proto="cInputMgr *" isPtr="true" isLiteral="true" id="dab4800d34fc66b2ae29608690d5eae5_0fbbbef084543e7a0b6bc11ae7fcf0f5" file="2" linestart="23" lineend="23" storage="static" access2="private">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</v>
+<asd access="public"/>
+<m name="getInstance" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" file="2" linestart="26" lineend="26" access="public" storage="static" hasbody="true">
+<fpt cc="cdecl" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<fl name="KEYS_DOWN_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" file="2" linestart="29" lineend="29" const="true" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<fl name="KEYS_PRESSED_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" file="2" linestart="30" lineend="30" const="true" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<fl name="MOUSE_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_8c3ca81819258f7f213a80dbe8c9c525" file="2" linestart="31" lineend="31" const="true" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<fl name="KEYS_MOUSE_TEXT" id="dab4800d34fc66b2ae29608690d5eae5_dc4c1da33e4994861dd9f5fa5ac129d8" file="2" linestart="32" lineend="32" const="true" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<c name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd" file="2" linestart="34" lineend="34" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="keyDown" id="dab4800d34fc66b2ae29608690d5eae5_aae482bbdd0b656e791845d3a3ee18ca" file="2" linestart="35" lineend="35" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="WPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="keyUp" id="dab4800d34fc66b2ae29608690d5eae5_45c22ddfe69583b250a9cfe2b6e229bb" file="2" linestart="36" lineend="36" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="WPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="isKeyDown" id="dab4800d34fc66b2ae29608690d5eae5_6b646084a57083e983677dad70813fe2" file="2" linestart="37" lineend="37" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="wasKeyPressed" id="dab4800d34fc66b2ae29608690d5eae5_5657711ffe03658b5298876b1d1b9b01" file="2" linestart="38" lineend="38" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="anyKeyPressed" id="dab4800d34fc66b2ae29608690d5eae5_f80b6019a01ba05db1e5ae2b176b4a1c" file="2" linestart="39" lineend="39" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="clearKeyPress" id="dab4800d34fc66b2ae29608690d5eae5_327c322e142ec44496dd6dfad560c353" file="2" linestart="40" lineend="40" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="clearBuffers" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" file="2" linestart="41" lineend="41" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bufferToClear" proto="BYTE" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="mouseXY" id="dab4800d34fc66b2ae29608690d5eae5_690f439643cf3b152e456149dc75743f" file="2" linestart="42" lineend="42" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="LPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="setLeftMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_19674303fcabb0f0bd80d654409ee7f6" file="2" linestart="43" lineend="43" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="setMiddleMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_ea3fd164cb37d92c9bde4d54a65a1e39" file="2" linestart="44" lineend="44" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="setRightMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_810f6a8959eae3689b7aff1223d381fa" file="2" linestart="45" lineend="45" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="getMouseXPos" id="dab4800d34fc66b2ae29608690d5eae5_4fb815dbfa808c8b0c7008fcc8bfb084" file="2" linestart="46" lineend="46" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="getMouseYPos" id="dab4800d34fc66b2ae29608690d5eae5_48e1cfae588e6ee2a1bd23f9c8451633" file="2" linestart="47" lineend="47" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="getLeftMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_8ba451389a59a16cccab7ee99b70e758" file="2" linestart="48" lineend="48" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="getMiddleMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_3432ec924ee8290d30eb592a27ad479b" file="2" linestart="49" lineend="49" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="getRightMouseBtn" id="dab4800d34fc66b2ae29608690d5eae5_ca13bc07cb6ad3efe3b20b4052e36fcc" file="2" linestart="50" lineend="50" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<c name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_1f7feb117bc63e7057f383436828a77c" file="2" linestart="12" lineend="12" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="cInputMgr &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<m name="operator=" id="dab4800d34fc66b2ae29608690d5eae5_7209b0c0a86011d504a65db2fc8c6911" file="2" linestart="12" implicit="true" operator="true" access="public" inline="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cInputMgr &amp;">
+<lrf>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="cInputMgr &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_555d9fe5966b6060cdabcb23e0ce144e" file="2" linestart="12" lineend="12" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cInputMgr &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<v name="pInstance" proto="cInputMgr *" isPtr="true" isLiteral="true" id="183522abbdff9c4b2f5ff895174507bb_0fbbbef084543e7a0b6bc11ae7fcf0f5" file="1" linestart="10" lineend="10" previous="dab4800d34fc66b2ae29608690d5eae5_0fbbbef084543e7a0b6bc11ae7fcf0f5" init="true" access2="private">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="10" cb="33">
+<n45 lb="10" cb="33">
+<flit/>
+</n45>
+</n32>
+
+</Stmt>
+</v>
+<m name="getInstance" id="183522abbdff9c4b2f5ff895174507bb_9369a69821f4defb2c14fc556c021bde" file="1" linestart="17" lineend="24" previous="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" access="public" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="18" cb="1" le="24" ce="1">
+<if lb="19" cb="2" le="22" ce="2">
+<xop lb="19" cb="6" le="19" ce="19" kind="==">
+<n32 lb="19" cb="6">
+<drx lb="19" cb="6" kind="lvalue" id="183522abbdff9c4b2f5ff895174507bb_0fbbbef084543e7a0b6bc11ae7fcf0f5" nm="pInstance"/>
+</n32>
+<n32 lb="19" cb="19">
+<n45 lb="19" cb="19">
+<flit/>
+</n45>
+</n32>
+</xop>
+<u lb="20" cb="2" le="22" ce="2">
+<xop lb="21" cb="3" le="21" ce="29" kind="=">
+<drx lb="21" cb="3" kind="lvalue" id="183522abbdff9c4b2f5ff895174507bb_0fbbbef084543e7a0b6bc11ae7fcf0f5" nm="pInstance"/>
+<new lb="21" cb="15" le="21" ce="29">
+<typeptr id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd"/>
+<exp pvirg="true"/>
+<n10 lb="21" cb="19" le="21" ce="29">
+<typeptr id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd"/>
+<temp/>
+</n10>
+</new>
+</xop>
+</u>
+</if>
+<rx lb="23" cb="2" le="23" ce="20" pvirg="true">
+<n32 lb="23" cb="9" le="23" ce="20">
+<drx lb="23" cb="9" le="23" ce="20" kind="lvalue" id="183522abbdff9c4b2f5ff895174507bb_0fbbbef084543e7a0b6bc11ae7fcf0f5" nm="pInstance"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<c name="cInputMgr" id="183522abbdff9c4b2f5ff895174507bb_9a9e9dad3865079353a920ab767ed6fd" file="1" linestart="31" lineend="48" previous="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="32" cb="1" le="48" ce="1">
+<fx lb="33" cb="2" le="36" ce="2">
+<dst lb="33" cb="7" le="33" ce="18">
+<exp pvirg="true"/>
+<Var nm="key" value="true">
+<bt name="int"/>
+<n45 lb="33" cb="17">
+<flit/>
+</n45>
+</Var>
+</dst>
+<xop lb="33" cb="20" le="33" ce="26" kind="&lt;">
+<n32 lb="33" cb="20">
+<drx lb="33" cb="20" kind="lvalue" nm="key"/>
+</n32>
+<n45 lb="33" cb="26">
+<flit/>
+</n45>
+</xop>
+<uo lb="33" cb="31" le="33" ce="34" kind="++">
+<drx lb="33" cb="31" kind="lvalue" nm="key"/>
+</uo>
+<u lb="34" cb="2" le="36" ce="2">
+<xop lb="35" cb="3" le="35" ce="25" kind="=">
+<n2 lb="35" cb="3" le="35" ce="21">
+<exp pvirg="true"/>
+<n32 lb="35" cb="3">
+<mex lb="35" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" nm="keysDownBuffer" arrow="1">
+<n19 lb="35" cb="3"/>
+</mex>
+</n32>
+<n32 lb="35" cb="18">
+<drx lb="35" cb="18" kind="lvalue" nm="key"/>
+</n32>
+</n2>
+<n9 lb="35" cb="25"/>
+</xop>
+</u>
+</fx>
+<fx lb="37" cb="2" le="40" ce="2">
+<dst lb="37" cb="7" le="37" ce="18">
+<exp pvirg="true"/>
+<Var nm="key" value="true">
+<bt name="int"/>
+<n45 lb="37" cb="17"/>
+</Var>
+</dst>
+<xop lb="37" cb="20" le="37" ce="26" kind="&lt;">
+<n32 lb="37" cb="20">
+<drx lb="37" cb="20" kind="lvalue" nm="key"/>
+</n32>
+<n45 lb="37" cb="26"/>
+</xop>
+<uo lb="37" cb="31" le="37" ce="34" kind="++">
+<drx lb="37" cb="31" kind="lvalue" nm="key"/>
+</uo>
+<u lb="38" cb="2" le="40" ce="2">
+<xop lb="39" cb="3" le="39" ce="28" kind="=">
+<n2 lb="39" cb="3" le="39" ce="24">
+<exp pvirg="true"/>
+<n32 lb="39" cb="3">
+<mex lb="39" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="39" cb="3"/>
+</mex>
+</n32>
+<n32 lb="39" cb="21">
+<drx lb="39" cb="21" kind="lvalue" nm="key"/>
+</n32>
+</n2>
+<n9 lb="39" cb="28"/>
+</xop>
+</u>
+</fx>
+<xop lb="42" cb="2" le="42" ce="15" kind="=">
+<mex lb="42" cb="2" le="42" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1be8107be52d4da53aa7e7aa1fb00749" nm="x" point="1">
+<mex lb="42" cb="2" le="42" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="42" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="42" cb="2"/>
+</mex>
+</mex>
+</mex>
+<n45 lb="42" cb="15"/>
+</xop>
+<xop lb="43" cb="2" le="43" ce="15" kind="=">
+<mex lb="43" cb="2" le="43" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_e3f6afefaf2de02b24fb8b5a13a35903" nm="y" point="1">
+<mex lb="43" cb="2" le="43" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="43" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="43" cb="2"/>
+</mex>
+</mex>
+</mex>
+<n45 lb="43" cb="15"/>
+</xop>
+<xop lb="44" cb="2" le="44" ce="17" kind="=">
+<mex lb="44" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_cd120bbd9843ec57abd800500f6896c2" nm="leftMouseBtn" arrow="1">
+<n19 lb="44" cb="2"/>
+</mex>
+<n9 lb="44" cb="17"/>
+</xop>
+<xop lb="45" cb="2" le="45" ce="19" kind="=">
+<mex lb="45" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_446535b2f3d38624d047a9f2dd24a314" nm="middleMouseBtn" arrow="1">
+<n19 lb="45" cb="2"/>
+</mex>
+<n9 lb="45" cb="19"/>
+</xop>
+<xop lb="46" cb="2" le="46" ce="18" kind="=">
+<mex lb="46" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_38b248a100b60ebbe75c69c5ee2ed077" nm="rightMouseBtn" arrow="1">
+<n19 lb="46" cb="2"/>
+</mex>
+<n9 lb="46" cb="18"/>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<m name="keyDown" id="183522abbdff9c4b2f5ff895174507bb_aae482bbdd0b656e791845d3a3ee18ca" file="1" linestart="55" lineend="62" previous="dab4800d34fc66b2ae29608690d5eae5_aae482bbdd0b656e791845d3a3ee18ca" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="wParam" proto="WPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="56" cb="1" le="62" ce="1">
+<if lb="57" cb="2" le="61" ce="2">
+<xop lb="57" cb="6" le="57" ce="15" kind="&lt;">
+<n32 lb="57" cb="6">
+<drx lb="57" cb="6" kind="lvalue" nm="wParam"/>
+</n32>
+<n32 lb="57" cb="15">
+<n45 lb="57" cb="15">
+<flit/>
+</n45>
+</n32>
+</xop>
+<u lb="58" cb="2" le="61" ce="2">
+<xop lb="59" cb="3" le="59" ce="28" kind="=">
+<n2 lb="59" cb="3" le="59" ce="24">
+<exp pvirg="true"/>
+<n32 lb="59" cb="3">
+<mex lb="59" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" nm="keysDownBuffer" arrow="1">
+<n19 lb="59" cb="3"/>
+</mex>
+</n32>
+<n32 lb="59" cb="18">
+<drx lb="59" cb="18" kind="lvalue" nm="wParam"/>
+</n32>
+</n2>
+<n9 lb="59" cb="28"/>
+</xop>
+<xop lb="60" cb="3" le="60" ce="31" kind="=">
+<n2 lb="60" cb="3" le="60" ce="27">
+<exp pvirg="true"/>
+<n32 lb="60" cb="3">
+<mex lb="60" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="60" cb="3"/>
+</mex>
+</n32>
+<n32 lb="60" cb="21">
+<drx lb="60" cb="21" kind="lvalue" nm="wParam"/>
+</n32>
+</n2>
+<n9 lb="60" cb="31"/>
+</xop>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="keyUp" id="183522abbdff9c4b2f5ff895174507bb_45c22ddfe69583b250a9cfe2b6e229bb" file="1" linestart="69" lineend="75" previous="dab4800d34fc66b2ae29608690d5eae5_45c22ddfe69583b250a9cfe2b6e229bb" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="wParam" proto="WPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="70" cb="1" le="75" ce="1">
+<if lb="71" cb="2" le="74" ce="2">
+<xop lb="71" cb="6" le="71" ce="15" kind="&lt;">
+<n32 lb="71" cb="6">
+<drx lb="71" cb="6" kind="lvalue" nm="wParam"/>
+</n32>
+<n32 lb="71" cb="15">
+<n45 lb="71" cb="15">
+<flit/>
+</n45>
+</n32>
+</xop>
+<u lb="72" cb="2" le="74" ce="2">
+<xop lb="73" cb="3" le="73" ce="28" kind="=">
+<n2 lb="73" cb="3" le="73" ce="24">
+<exp pvirg="true"/>
+<n32 lb="73" cb="3">
+<mex lb="73" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" nm="keysDownBuffer" arrow="1">
+<n19 lb="73" cb="3"/>
+</mex>
+</n32>
+<n32 lb="73" cb="18">
+<drx lb="73" cb="18" kind="lvalue" nm="wParam"/>
+</n32>
+</n2>
+<n9 lb="73" cb="28"/>
+</xop>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="isKeyDown" id="183522abbdff9c4b2f5ff895174507bb_6b646084a57083e983677dad70813fe2" file="1" linestart="81" lineend="91" previous="dab4800d34fc66b2ae29608690d5eae5_6b646084a57083e983677dad70813fe2" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="82" cb="1" le="91" ce="1">
+<if lb="83" cb="2" le="90" ce="2" else="true" elselb="88" elsecb="2">
+<xop lb="83" cb="6" le="83" ce="13" kind="&lt;">
+<n32 lb="83" cb="6">
+<drx lb="83" cb="6" kind="lvalue" nm="vkey"/>
+</n32>
+<n45 lb="83" cb="13">
+<flit/>
+</n45>
+</xop>
+<u lb="84" cb="2" le="86" ce="2">
+<rx lb="85" cb="3" le="85" ce="29" pvirg="true">
+<n32 lb="85" cb="10" le="85" ce="29">
+<n2 lb="85" cb="10" le="85" ce="29">
+<exp pvirg="true"/>
+<n32 lb="85" cb="10">
+<mex lb="85" cb="10" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" nm="keysDownBuffer" arrow="1">
+<n19 lb="85" cb="10"/>
+</mex>
+</n32>
+<n32 lb="85" cb="25">
+<drx lb="85" cb="25" kind="lvalue" nm="vkey"/>
+</n32>
+</n2>
+</n32>
+</rx>
+</u>
+<u lb="88" cb="2" le="90" ce="2">
+<rx lb="89" cb="3" le="89" ce="10" pvirg="true">
+<n9 lb="89" cb="10"/>
+</rx>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="wasKeyPressed" id="183522abbdff9c4b2f5ff895174507bb_5657711ffe03658b5298876b1d1b9b01" file="1" linestart="97" lineend="107" previous="dab4800d34fc66b2ae29608690d5eae5_5657711ffe03658b5298876b1d1b9b01" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="98" cb="1" le="107" ce="1">
+<if lb="99" cb="2" le="106" ce="2" else="true" elselb="104" elsecb="2">
+<xop lb="99" cb="6" le="99" ce="13" kind="&lt;">
+<n32 lb="99" cb="6">
+<drx lb="99" cb="6" kind="lvalue" nm="vkey"/>
+</n32>
+<n45 lb="99" cb="13">
+<flit/>
+</n45>
+</xop>
+<u lb="100" cb="2" le="102" ce="2">
+<rx lb="101" cb="3" le="101" ce="32" pvirg="true">
+<n32 lb="101" cb="10" le="101" ce="32">
+<n2 lb="101" cb="10" le="101" ce="32">
+<exp pvirg="true"/>
+<n32 lb="101" cb="10">
+<mex lb="101" cb="10" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="101" cb="10"/>
+</mex>
+</n32>
+<n32 lb="101" cb="28">
+<drx lb="101" cb="28" kind="lvalue" nm="vkey"/>
+</n32>
+</n2>
+</n32>
+</rx>
+</u>
+<u lb="104" cb="2" le="106" ce="2">
+<rx lb="105" cb="3" le="105" ce="10" pvirg="true">
+<n9 lb="105" cb="10"/>
+</rx>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="anyKeyPressed" id="183522abbdff9c4b2f5ff895174507bb_f80b6019a01ba05db1e5ae2b176b4a1c" file="1" linestart="113" lineend="123" previous="dab4800d34fc66b2ae29608690d5eae5_f80b6019a01ba05db1e5ae2b176b4a1c" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<Stmt>
+<u lb="114" cb="1" le="123" ce="1">
+<fx lb="115" cb="2" le="121" ce="2">
+<dst lb="115" cb="7" le="115" ce="20">
+<exp pvirg="true"/>
+<Var nm="keys" value="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+<n32 lb="115" cb="19">
+<n45 lb="115" cb="19">
+<flit/>
+</n45>
+</n32>
+</Var>
+</dst>
+<xop lb="115" cb="22" le="115" ce="29" kind="&lt;">
+<n32 lb="115" cb="22">
+<n32 lb="115" cb="22">
+<drx lb="115" cb="22" kind="lvalue" nm="keys"/>
+</n32>
+</n32>
+<n45 lb="115" cb="29">
+<flit/>
+</n45>
+</xop>
+<uo lb="115" cb="34" le="115" ce="38" kind="++">
+<drx lb="115" cb="34" kind="lvalue" nm="keys"/>
+</uo>
+<u lb="116" cb="2" le="121" ce="2">
+<if lb="117" cb="3" le="120" ce="3">
+<xop lb="117" cb="7" le="117" ce="34" kind="==">
+<n32 lb="117" cb="7" le="117" ce="29">
+<n32 lb="117" cb="7" le="117" ce="29">
+<n2 lb="117" cb="7" le="117" ce="29">
+<exp pvirg="true"/>
+<n32 lb="117" cb="7">
+<mex lb="117" cb="7" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="117" cb="7"/>
+</mex>
+</n32>
+<n32 lb="117" cb="25">
+<drx lb="117" cb="25" kind="lvalue" nm="keys"/>
+</n32>
+</n2>
+</n32>
+</n32>
+<n32 lb="117" cb="34">
+<n9 lb="117" cb="34"/>
+</n32>
+</xop>
+<u lb="118" cb="3" le="120" ce="3">
+<rx lb="119" cb="4" le="119" ce="11" pvirg="true">
+<n9 lb="119" cb="11"/>
+</rx>
+</u>
+</if>
+</u>
+</fx>
+<rx lb="122" cb="2" le="122" ce="9" pvirg="true">
+<n9 lb="122" cb="9"/>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="clearKeyPress" id="183522abbdff9c4b2f5ff895174507bb_327c322e142ec44496dd6dfad560c353" file="1" linestart="129" lineend="135" previous="dab4800d34fc66b2ae29608690d5eae5_327c322e142ec44496dd6dfad560c353" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="vkey" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="130" cb="1" le="135" ce="1">
+<if lb="131" cb="2" le="134" ce="2">
+<xop lb="131" cb="6" le="131" ce="13" kind="&lt;">
+<n32 lb="131" cb="6">
+<drx lb="131" cb="6" kind="lvalue" nm="vkey"/>
+</n32>
+<n45 lb="131" cb="13">
+<flit/>
+</n45>
+</xop>
+<u lb="132" cb="2" le="134" ce="2">
+<xop lb="133" cb="3" le="133" ce="29" kind="=">
+<n2 lb="133" cb="3" le="133" ce="25">
+<exp pvirg="true"/>
+<n32 lb="133" cb="3">
+<mex lb="133" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="133" cb="3"/>
+</mex>
+</n32>
+<n32 lb="133" cb="21">
+<drx lb="133" cb="21" kind="lvalue" nm="vkey"/>
+</n32>
+</n2>
+<n9 lb="133" cb="29"/>
+</xop>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="clearBuffers" id="183522abbdff9c4b2f5ff895174507bb_1749e132df7233093d943899d54acb14" file="1" linestart="141" lineend="162" previous="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bufferToClear" proto="BYTE" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="142" cb="1" le="162" ce="1">
+<if lb="143" cb="2" le="149" ce="2">
+<n32 lb="143" cb="6" le="143" ce="22">
+<xop lb="143" cb="6" le="143" ce="22" kind="&amp;">
+<n32 lb="143" cb="6">
+<n32 lb="143" cb="6">
+<drx lb="143" cb="6" kind="lvalue" nm="bufferToClear"/>
+</n32>
+</n32>
+<n32 lb="143" cb="22">
+<n32 lb="143" cb="22">
+<mex lb="143" cb="22" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" nm="KEYS_DOWN_BUFFER" arrow="1">
+<n19 lb="143" cb="22"/>
+</mex>
+</n32>
+</n32>
+</xop>
+</n32>
+<u lb="144" cb="2" le="149" ce="2">
+<fx lb="145" cb="3" le="148" ce="3">
+<dst lb="145" cb="8" le="145" ce="19">
+<exp pvirg="true"/>
+<Var nm="key" value="true">
+<bt name="int"/>
+<n45 lb="145" cb="18">
+<flit/>
+</n45>
+</Var>
+</dst>
+<xop lb="145" cb="21" le="145" ce="27" kind="&lt;">
+<n32 lb="145" cb="21">
+<drx lb="145" cb="21" kind="lvalue" nm="key"/>
+</n32>
+<n45 lb="145" cb="27">
+<flit/>
+</n45>
+</xop>
+<uo lb="145" cb="32" le="145" ce="35" kind="++">
+<drx lb="145" cb="32" kind="lvalue" nm="key"/>
+</uo>
+<u lb="146" cb="3" le="148" ce="3">
+<xop lb="147" cb="4" le="147" ce="26" kind="=">
+<n2 lb="147" cb="4" le="147" ce="22">
+<exp pvirg="true"/>
+<n32 lb="147" cb="4">
+<mex lb="147" cb="4" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_5d21b3158a7a11343db649993ded279f" nm="keysDownBuffer" arrow="1">
+<n19 lb="147" cb="4"/>
+</mex>
+</n32>
+<n32 lb="147" cb="19">
+<drx lb="147" cb="19" kind="lvalue" nm="key"/>
+</n32>
+</n2>
+<n9 lb="147" cb="26"/>
+</xop>
+</u>
+</fx>
+</u>
+</if>
+<if lb="150" cb="2" le="156" ce="2">
+<n32 lb="150" cb="6" le="150" ce="22">
+<xop lb="150" cb="6" le="150" ce="22" kind="&amp;">
+<n32 lb="150" cb="6">
+<n32 lb="150" cb="6">
+<drx lb="150" cb="6" kind="lvalue" nm="bufferToClear"/>
+</n32>
+</n32>
+<n32 lb="150" cb="22">
+<n32 lb="150" cb="22">
+<mex lb="150" cb="22" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" nm="KEYS_PRESSED_BUFFER" arrow="1">
+<n19 lb="150" cb="22"/>
+</mex>
+</n32>
+</n32>
+</xop>
+</n32>
+<u lb="151" cb="2" le="156" ce="2">
+<fx lb="152" cb="3" le="155" ce="3">
+<dst lb="152" cb="8" le="152" ce="19">
+<exp pvirg="true"/>
+<Var nm="key" value="true">
+<bt name="int"/>
+<n45 lb="152" cb="18"/>
+</Var>
+</dst>
+<xop lb="152" cb="21" le="152" ce="27" kind="&lt;">
+<n32 lb="152" cb="21">
+<drx lb="152" cb="21" kind="lvalue" nm="key"/>
+</n32>
+<n45 lb="152" cb="27"/>
+</xop>
+<uo lb="152" cb="32" le="152" ce="35" kind="++">
+<drx lb="152" cb="32" kind="lvalue" nm="key"/>
+</uo>
+<u lb="153" cb="3" le="155" ce="3">
+<xop lb="154" cb="4" le="154" ce="29" kind="=">
+<n2 lb="154" cb="4" le="154" ce="25">
+<exp pvirg="true"/>
+<n32 lb="154" cb="4">
+<mex lb="154" cb="4" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_4873c4e4cd1df3f1d84c9d2bd8ecaca4" nm="keysPressedBuffer" arrow="1">
+<n19 lb="154" cb="4"/>
+</mex>
+</n32>
+<n32 lb="154" cb="22">
+<drx lb="154" cb="22" kind="lvalue" nm="key"/>
+</n32>
+</n2>
+<n9 lb="154" cb="29"/>
+</xop>
+</u>
+</fx>
+</u>
+</if>
+<if lb="157" cb="2" le="161" ce="2">
+<n32 lb="157" cb="6" le="157" ce="22">
+<xop lb="157" cb="6" le="157" ce="22" kind="&amp;">
+<n32 lb="157" cb="6">
+<n32 lb="157" cb="6">
+<drx lb="157" cb="6" kind="lvalue" nm="bufferToClear"/>
+</n32>
+</n32>
+<n32 lb="157" cb="22">
+<n32 lb="157" cb="22">
+<mex lb="157" cb="22" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_8c3ca81819258f7f213a80dbe8c9c525" nm="MOUSE_BUFFER" arrow="1">
+<n19 lb="157" cb="22"/>
+</mex>
+</n32>
+</n32>
+</xop>
+</n32>
+<u lb="158" cb="2" le="161" ce="2">
+<xop lb="159" cb="3" le="159" ce="16" kind="=">
+<mex lb="159" cb="3" le="159" ce="12" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1be8107be52d4da53aa7e7aa1fb00749" nm="x" point="1">
+<mex lb="159" cb="3" le="159" ce="12" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="159" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="159" cb="3"/>
+</mex>
+</mex>
+</mex>
+<n45 lb="159" cb="16"/>
+</xop>
+<xop lb="160" cb="3" le="160" ce="16" kind="=">
+<mex lb="160" cb="3" le="160" ce="12" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_e3f6afefaf2de02b24fb8b5a13a35903" nm="y" point="1">
+<mex lb="160" cb="3" le="160" ce="12" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="160" cb="3" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="160" cb="3"/>
+</mex>
+</mex>
+</mex>
+<n45 lb="160" cb="16"/>
+</xop>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="mouseXY" id="183522abbdff9c4b2f5ff895174507bb_690f439643cf3b152e456149dc75743f" file="1" linestart="168" lineend="172" previous="dab4800d34fc66b2ae29608690d5eae5_690f439643cf3b152e456149dc75743f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="lParam" proto="LPARAM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="169" cb="1" le="172" ce="1">
+<xop lb="170" cb="2" le="170" ce="15" kind="=">
+<mex lb="170" cb="2" le="170" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1be8107be52d4da53aa7e7aa1fb00749" nm="x" point="1">
+<mex lb="170" cb="2" le="170" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="170" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="170" cb="2"/>
+</mex>
+</mex>
+</mex>
+<n32 lb="170" cb="15" le="170" ce="15">
+<n46 lb="170" cb="15" le="170" ce="15">
+<exp pvirg="true"/>
+<ocast lb="170" cb="15" le="170" ce="15">
+<Tdef>
+<bt name="unsigned short"/>
+</Tdef>
+<n32 lb="170" cb="15" le="170" ce="15">
+<n46 lb="170" cb="15" le="170" ce="15">
+<exp pvirg="true"/>
+<xop lb="170" cb="15" le="170" ce="15" kind="&amp;">
+<n46 lb="170" cb="15" le="170" ce="15">
+<exp pvirg="true"/>
+<ocast lb="170" cb="15" le="170" ce="15">
+<Tdef>
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</Tdef>
+<n32 lb="170" cb="15" le="170" ce="15">
+<n32 lb="170" cb="15" le="170" ce="15">
+<n46 lb="170" cb="15" le="170" ce="15">
+<exp pvirg="true"/>
+<drx lb="170" cb="15" kind="lvalue" nm="lParam"/>
+</n46>
+</n32>
+</n32>
+</ocast>
+</n46>
+<n32 lb="170" cb="15">
+<n45 lb="170" cb="15">
+<flit/>
+</n45>
+</n32>
+</xop>
+</n46>
+</n32>
+</ocast>
+</n46>
+</n32>
+</xop>
+<xop lb="171" cb="2" le="171" ce="15" kind="=">
+<mex lb="171" cb="2" le="171" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_e3f6afefaf2de02b24fb8b5a13a35903" nm="y" point="1">
+<mex lb="171" cb="2" le="171" ce="11" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="171" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="171" cb="2"/>
+</mex>
+</mex>
+</mex>
+<n32 lb="171" cb="15" le="171" ce="15">
+<n46 lb="171" cb="15" le="171" ce="15">
+<exp pvirg="true"/>
+<ocast lb="171" cb="15" le="171" ce="15">
+<Tdef>
+<bt name="unsigned short"/>
+</Tdef>
+<n32 lb="171" cb="15" le="171" ce="15">
+<n46 lb="171" cb="15" le="171" ce="15">
+<exp pvirg="true"/>
+<xop lb="171" cb="15" le="171" ce="15" kind="&amp;">
+<n46 lb="171" cb="15" le="171" ce="15">
+<exp pvirg="true"/>
+<xop lb="171" cb="15" le="171" ce="15" kind="&gt;&gt;">
+<n46 lb="171" cb="15" le="171" ce="15">
+<exp pvirg="true"/>
+<ocast lb="171" cb="15" le="171" ce="15">
+<Tdef>
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</Tdef>
+<n32 lb="171" cb="15" le="171" ce="15">
+<n32 lb="171" cb="15" le="171" ce="15">
+<n46 lb="171" cb="15" le="171" ce="15">
+<exp pvirg="true"/>
+<drx lb="171" cb="15" kind="lvalue" nm="lParam"/>
+</n46>
+</n32>
+</n32>
+</ocast>
+</n46>
+<n45 lb="171" cb="15">
+<flit/>
+</n45>
+</xop>
+</n46>
+<n32 lb="171" cb="15">
+<n45 lb="171" cb="15"/>
+</n32>
+</xop>
+</n46>
+</n32>
+</ocast>
+</n46>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="setLeftMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_19674303fcabb0f0bd80d654409ee7f6" file="1" linestart="179" lineend="182" previous="dab4800d34fc66b2ae29608690d5eae5_19674303fcabb0f0bd80d654409ee7f6" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="180" cb="1" le="182" ce="1">
+<xop lb="181" cb="2" le="181" ce="17" kind="=">
+<mex lb="181" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_cd120bbd9843ec57abd800500f6896c2" nm="leftMouseBtn" arrow="1">
+<n19 lb="181" cb="2"/>
+</mex>
+<n32 lb="181" cb="17">
+<drx lb="181" cb="17" kind="lvalue" nm="b"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="setMiddleMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_ea3fd164cb37d92c9bde4d54a65a1e39" file="1" linestart="188" lineend="191" previous="dab4800d34fc66b2ae29608690d5eae5_ea3fd164cb37d92c9bde4d54a65a1e39" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="189" cb="1" le="191" ce="1">
+<xop lb="190" cb="2" le="190" ce="19" kind="=">
+<mex lb="190" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_446535b2f3d38624d047a9f2dd24a314" nm="middleMouseBtn" arrow="1">
+<n19 lb="190" cb="2"/>
+</mex>
+<n32 lb="190" cb="19">
+<drx lb="190" cb="19" kind="lvalue" nm="b"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="setRightMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_810f6a8959eae3689b7aff1223d381fa" file="1" linestart="197" lineend="200" previous="dab4800d34fc66b2ae29608690d5eae5_810f6a8959eae3689b7aff1223d381fa" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="b" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="198" cb="1" le="200" ce="1">
+<xop lb="199" cb="2" le="199" ce="18" kind="=">
+<mex lb="199" cb="2" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_38b248a100b60ebbe75c69c5ee2ed077" nm="rightMouseBtn" arrow="1">
+<n19 lb="199" cb="2"/>
+</mex>
+<n32 lb="199" cb="18">
+<drx lb="199" cb="18" kind="lvalue" nm="b"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="getMouseXPos" id="183522abbdff9c4b2f5ff895174507bb_4fb815dbfa808c8b0c7008fcc8bfb084" file="1" linestart="206" lineend="209" previous="dab4800d34fc66b2ae29608690d5eae5_4fb815dbfa808c8b0c7008fcc8bfb084" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="207" cb="1" le="209" ce="1">
+<rx lb="208" cb="2" le="208" ce="18" pvirg="true">
+<n32 lb="208" cb="9" le="208" ce="18">
+<mex lb="208" cb="9" le="208" ce="18" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1be8107be52d4da53aa7e7aa1fb00749" nm="x" point="1">
+<mex lb="208" cb="9" le="208" ce="18" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="208" cb="9" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="208" cb="9"/>
+</mex>
+</mex>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="getMouseYPos" id="183522abbdff9c4b2f5ff895174507bb_48e1cfae588e6ee2a1bd23f9c8451633" file="1" linestart="215" lineend="218" previous="dab4800d34fc66b2ae29608690d5eae5_48e1cfae588e6ee2a1bd23f9c8451633" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="216" cb="1" le="218" ce="1">
+<rx lb="217" cb="2" le="217" ce="18" pvirg="true">
+<n32 lb="217" cb="9" le="217" ce="18">
+<mex lb="217" cb="9" le="217" ce="18" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_e3f6afefaf2de02b24fb8b5a13a35903" nm="y" point="1">
+<mex lb="217" cb="9" le="217" ce="18" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mex lb="217" cb="9" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_b10870e8192a3b59a9c8add76cd259f0" nm="mousePos" arrow="1">
+<n19 lb="217" cb="9"/>
+</mex>
+</mex>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="getLeftMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_8ba451389a59a16cccab7ee99b70e758" file="1" linestart="224" lineend="227" previous="dab4800d34fc66b2ae29608690d5eae5_8ba451389a59a16cccab7ee99b70e758" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<Stmt>
+<u lb="225" cb="1" le="227" ce="1">
+<rx lb="226" cb="2" le="226" ce="9" pvirg="true">
+<n32 lb="226" cb="9">
+<mex lb="226" cb="9" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_cd120bbd9843ec57abd800500f6896c2" nm="leftMouseBtn" arrow="1">
+<n19 lb="226" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="getMiddleMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_3432ec924ee8290d30eb592a27ad479b" file="1" linestart="233" lineend="236" previous="dab4800d34fc66b2ae29608690d5eae5_3432ec924ee8290d30eb592a27ad479b" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<Stmt>
+<u lb="234" cb="1" le="236" ce="1">
+<rx lb="235" cb="2" le="235" ce="9" pvirg="true">
+<n32 lb="235" cb="9">
+<mex lb="235" cb="9" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_446535b2f3d38624d047a9f2dd24a314" nm="middleMouseBtn" arrow="1">
+<n19 lb="235" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="getRightMouseBtn" id="183522abbdff9c4b2f5ff895174507bb_ca13bc07cb6ad3efe3b20b4052e36fcc" file="1" linestart="242" lineend="245" previous="dab4800d34fc66b2ae29608690d5eae5_ca13bc07cb6ad3efe3b20b4052e36fcc" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<Stmt>
+<u lb="243" cb="1" le="245" ce="1">
+<rx lb="244" cb="2" le="244" ce="9" pvirg="true">
+<n32 lb="244" cb="9">
+<mex lb="244" cb="9" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_38b248a100b60ebbe75c69c5ee2ed077" nm="rightMouseBtn" arrow="1">
+<n19 lb="244" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

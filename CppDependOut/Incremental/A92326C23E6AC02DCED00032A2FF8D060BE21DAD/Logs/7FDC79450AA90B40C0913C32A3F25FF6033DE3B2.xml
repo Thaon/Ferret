@@ -1,0 +1,9 @@
+<log>
+ <error level="error" id="err_undeclared_var_use_suggest" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="27" col="2" msg="use of undeclared identifier &apos;renderSystem&apos;; did you mean &apos;renderSys&apos;?" />
+ <error level="note" id="note_previous_decl" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="24" col="63" msg="&apos;renderSys&apos; declared here" />
+ <error level="error" id="err_ovl_no_viable_function_in_call" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="31" col="3" msg="no matching function for call to &apos;MessageBoxW&apos;" />
+ <error level="warning" id="warn_impcast_integer_sign" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="35" col="25" msg="implicit conversion changes signedness: &apos;int&apos; to &apos;unsigned int&apos;" />
+ <error level="error" id="err_ovl_no_viable_function_in_call" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="37" col="3" msg="no matching function for call to &apos;MessageBoxW&apos;" />
+ <error level="error" id="err_undeclared_var_use" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="68" col="2" msg="use of undeclared identifier &apos;glPushMatrix&apos;" />
+ <error level="error" id="err_undeclared_var_use" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp" line="72" col="2" msg="use of undeclared identifier &apos;glPopMatrix&apos;" />
+</log>

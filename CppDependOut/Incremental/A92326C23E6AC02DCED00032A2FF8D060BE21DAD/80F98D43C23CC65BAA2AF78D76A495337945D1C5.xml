@@ -1,0 +1,989 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="5"/>
+<c f="1" b="7" e="5"/>
+<c f="1" b="9" e="13"/>
+<c f="1" b="14" e="13"/>
+<c f="1" b="24" e="24"/>
+<c f="1" b="25" e="24"/>
+<c f="1" b="27" e="27"/>
+<c f="1" b="28" e="27"/>
+<c f="1" b="68" e="68"/>
+<c f="1" b="69" e="68"/>
+<c f="1" b="71" e="71"/>
+<c f="1" b="72" e="71"/>
+<c f="1" b="74" e="74"/>
+<c f="1" b="75" e="74"/>
+</Comments>
+<Macros>
+<m f="1" bl="21" bc="30" el="21" ec="30"/>
+<m f="1" bl="25" bc="48" el="25" ec="48"/>
+<m f="1" bl="51" bc="10" el="51" ec="10"/>
+</Macros>
+<Comments>
+<c f="2" b="1" e="5"/>
+<c f="2" b="7" e="5"/>
+</Comments>
+<Macros/>
+<tun>
+<Comments>
+<c f="3" b="1" e="5"/>
+<c f="3" b="7" e="5"/>
+<c f="3" b="9" e="9"/>
+<c f="3" b="10" e="9"/>
+<c f="3" b="22" e="22"/>
+<c f="3" b="23" e="22"/>
+<c f="3" b="23" e="23"/>
+<c f="3" b="24" e="23"/>
+<c f="3" b="24" e="24"/>
+<c f="3" b="25" e="24"/>
+<c f="3" b="25" e="25"/>
+<c f="3" b="26" e="25"/>
+<c f="3" b="26" e="26"/>
+<c f="3" b="27" e="26"/>
+<c f="3" b="27" e="27"/>
+<c f="3" b="28" e="27"/>
+<c f="3" b="28" e="28"/>
+<c f="3" b="29" e="28"/>
+<c f="3" b="29" e="29"/>
+<c f="3" b="30" e="29"/>
+<c f="3" b="30" e="30"/>
+<c f="3" b="31" e="30"/>
+<c f="3" b="31" e="31"/>
+<c f="3" b="32" e="31"/>
+<c f="3" b="32" e="32"/>
+<c f="3" b="33" e="32"/>
+<c f="3" b="33" e="33"/>
+<c f="3" b="34" e="33"/>
+<c f="3" b="34" e="34"/>
+<c f="3" b="36" e="34"/>
+</Comments>
+<Macros/>
+<NamedDecl name="&lt;using-directive&gt;" id="a10dc6eeef41eceb389744a3dd5a06e7_6728b6b0f829183eb7bbd3d3d987c87d" file="3" linestart="16" lineend="16"/>
+<cr access="none" depth="0" kind="class" name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699" file="3" linestart="18" lineend="55">
+<cr access="public" kind="class" name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_6dedc88d3dd630fedcb0c36bec75bf1a" file="3" linestart="18" lineend="18"/>
+<asd access="private"/>
+<fl name="m_OALData" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" file="3" linestart="22" lineend="22" isPtr="true" isLiteral="true" access="private" proto="char *">
+<pt>
+<bt name="char"/>
+</pt>
+</fl>
+<fl name="m_OALFormat" id="a10dc6eeef41eceb389744a3dd5a06e7_a09c5e01fe6383e78089b641b3602082" file="3" linestart="23" lineend="23" isLiteral="true" access="private" proto="ALenum">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fl>
+<fl name="m_OALFrequency" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" file="3" linestart="24" lineend="24" isLiteral="true" access="private" proto="ALsizei">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fl>
+<fl name="m_OALBufferLen" id="a10dc6eeef41eceb389744a3dd5a06e7_e1df3cfc5f3a79a7f292fa49e8347e83" file="3" linestart="25" lineend="25" isLiteral="true" access="private" proto="long">
+<bt name="long"/>
+</fl>
+<fl name="m_OALChannels" id="a10dc6eeef41eceb389744a3dd5a06e7_0359650fdf10e7850d503ea5a302abd3" file="3" linestart="26" lineend="26" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALSize" id="a10dc6eeef41eceb389744a3dd5a06e7_c2df5c13f4f96480416b62728b01a85a" file="3" linestart="27" lineend="27" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALBitRate" id="a10dc6eeef41eceb389744a3dd5a06e7_2532932fda5843a86d0fb2d69abe5f4e" file="3" linestart="28" lineend="28" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALLength" id="a10dc6eeef41eceb389744a3dd5a06e7_7ee606766e029cc6366ab84327fa17c9" file="3" linestart="29" lineend="29" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_OALLoop" id="a10dc6eeef41eceb389744a3dd5a06e7_6339d17df81f2d565cf62d830bc8e853" file="3" linestart="30" lineend="30" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<fl name="m_OALSource" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" file="3" linestart="31" lineend="31" isLiteral="true" access="private" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_OALBuffer" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" file="3" linestart="32" lineend="32" isLiteral="true" access="private" proto="ALuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="m_OALbEAX" id="a10dc6eeef41eceb389744a3dd5a06e7_318ffd20f84ec8575fa0953bc18beaee" file="3" linestart="33" lineend="33" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<fl name="m_alLoop" id="a10dc6eeef41eceb389744a3dd5a06e7_d2517f46ec7917d988853d8bfef8d3cb" file="3" linestart="34" lineend="34" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<cr parent="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699" access="private" depth="0" pod="true" kind="struct" name="FMTCHUNK" id="a10dc6eeef41eceb389744a3dd5a06e7_5be45eb7d4ced18ff245adf0cfb4df14" file="3" linestart="36" lineend="43">
+<cr access="public" kind="struct" name="FMTCHUNK" id="a10dc6eeef41eceb389744a3dd5a06e7_23b9f39b617140c8b7620c988ddb6e26" file="3" linestart="36" lineend="36"/>
+<fl name="format" id="a10dc6eeef41eceb389744a3dd5a06e7_0b539ce534cd4e3c5d3c4d9255f04c1d" file="3" linestart="37" lineend="37" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="channels" id="a10dc6eeef41eceb389744a3dd5a06e7_38f357d60b727ca8ac6df2891eade81f" file="3" linestart="38" lineend="38" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="srate" id="a10dc6eeef41eceb389744a3dd5a06e7_98a48a1ae6255c3dc7a62b42c5a4d63f" file="3" linestart="39" lineend="39" isLiteral="true" access="public" proto="unsigned long">
+<bt name="unsigned long"/>
+</fl>
+<fl name="bps" id="a10dc6eeef41eceb389744a3dd5a06e7_98f1411ba3e3b1d777d4a74941fae1aa" file="3" linestart="40" lineend="40" isLiteral="true" access="public" proto="unsigned long">
+<bt name="unsigned long"/>
+</fl>
+<fl name="balign" id="a10dc6eeef41eceb389744a3dd5a06e7_1096865edbaa704bc8d3df308bfbabd6" file="3" linestart="41" lineend="41" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="samp" id="a10dc6eeef41eceb389744a3dd5a06e7_a45d5f12e7423417a4a4db2c734f1d30" file="3" linestart="42" lineend="42" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+</cr>
+<m name="LoadWAVInfo" id="a10dc6eeef41eceb389744a3dd5a06e7_3e68e558d8429e4e7a5693b0bbe5384f" file="3" linestart="45" lineend="45" access="private">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="ifstream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_99ad18f8609de6682f9f2a3400ac0853"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="size" proto="unsigned int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<bt name="unsigned int"/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<asd access="public"/>
+<c name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_f84c9ce928e7c8e0f6438c9019488f4e" file="3" linestart="48" lineend="48" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_06e65a95ab865f5fb70e93096badf844" file="3" linestart="49" lineend="49" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="loadWAVFile" id="a10dc6eeef41eceb389744a3dd5a06e7_b073566a06dd811bc616f07d7b63f276" file="3" linestart="51" lineend="51" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="playAudio" id="a10dc6eeef41eceb389744a3dd5a06e7_6b327092b23595869c9589d37d845b82" file="3" linestart="52" lineend="52" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sndLoop" proto="ALboolean" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="stopAudio" id="a10dc6eeef41eceb389744a3dd5a06e7_eb638a504313e2226ddb838b5fd336b6" file="3" linestart="53" lineend="53" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="cleanUp" id="a10dc6eeef41eceb389744a3dd5a06e7_a0297e70354cc82b39ed2758ba85c588" file="3" linestart="54" lineend="54" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<c name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_84b87809c161bf2b6593e009da3e8e47" file="3" linestart="18" lineend="18" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cSound &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<NamedDecl name="&lt;using-directive&gt;" id="dbfbdfb378e293600b4f5389cff16061_6728b6b0f829183eb7bbd3d3d987c87d" file="2" linestart="12" lineend="12"/>
+<cr access="none" depth="0" kind="class" name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_d7f408e245d21106b6e54718a67ead29" file="2" linestart="14" lineend="30">
+<cr access="public" kind="class" name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_36a707df44e183e4d3ce75dbbcc4f811" file="2" linestart="14" lineend="14"/>
+<asd access="private"/>
+<fl name="m_OALContext" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" file="2" linestart="17" lineend="17" isPtr="true" isLiteral="true" access="private" proto="ALCcontext *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="390e604191f8956f2144925e280ea7ce_312b9ba113d630cc0711bdf6a15ce0e9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fl>
+<fl name="m_OALDevice" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" file="2" linestart="18" lineend="18" isPtr="true" isLiteral="true" access="private" proto="ALCdevice *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="390e604191f8956f2144925e280ea7ce_94465883798c05d3627c16e2f9133acd"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fl>
+<asd access="protected"/>
+<c name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_157ee3be4856af852c3f4998f40e866a" file="2" linestart="21" lineend="21" access="protected" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_727913f06b4f844440e7f131ce459500" file="2" linestart="22" lineend="22" access="protected" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<fl name="gameSnds" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" file="2" linestart="23" lineend="23" access="protected" proto="map&lt;LPCSTR, cSound *&gt;">
+<tss>
+<templatebase id="f5f04bc9bd5b96f0669c5bf4fe9a79f1_af53dcb0381442ba69b706cfd90f0e4b"/>
+<template_arguments>
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</fl>
+<m name="createContext" id="dbfbdfb378e293600b4f5389cff16061_930a3de4266df5dd76ac62281bbac64b" file="2" linestart="24" lineend="24" access="protected" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<asd access="public"/>
+<m name="add" id="dbfbdfb378e293600b4f5389cff16061_135becb818a61b87e57852bcf05d536d" file="2" linestart="27" lineend="27" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sndName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="getSnd" id="dbfbdfb378e293600b4f5389cff16061_f1384adadc15e41f73f0178bb7cf6419" file="2" linestart="28" lineend="28" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="cSound *">
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</fpt>
+<p name="sndName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="deleteSnd" id="dbfbdfb378e293600b4f5389cff16061_75c10b5aca3a3cdff8e92ff2861465ca" file="2" linestart="29" lineend="29" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<c name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_3289cc41dc9fc735b8bfa55751808ae2" file="2" linestart="14" lineend="14" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cSoundMgr &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="dbfbdfb378e293600b4f5389cff16061_d7f408e245d21106b6e54718a67ead29"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="cSoundMgr" id="5ebfdd01e146fe0c9df88de0222c5a0e_157ee3be4856af852c3f4998f40e866a" file="1" linestart="14" lineend="17" previous="dbfbdfb378e293600b4f5389cff16061_157ee3be4856af852c3f4998f40e866a" access="protected" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="15" cb="1" le="17" ce="1">
+<mce lb="16" cb="2" le="16" ce="16" nbparm="0" id="dbfbdfb378e293600b4f5389cff16061_930a3de4266df5dd76ac62281bbac64b">
+<exp pvirg="true"/>
+<mex lb="16" cb="2" id="dbfbdfb378e293600b4f5389cff16061_930a3de4266df5dd76ac62281bbac64b" nm="createContext" arrow="1">
+<n19 lb="16" cb="2"/>
+</mex>
+</mce>
+</u>
+
+</Stmt>
+</c>
+<m name="createContext" id="5ebfdd01e146fe0c9df88de0222c5a0e_930a3de4266df5dd76ac62281bbac64b" file="1" linestart="19" lineend="30" previous="dbfbdfb378e293600b4f5389cff16061_930a3de4266df5dd76ac62281bbac64b" access="protected" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="20" cb="1" le="30" ce="1">
+<xop lb="21" cb="2" le="21" ce="34" kind="=">
+<mex lb="21" cb="2" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" nm="m_OALDevice" arrow="1">
+<n19 lb="21" cb="2"/>
+</mex>
+<ce lb="21" cb="16" le="21" ce="34" nbparm="1" id="390e604191f8956f2144925e280ea7ce_3206013ae5a557fbedf26dfecb4b753a">
+<exp pvirg="true"/>
+<n32 lb="21" cb="16">
+<drx lb="21" cb="16" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_3206013ae5a557fbedf26dfecb4b753a" nm="alcOpenDevice"/>
+</n32>
+<n32 lb="21" cb="30">
+<n45 lb="21" cb="30">
+<flit/>
+</n45>
+</n32>
+</ce>
+</xop>
+<if lb="22" cb="2" le="29" ce="2">
+<n32 lb="22" cb="6">
+<n32 lb="22" cb="6">
+<mex lb="22" cb="6" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" nm="m_OALDevice" arrow="1">
+<n19 lb="22" cb="6"/>
+</mex>
+</n32>
+</n32>
+<u lb="23" cb="2" le="29" ce="2">
+<xop lb="25" cb="3" le="25" ce="52" kind="=">
+<mex lb="25" cb="3" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" nm="m_OALContext" arrow="1">
+<n19 lb="25" cb="3"/>
+</mex>
+<ce lb="25" cb="18" le="25" ce="52" nbparm="2" id="390e604191f8956f2144925e280ea7ce_6086e4cbe40ae09b4364b4d5012425a3">
+<exp pvirg="true"/>
+<n32 lb="25" cb="18">
+<drx lb="25" cb="18" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_6086e4cbe40ae09b4364b4d5012425a3" nm="alcCreateContext"/>
+</n32>
+<n32 lb="25" cb="35">
+<mex lb="25" cb="35" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" nm="m_OALDevice" arrow="1">
+<n19 lb="25" cb="35"/>
+</mex>
+</n32>
+<n32 lb="25" cb="48">
+<n45 lb="25" cb="48"/>
+</n32>
+</ce>
+</xop>
+<ce lb="28" cb="3" le="28" ce="37" nbparm="1" id="390e604191f8956f2144925e280ea7ce_beaa4c3313040c6b3190cba27b7868f6">
+<exp pvirg="true"/>
+<n32 lb="28" cb="3">
+<drx lb="28" cb="3" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_beaa4c3313040c6b3190cba27b7868f6" nm="alcMakeContextCurrent"/>
+</n32>
+<n32 lb="28" cb="25">
+<mex lb="28" cb="25" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" nm="m_OALContext" arrow="1">
+<n19 lb="28" cb="25"/>
+</mex>
+</n32>
+</ce>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="add" id="5ebfdd01e146fe0c9df88de0222c5a0e_135becb818a61b87e57852bcf05d536d" file="1" linestart="32" lineend="40" previous="dbfbdfb378e293600b4f5389cff16061_135becb818a61b87e57852bcf05d536d" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sndName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="33" cb="1" le="40" ce="1">
+<if lb="34" cb="2" le="39" ce="2">
+<uo lb="34" cb="6" le="34" ce="21" kind="!">
+<n32 lb="34" cb="7" le="34" ce="21">
+<mce lb="34" cb="7" le="34" ce="21" nbparm="1" id="dbfbdfb378e293600b4f5389cff16061_f1384adadc15e41f73f0178bb7cf6419">
+<exp pvirg="true"/>
+<mex lb="34" cb="7" id="dbfbdfb378e293600b4f5389cff16061_f1384adadc15e41f73f0178bb7cf6419" nm="getSnd" arrow="1">
+<n19 lb="34" cb="7"/>
+</mex>
+<n32 lb="34" cb="14">
+<drx lb="34" cb="14" kind="lvalue" nm="sndName"/>
+</n32>
+</mce>
+</n32>
+</uo>
+<u lb="35" cb="2" le="39" ce="2">
+<dst lb="36" cb="3" le="36" ce="33">
+<exp pvirg="true"/>
+<Var nm="newSnd">
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+<new lb="36" cb="21" le="36" ce="32">
+<typeptr id="a10dc6eeef41eceb389744a3dd5a06e7_f84c9ce928e7c8e0f6438c9019488f4e"/>
+<exp pvirg="true"/>
+<n10 lb="36" cb="25" le="36" ce="32">
+<typeptr id="a10dc6eeef41eceb389744a3dd5a06e7_f84c9ce928e7c8e0f6438c9019488f4e"/>
+<temp/>
+</n10>
+</new>
+</Var>
+</dst>
+<mce lb="37" cb="3" le="37" ce="31" nbparm="1" id="a10dc6eeef41eceb389744a3dd5a06e7_b073566a06dd811bc616f07d7b63f276">
+<exp pvirg="true"/>
+<mex lb="37" cb="3" le="37" ce="11" id="a10dc6eeef41eceb389744a3dd5a06e7_b073566a06dd811bc616f07d7b63f276" nm="loadWAVFile" arrow="1">
+<n32 lb="37" cb="3">
+<drx lb="37" cb="3" kind="lvalue" nm="newSnd"/>
+</n32>
+</mex>
+<n32 lb="37" cb="23">
+<drx lb="37" cb="23" kind="lvalue" nm="fileName"/>
+</n32>
+</mce>
+<n37 lb="38" cb="3" le="38" ce="45">
+<n8 lb="38" cb="3" le="38" ce="45" >
+<temp/>
+<mce lb="38" cb="3" le="38" ce="45" nbparm="1" id="ccea706196665950db592a3dae6dae19_d71bd7c838b57e5662c12b2c6bbc8ec6">
+<exp pvirg="true"/>
+<mex lb="38" cb="3" le="38" ce="12" id="ccea706196665950db592a3dae6dae19_d71bd7c838b57e5662c12b2c6bbc8ec6" nm="insert" point="1">
+<n32 lb="38" cb="3">
+<mex lb="38" cb="3" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" nm="gameSnds" arrow="1">
+<n19 lb="38" cb="3"/>
+</mex>
+</n32>
+</mex>
+<mte lb="38" cb="19" le="38" ce="44">
+<exp pvirg="true"/>
+<ce lb="38" cb="19" le="38" ce="44" nbparm="2" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793">
+<exp pvirg="true"/>
+<n32 lb="38" cb="19">
+<drx lb="38" cb="19" kind="lvalue" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793" nm="make_pair">
+<template_arguments>
+<lrf>
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</lrf>
+<lrf>
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</lrf>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="38" cb="29" kind="lvalue" nm="sndName"/>
+<drx lb="38" cb="38" kind="lvalue" nm="newSnd"/>
+</ce>
+</mte>
+</mce>
+</n8>
+</n37>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="getSnd" id="5ebfdd01e146fe0c9df88de0222c5a0e_f1384adadc15e41f73f0178bb7cf6419" file="1" linestart="42" lineend="53" previous="dbfbdfb378e293600b4f5389cff16061_f1384adadc15e41f73f0178bb7cf6419" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cSound *">
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</fpt>
+<p name="sndName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="43" cb="1" le="53" ce="1">
+<dst lb="44" cb="2" le="44" ce="61">
+<exp pvirg="true"/>
+<Var nm="snd" value="true">
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<sttp/>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+<n37 lb="44" cb="39" le="44" ce="60">
+<n10 lb="44" cb="39" le="44" ce="60">
+<typeptr id="ccea706196665950db592a3dae6dae19_c242ef0fa5772b2511f2b45c0d4e8879">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_9ff7f1aa56aed7a5e32126b2624e761f">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_a46b96c02d2745d612b31f34763c0ffd">
+<template_arguments>
+<rt>
+<cts id="26077801bf83fda834940e84538639b4_588c02fb583a80daabf4c37e3fd82a49">
+<template_arguments>
+<QualType const="true">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</QualType>
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="44" cb="39" le="44" ce="60">
+<exp pvirg="true"/>
+<n8 lb="44" cb="39" le="44" ce="60" >
+<temp/>
+<mce lb="44" cb="39" le="44" ce="60" nbparm="1" id="ccea706196665950db592a3dae6dae19_c061bcf0bb7868e7a3047264a5ace5a7">
+<exp pvirg="true"/>
+<mex lb="44" cb="39" le="44" ce="48" id="ccea706196665950db592a3dae6dae19_c061bcf0bb7868e7a3047264a5ace5a7" nm="find" point="1">
+<n32 lb="44" cb="39">
+<mex lb="44" cb="39" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" nm="gameSnds" arrow="1">
+<n19 lb="44" cb="39"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="44" cb="53">
+<drx lb="44" cb="53" kind="lvalue" nm="sndName"/>
+</n32>
+</mce>
+</n8>
+</mte>
+</n10>
+</n37>
+</Var>
+</dst>
+<if lb="45" cb="2" le="52" ce="2" else="true" elselb="50" elsecb="2">
+<n37 lb="45" cb="6" le="45" ce="26">
+<ocx lb="45" cb="6" le="45" ce="26" nbparm="2" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75">
+<exp pvirg="true"/>
+<n32 lb="45" cb="10">
+<drx lb="45" cb="10" kind="lvalue" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75" nm="operator!="/>
+</n32>
+<n32 lb="45" cb="6">
+<drx lb="45" cb="6" kind="lvalue" nm="snd"/>
+</n32>
+<mte lb="45" cb="13" le="45" ce="26">
+<exp pvirg="true"/>
+<n32 lb="45" cb="13" le="45" ce="26">
+<n32 lb="45" cb="13" le="45" ce="26">
+<n8 lb="45" cb="13" le="45" ce="26" >
+<temp/>
+<mce lb="45" cb="13" le="45" ce="26" nbparm="0" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1">
+<exp pvirg="true"/>
+<mex lb="45" cb="13" le="45" ce="22" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1" nm="end" point="1">
+<n32 lb="45" cb="13">
+<mex lb="45" cb="13" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" nm="gameSnds" arrow="1">
+<n19 lb="45" cb="13"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</n32>
+</n32>
+</mte>
+</ocx>
+</n37>
+<u lb="46" cb="2" le="48" ce="2">
+<rx lb="47" cb="3" le="47" ce="15" pvirg="true">
+<n32 lb="47" cb="10" le="47" ce="15">
+<mex lb="47" cb="10" le="47" ce="15" kind="lvalue" id="26077801bf83fda834940e84538639b4_baa302102c51c9664d2a1b64bdaa08dd" nm="second" arrow="1">
+<ocx lb="47" cb="10" nbparm="1" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43">
+<exp pvirg="true"/>
+<n32 lb="47" cb="13">
+<drx lb="47" cb="13" kind="lvalue" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43" nm="operator-&gt;"/>
+</n32>
+<n32 lb="47" cb="10">
+<drx lb="47" cb="10" kind="lvalue" nm="snd"/>
+</n32>
+</ocx>
+</mex>
+</n32>
+</rx>
+</u>
+<u lb="50" cb="2" le="52" ce="2">
+<rx lb="51" cb="3" le="51" ce="10" pvirg="true">
+<n32 lb="51" cb="10">
+<n45 lb="51" cb="10">
+<flit/>
+</n45>
+</n32>
+</rx>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="deleteSnd" id="5ebfdd01e146fe0c9df88de0222c5a0e_75c10b5aca3a3cdff8e92ff2861465ca" file="1" linestart="55" lineend="61" previous="dbfbdfb378e293600b4f5389cff16061_75c10b5aca3a3cdff8e92ff2861465ca" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="56" cb="1" le="61" ce="1">
+<fx lb="57" cb="2" le="60" ce="2">
+<dst lb="57" cb="7" le="57" ce="60">
+<exp pvirg="true"/>
+<Var nm="snd" value="true">
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<sttp/>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+<n37 lb="57" cb="44" le="57" ce="59">
+<n10 lb="57" cb="44" le="57" ce="59">
+<typeptr id="ccea706196665950db592a3dae6dae19_c242ef0fa5772b2511f2b45c0d4e8879">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_9ff7f1aa56aed7a5e32126b2624e761f">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_a46b96c02d2745d612b31f34763c0ffd">
+<template_arguments>
+<rt>
+<cts id="26077801bf83fda834940e84538639b4_588c02fb583a80daabf4c37e3fd82a49">
+<template_arguments>
+<QualType const="true">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</QualType>
+<pt>
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</pt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="57" cb="44" le="57" ce="59">
+<exp pvirg="true"/>
+<n8 lb="57" cb="44" le="57" ce="59" >
+<temp/>
+<mce lb="57" cb="44" le="57" ce="59" nbparm="0" id="ccea706196665950db592a3dae6dae19_737bd03f6bd3937218ff5023103d54df">
+<exp pvirg="true"/>
+<mex lb="57" cb="44" le="57" ce="53" id="ccea706196665950db592a3dae6dae19_737bd03f6bd3937218ff5023103d54df" nm="begin" point="1">
+<n32 lb="57" cb="44">
+<mex lb="57" cb="44" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" nm="gameSnds" arrow="1">
+<n19 lb="57" cb="44"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</mte>
+</n10>
+</n37>
+</Var>
+</dst>
+<n37 lb="57" cb="62" le="57" ce="82">
+<ocx lb="57" cb="62" le="57" ce="82" nbparm="2" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75">
+<exp pvirg="true"/>
+<n32 lb="57" cb="66">
+<drx lb="57" cb="66" kind="lvalue" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75" nm="operator!="/>
+</n32>
+<n32 lb="57" cb="62">
+<drx lb="57" cb="62" kind="lvalue" nm="snd"/>
+</n32>
+<mte lb="57" cb="69" le="57" ce="82">
+<exp pvirg="true"/>
+<n32 lb="57" cb="69" le="57" ce="82">
+<n32 lb="57" cb="69" le="57" ce="82">
+<n8 lb="57" cb="69" le="57" ce="82" >
+<temp/>
+<mce lb="57" cb="69" le="57" ce="82" nbparm="0" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1">
+<exp pvirg="true"/>
+<mex lb="57" cb="69" le="57" ce="78" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1" nm="end" point="1">
+<n32 lb="57" cb="69">
+<mex lb="57" cb="69" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_501e6d30113dd19bfbb8d6060c34cfcd" nm="gameSnds" arrow="1">
+<n19 lb="57" cb="69"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</n32>
+</n32>
+</mte>
+</ocx>
+</n37>
+<ocx lb="57" cb="85" le="57" ce="87" nbparm="1" id="ccea706196665950db592a3dae6dae19_5089bd33118842c3f095d235a7f63e81">
+<exp pvirg="true"/>
+<n32 lb="57" cb="85">
+<drx lb="57" cb="85" kind="lvalue" id="ccea706196665950db592a3dae6dae19_5089bd33118842c3f095d235a7f63e81" nm="operator++"/>
+</n32>
+<drx lb="57" cb="87" kind="lvalue" nm="snd"/>
+</ocx>
+<u lb="58" cb="2" le="60" ce="2">
+<n13 lb="59" cb="3" le="59" ce="15">
+<exp pvirg="true"/>
+<n32 lb="59" cb="10" le="59" ce="15">
+<mex lb="59" cb="10" le="59" ce="15" kind="lvalue" id="26077801bf83fda834940e84538639b4_baa302102c51c9664d2a1b64bdaa08dd" nm="second" arrow="1">
+<ocx lb="59" cb="10" nbparm="1" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43">
+<exp pvirg="true"/>
+<n32 lb="59" cb="13">
+<drx lb="59" cb="13" kind="lvalue" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43" nm="operator-&gt;"/>
+</n32>
+<n32 lb="59" cb="10">
+<drx lb="59" cb="10" kind="lvalue" nm="snd"/>
+</n32>
+</ocx>
+</mex>
+</n32>
+</n13>
+</u>
+</fx>
+</u>
+
+</Stmt>
+</m>
+<d name="~cSoundMgr" id="5ebfdd01e146fe0c9df88de0222c5a0e_727913f06b4f844440e7f131ce459500" file="1" linestart="64" lineend="77" previous="dbfbdfb378e293600b4f5389cff16061_727913f06b4f844440e7f131ce459500" access="protected" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="65" cb="1" le="77" ce="1">
+<xop lb="66" cb="2" le="66" ce="38" kind="=">
+<mex lb="66" cb="2" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" nm="m_OALContext" arrow="1">
+<n19 lb="66" cb="2"/>
+</mex>
+<ce lb="66" cb="17" le="66" ce="38" nbparm="0" id="390e604191f8956f2144925e280ea7ce_168a0e189e573273bdb321197a986225">
+<exp pvirg="true"/>
+<n32 lb="66" cb="17">
+<drx lb="66" cb="17" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_168a0e189e573273bdb321197a986225" nm="alcGetCurrentContext"/>
+</n32>
+</ce>
+</xop>
+<xop lb="69" cb="2" le="69" ce="49" kind="=">
+<mex lb="69" cb="2" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" nm="m_OALDevice" arrow="1">
+<n19 lb="69" cb="2"/>
+</mex>
+<ce lb="69" cb="16" le="69" ce="49" nbparm="1" id="390e604191f8956f2144925e280ea7ce_e8c502a60e8a7c33f89599913801efa1">
+<exp pvirg="true"/>
+<n32 lb="69" cb="16">
+<drx lb="69" cb="16" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_e8c502a60e8a7c33f89599913801efa1" nm="alcGetContextsDevice"/>
+</n32>
+<n32 lb="69" cb="37">
+<mex lb="69" cb="37" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" nm="m_OALContext" arrow="1">
+<n19 lb="69" cb="37"/>
+</mex>
+</n32>
+</ce>
+</xop>
+<ce lb="72" cb="2" le="72" ce="32" nbparm="1" id="390e604191f8956f2144925e280ea7ce_3c182e2c097160bae3af1441944801c0">
+<exp pvirg="true"/>
+<n32 lb="72" cb="2">
+<drx lb="72" cb="2" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_3c182e2c097160bae3af1441944801c0" nm="alcDestroyContext"/>
+</n32>
+<n32 lb="72" cb="20">
+<mex lb="72" cb="20" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_bebaea4c3ddbe90ac4129019e8027493" nm="m_OALContext" arrow="1">
+<n19 lb="72" cb="20"/>
+</mex>
+</n32>
+</ce>
+<ce lb="75" cb="2" le="75" ce="28" nbparm="1" id="390e604191f8956f2144925e280ea7ce_a265221d93bebbd8dc7d51c51a01cdfc">
+<exp pvirg="true"/>
+<n32 lb="75" cb="2">
+<drx lb="75" cb="2" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_a265221d93bebbd8dc7d51c51a01cdfc" nm="alcCloseDevice"/>
+</n32>
+<n32 lb="75" cb="17">
+<mex lb="75" cb="17" kind="lvalue" id="dbfbdfb378e293600b4f5389cff16061_cd45f3854948e5d264b0980e4ee57b3d" nm="m_OALDevice" arrow="1">
+<n19 lb="75" cb="17"/>
+</mex>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</d>
+</tun>
+</Root>

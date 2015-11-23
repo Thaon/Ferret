@@ -1,0 +1,722 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="7"/>
+<c f="1" b="9" e="7"/>
+<c f="1" b="11" e="15"/>
+<c f="1" b="16" e="15"/>
+<c f="1" b="25" e="25"/>
+<c f="1" b="26" e="25"/>
+<c f="1" b="29" e="29"/>
+<c f="1" b="30" e="29"/>
+<c f="1" b="38" e="38"/>
+<c f="1" b="39" e="38"/>
+<c f="1" b="51" e="51"/>
+<c f="1" b="52" e="51"/>
+</Comments>
+<Macros>
+<m f="1" bl="47" bc="10" el="47" ec="10"/>
+</Macros>
+<Comments>
+<c f="2" b="1" e="7"/>
+<c f="2" b="9" e="7"/>
+<c f="2" b="21" e="21"/>
+<c f="2" b="22" e="21"/>
+<c f="2" b="23" e="23"/>
+<c f="2" b="24" e="23"/>
+<c f="2" b="24" e="24"/>
+<c f="2" b="25" e="24"/>
+<c f="2" b="25" e="25"/>
+<c f="2" b="26" e="25"/>
+<c f="2" b="26" e="26"/>
+<c f="2" b="28" e="26"/>
+</Comments>
+<Macros/>
+<tun>
+<Comments>
+<c f="3" b="1" e="5"/>
+<c f="3" b="7" e="5"/>
+</Comments>
+<Macros/>
+<cr access="none" depth="0" kind="class" name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6" file="3" linestart="13" lineend="25">
+<cr access="public" kind="class" name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_83e25bf3e06b41e19b692543638d660f" file="3" linestart="13" lineend="13"/>
+<asd access="private"/>
+<fl name="theFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" file="3" linestart="16" lineend="16" isPtr="true" isLiteral="true" access="private" proto="FTFont *">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+</fl>
+<asd access="public"/>
+<c name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2a154666c56cda0a8181c09f62de254c" file="3" linestart="19" lineend="19" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2ddb35ea1a1cb00c90983422d86a49d6" file="3" linestart="20" lineend="20" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="fontFileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fontSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2e759a3059ab236ecf5f038776508163" file="3" linestart="21" lineend="21" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="getFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_9582edc4eecfb734d506b97a3c2e346f" file="3" linestart="22" lineend="22" access="public">
+<fpt cc="x86_thiscall" proto="FTFont *">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="printText" id="1b1c8261cbde8e9a6d774f8d6ad05095_56fb8d4c9f3e7853461608713cccc547" file="3" linestart="23" lineend="23" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="text" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textPos" proto="FTPoint" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+</cr>
+<cr access="public" depth="0" kind="class" name="cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_a8f8825e90267481e2bc89227744e2c4" file="2" linestart="13" lineend="28">
+<cr access="public" kind="class" name="cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_c087057ba98d4e50619cad111fbfaa2a" file="2" linestart="13" lineend="13"/>
+<asd access="private"/>
+<fl name="gameFonts" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" file="2" linestart="17" lineend="17" access="private" proto="map&lt;LPCSTR, cFont *&gt;">
+<tss>
+<templatebase id="f5f04bc9bd5b96f0669c5bf4fe9a79f1_af53dcb0381442ba69b706cfd90f0e4b"/>
+<template_arguments>
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</template_arguments>
+</tss>
+</fl>
+<fl name="renderSys" id="8ce5c8cad69cf5321d960b06c1495c07_b2f4aa49dc04edb90d658a76ded0b56f" file="2" linestart="18" lineend="18" isPtr="true" isLiteral="true" access="private" proto="int *">
+<pt>
+<bt name="int"/>
+</pt>
+</fl>
+<asd access="public"/>
+<c name="cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_5fd65c84fdad167efb0fead55ce8838a" file="2" linestart="21" lineend="21" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_d1d1d5da0463db8049d44fc1e51da12c" file="2" linestart="23" lineend="23" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="addFont" id="8ce5c8cad69cf5321d960b06c1495c07_d8bd187e772a9153f3fffb50c376f7d2" file="2" linestart="24" lineend="24" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="fontName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fontSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="getFont" id="8ce5c8cad69cf5321d960b06c1495c07_a5e9ab63c87f32d057ac0665b1b28c87" file="2" linestart="25" lineend="25" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="cFont *">
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</fpt>
+<p name="fontName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="deleteFont" id="8ce5c8cad69cf5321d960b06c1495c07_8ed956ec5dcd0e006180a0fcc1a6a977" file="2" linestart="26" lineend="26" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<c name="cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_768022912921caa076c01fe1a8ffc3a0" file="2" linestart="13" lineend="13" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cFontMgr &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="8ce5c8cad69cf5321d960b06c1495c07_a8f8825e90267481e2bc89227744e2c4"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="cFontMgr" id="c606dcfdc0dd60e17f7b7561b1b00c24_5fd65c84fdad167efb0fead55ce8838a" file="1" linestart="16" lineend="18" previous="8ce5c8cad69cf5321d960b06c1495c07_5fd65c84fdad167efb0fead55ce8838a" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="17" cb="1" le="18" ce="1"/>
+
+</Stmt>
+</c>
+<d name="~cFontMgr" id="c606dcfdc0dd60e17f7b7561b1b00c24_d1d1d5da0463db8049d44fc1e51da12c" file="1" linestart="25" lineend="28" previous="8ce5c8cad69cf5321d960b06c1495c07_d1d1d5da0463db8049d44fc1e51da12c" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="26" cb="1" le="28" ce="1">
+<mce lb="27" cb="2" le="27" ce="13" nbparm="0" id="8ce5c8cad69cf5321d960b06c1495c07_8ed956ec5dcd0e006180a0fcc1a6a977">
+<exp pvirg="true"/>
+<mex lb="27" cb="2" id="8ce5c8cad69cf5321d960b06c1495c07_8ed956ec5dcd0e006180a0fcc1a6a977" nm="deleteFont" arrow="1">
+<n19 lb="27" cb="2"/>
+</mex>
+</mce>
+</u>
+
+</Stmt>
+</d>
+<m name="addFont" id="c606dcfdc0dd60e17f7b7561b1b00c24_d8bd187e772a9153f3fffb50c376f7d2" file="1" linestart="29" lineend="36" previous="8ce5c8cad69cf5321d960b06c1495c07_d8bd187e772a9153f3fffb50c376f7d2" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="fontName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fontSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="30" cb="1" le="36" ce="1">
+<if lb="31" cb="2" le="35" ce="2">
+<uo lb="31" cb="6" le="31" ce="23" kind="!">
+<n32 lb="31" cb="7" le="31" ce="23">
+<mce lb="31" cb="7" le="31" ce="23" nbparm="1" id="8ce5c8cad69cf5321d960b06c1495c07_a5e9ab63c87f32d057ac0665b1b28c87">
+<exp pvirg="true"/>
+<mex lb="31" cb="7" id="8ce5c8cad69cf5321d960b06c1495c07_a5e9ab63c87f32d057ac0665b1b28c87" nm="getFont" arrow="1">
+<n19 lb="31" cb="7"/>
+</mex>
+<n32 lb="31" cb="15">
+<drx lb="31" cb="15" kind="lvalue" nm="fontName"/>
+</n32>
+</mce>
+</n32>
+</uo>
+<u lb="32" cb="2" le="35" ce="2">
+<dst lb="33" cb="3" le="33" ce="61">
+<exp pvirg="true"/>
+<Var nm="newFont">
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</Var>
+</dst>
+<n37 lb="34" cb="3" le="34" ce="48">
+<n8 lb="34" cb="3" le="34" ce="48" >
+<temp/>
+<mce lb="34" cb="3" le="34" ce="48" nbparm="1" id="ccea706196665950db592a3dae6dae19_d71bd7c838b57e5662c12b2c6bbc8ec6">
+<exp pvirg="true"/>
+<mex lb="34" cb="3" le="34" ce="13" id="ccea706196665950db592a3dae6dae19_d71bd7c838b57e5662c12b2c6bbc8ec6" nm="insert" point="1">
+<n32 lb="34" cb="3">
+<mex lb="34" cb="3" kind="lvalue" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" nm="gameFonts" arrow="1">
+<n19 lb="34" cb="3"/>
+</mex>
+</n32>
+</mex>
+<mte lb="34" cb="20" le="34" ce="47">
+<exp pvirg="true"/>
+<ce lb="34" cb="20" le="34" ce="47" nbparm="2" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793">
+<exp pvirg="true"/>
+<n32 lb="34" cb="20">
+<drx lb="34" cb="20" kind="lvalue" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793" nm="make_pair">
+<template_arguments>
+<lrf>
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</lrf>
+<lrf>
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</lrf>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="34" cb="30" kind="lvalue" nm="fontName"/>
+<drx lb="34" cb="40" kind="lvalue" nm="newFont"/>
+</ce>
+</mte>
+</mce>
+</n8>
+</n37>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="getFont" id="c606dcfdc0dd60e17f7b7561b1b00c24_a5e9ab63c87f32d057ac0665b1b28c87" file="1" linestart="38" lineend="49" previous="8ce5c8cad69cf5321d960b06c1495c07_a5e9ab63c87f32d057ac0665b1b28c87" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cFont *">
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</fpt>
+<p name="fontName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="39" cb="1" le="49" ce="1">
+<dst lb="40" cb="2" le="40" ce="66">
+<exp pvirg="true"/>
+<Var nm="theFont" value="true">
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<sttp/>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+<n37 lb="40" cb="42" le="40" ce="65">
+<n10 lb="40" cb="42" le="40" ce="65">
+<typeptr id="ccea706196665950db592a3dae6dae19_b4b407a0124a93a4ffbd01afc2d0c0d6">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_9ff7f1aa56aed7a5e32126b2624e761f">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_a46b96c02d2745d612b31f34763c0ffd">
+<template_arguments>
+<rt>
+<cts id="26077801bf83fda834940e84538639b4_588c02fb583a80daabf4c37e3fd82a49">
+<template_arguments>
+<QualType const="true">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</QualType>
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="40" cb="42" le="40" ce="65">
+<exp pvirg="true"/>
+<n8 lb="40" cb="42" le="40" ce="65" >
+<temp/>
+<mce lb="40" cb="42" le="40" ce="65" nbparm="1" id="ccea706196665950db592a3dae6dae19_c061bcf0bb7868e7a3047264a5ace5a7">
+<exp pvirg="true"/>
+<mex lb="40" cb="42" le="40" ce="52" id="ccea706196665950db592a3dae6dae19_c061bcf0bb7868e7a3047264a5ace5a7" nm="find" point="1">
+<n32 lb="40" cb="42">
+<mex lb="40" cb="42" kind="lvalue" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" nm="gameFonts" arrow="1">
+<n19 lb="40" cb="42"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="40" cb="57">
+<drx lb="40" cb="57" kind="lvalue" nm="fontName"/>
+</n32>
+</mce>
+</n8>
+</mte>
+</n10>
+</n37>
+</Var>
+</dst>
+<if lb="41" cb="2" le="48" ce="2" else="true" elselb="46" elsecb="2">
+<n37 lb="41" cb="6" le="41" ce="31">
+<ocx lb="41" cb="6" le="41" ce="31" nbparm="2" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75">
+<exp pvirg="true"/>
+<n32 lb="41" cb="14">
+<drx lb="41" cb="14" kind="lvalue" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75" nm="operator!="/>
+</n32>
+<n32 lb="41" cb="6">
+<drx lb="41" cb="6" kind="lvalue" nm="theFont"/>
+</n32>
+<mte lb="41" cb="17" le="41" ce="31">
+<exp pvirg="true"/>
+<n32 lb="41" cb="17" le="41" ce="31">
+<n32 lb="41" cb="17" le="41" ce="31">
+<n8 lb="41" cb="17" le="41" ce="31" >
+<temp/>
+<mce lb="41" cb="17" le="41" ce="31" nbparm="0" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1">
+<exp pvirg="true"/>
+<mex lb="41" cb="17" le="41" ce="27" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1" nm="end" point="1">
+<n32 lb="41" cb="17">
+<mex lb="41" cb="17" kind="lvalue" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" nm="gameFonts" arrow="1">
+<n19 lb="41" cb="17"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</n32>
+</n32>
+</mte>
+</ocx>
+</n37>
+<u lb="42" cb="2" le="44" ce="2">
+<rx lb="43" cb="3" le="43" ce="19" pvirg="true">
+<n32 lb="43" cb="10" le="43" ce="19">
+<mex lb="43" cb="10" le="43" ce="19" kind="lvalue" id="26077801bf83fda834940e84538639b4_baa302102c51c9664d2a1b64bdaa08dd" nm="second" arrow="1">
+<ocx lb="43" cb="10" nbparm="1" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43">
+<exp pvirg="true"/>
+<n32 lb="43" cb="17">
+<drx lb="43" cb="17" kind="lvalue" id="ccea706196665950db592a3dae6dae19_f9522f19e9d0e1f983f1fe7033b3cb43" nm="operator-&gt;"/>
+</n32>
+<n32 lb="43" cb="10">
+<drx lb="43" cb="10" kind="lvalue" nm="theFont"/>
+</n32>
+</ocx>
+</mex>
+</n32>
+</rx>
+</u>
+<u lb="46" cb="2" le="48" ce="2">
+<rx lb="47" cb="3" le="47" ce="10" pvirg="true">
+<n32 lb="47" cb="10">
+<n45 lb="47" cb="10">
+<flit/>
+</n45>
+</n32>
+</rx>
+</u>
+</if>
+</u>
+
+</Stmt>
+</m>
+<m name="deleteFont" id="c606dcfdc0dd60e17f7b7561b1b00c24_8ed956ec5dcd0e006180a0fcc1a6a977" file="1" linestart="51" lineend="57" previous="8ce5c8cad69cf5321d960b06c1495c07_8ed956ec5dcd0e006180a0fcc1a6a977" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="52" cb="1" le="57" ce="1">
+<fx lb="53" cb="2" le="56" ce="2">
+<dst lb="53" cb="7" le="53" ce="70">
+<exp pvirg="true"/>
+<Var nm="theFont" value="true">
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<tss>
+<templatebase id="ccea706196665950db592a3dae6dae19_bb51d555312e5deb23fb6b47506aecc7"/>
+<template_arguments>
+<tss>
+<templatebase id="ccea706196665950db592a3dae6dae19_9ff7f1aa56aed7a5e32126b2624e761f"/>
+<template_arguments>
+<Tdef>
+<ety>
+<Tdef>
+<ety>
+<Tdef>
+<sttp/>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+</Tdef>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+</Tdef>
+</ety>
+<n37 lb="53" cb="53" le="53" ce="69">
+<n10 lb="53" cb="53" le="53" ce="69">
+<typeptr id="ccea706196665950db592a3dae6dae19_763855bb439731dbf5bf2147f90c17ed">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_9ff7f1aa56aed7a5e32126b2624e761f">
+<template_arguments>
+<rt>
+<cts id="ccea706196665950db592a3dae6dae19_a46b96c02d2745d612b31f34763c0ffd">
+<template_arguments>
+<rt>
+<cts id="26077801bf83fda834940e84538639b4_588c02fb583a80daabf4c37e3fd82a49">
+<template_arguments>
+<QualType const="true">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</QualType>
+<pt>
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</pt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="53" cb="53" le="53" ce="69">
+<exp pvirg="true"/>
+<n32 lb="53" cb="53" le="53" ce="69">
+<n8 lb="53" cb="53" le="53" ce="69" >
+<temp/>
+<mce lb="53" cb="53" le="53" ce="69" nbparm="0" id="ccea706196665950db592a3dae6dae19_737bd03f6bd3937218ff5023103d54df">
+<exp pvirg="true"/>
+<mex lb="53" cb="53" le="53" ce="63" id="ccea706196665950db592a3dae6dae19_737bd03f6bd3937218ff5023103d54df" nm="begin" point="1">
+<n32 lb="53" cb="53">
+<mex lb="53" cb="53" kind="lvalue" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" nm="gameFonts" arrow="1">
+<n19 lb="53" cb="53"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</n32>
+</mte>
+</n10>
+</n37>
+</Var>
+</dst>
+<n37 lb="53" cb="72" le="53" ce="97">
+<ocx lb="53" cb="72" le="53" ce="97" nbparm="2" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75">
+<exp pvirg="true"/>
+<n32 lb="53" cb="80">
+<drx lb="53" cb="80" kind="lvalue" id="ccea706196665950db592a3dae6dae19_290e7e57927122fe1005f04346106f75" nm="operator!="/>
+</n32>
+<n32 lb="53" cb="72">
+<drx lb="53" cb="72" kind="lvalue" nm="theFont"/>
+</n32>
+<mte lb="53" cb="83" le="53" ce="97">
+<exp pvirg="true"/>
+<n32 lb="53" cb="83" le="53" ce="97">
+<n32 lb="53" cb="83" le="53" ce="97">
+<n8 lb="53" cb="83" le="53" ce="97" >
+<temp/>
+<mce lb="53" cb="83" le="53" ce="97" nbparm="0" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1">
+<exp pvirg="true"/>
+<mex lb="53" cb="83" le="53" ce="93" id="ccea706196665950db592a3dae6dae19_828f837754a9cca5f23baa42fdcc36d1" nm="end" point="1">
+<n32 lb="53" cb="83">
+<mex lb="53" cb="83" kind="lvalue" id="8ce5c8cad69cf5321d960b06c1495c07_57c94fabe6669d076cb6e7fde2a3a77d" nm="gameFonts" arrow="1">
+<n19 lb="53" cb="83"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</n8>
+</n32>
+</n32>
+</mte>
+</ocx>
+</n37>
+<n37 lb="53" cb="100" le="53" ce="107">
+<n8 lb="53" cb="100" le="53" ce="107" >
+<temp/>
+<ocx lb="53" cb="100" le="53" ce="107" nbparm="2" id="ccea706196665950db592a3dae6dae19_1d0ecb1110ba6965049bc0cd9ca1ff4f">
+<exp pvirg="true"/>
+<n32 lb="53" cb="107">
+<drx lb="53" cb="107" kind="lvalue" id="ccea706196665950db592a3dae6dae19_1d0ecb1110ba6965049bc0cd9ca1ff4f" nm="operator++"/>
+</n32>
+<drx lb="53" cb="100" kind="lvalue" nm="theFont"/>
+<n45>
+<flit/>
+</n45>
+</ocx>
+</n8>
+</n37>
+<u lb="54" cb="2" le="56" ce="2">
+<n13 lb="55" cb="3" le="55" ce="19">
+<exp pvirg="true"/>
+<n32 lb="55" cb="10" le="55" ce="19">
+<mex lb="55" cb="10" le="55" ce="19" kind="lvalue" id="26077801bf83fda834940e84538639b4_baa302102c51c9664d2a1b64bdaa08dd" nm="second" arrow="1">
+<ocx lb="55" cb="10" nbparm="1" id="ccea706196665950db592a3dae6dae19_17f2bb6227dcd444fbc83e0ccd36f666">
+<exp pvirg="true"/>
+<n32 lb="55" cb="17">
+<drx lb="55" cb="17" kind="lvalue" id="ccea706196665950db592a3dae6dae19_17f2bb6227dcd444fbc83e0ccd36f666" nm="operator-&gt;"/>
+</n32>
+<n32 lb="55" cb="10">
+<drx lb="55" cb="10" kind="lvalue" nm="theFont"/>
+</n32>
+</ocx>
+</mex>
+</n32>
+</n13>
+</u>
+</fx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

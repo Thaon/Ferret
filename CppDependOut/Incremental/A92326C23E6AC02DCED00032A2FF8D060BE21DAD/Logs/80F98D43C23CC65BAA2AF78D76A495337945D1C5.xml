@@ -1,0 +1,6 @@
+<log>
+ <error level="warning" id="warn_using_directive_in_header" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret/cSound.h" line="16" col="17" msg="using namespace directive in global context in header" />
+ <error level="warning" id="warn_using_directive_in_header" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret/cSoundMgr.h" line="12" col="17" msg="using namespace directive in global context in header" />
+ <error level="note" id="note_template_member_function_here" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSoundMgr.cpp" line="14" col="12" msg="in instantiation of member function &apos;std::map&lt;const char *, cSound *, std::less&lt;const char *&gt;, std::allocator&lt;std::pair&lt;const char *const, cSound *&gt; &gt; &gt;::map&apos; requested here" />
+ <error level="note" id="note_template_member_function_here" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSoundMgr.cpp" line="14" col="12" msg="in instantiation of member function &apos;std::map&lt;const char *, cSound *, std::less&lt;const char *&gt;, std::allocator&lt;std::pair&lt;const char *const, cSound *&gt; &gt; &gt;::map&apos; requested here" />
+</log>

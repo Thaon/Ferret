@@ -1,0 +1,52 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="FTPoint" id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393" file="3" linestart="42" lineend="269">
+<c name="FTPoint" id="36333ea59dacc6aaabc9b7c667f5a491_eb7a53f18c854f39241f37bbf8d6e2ac" file="3" linestart="42" lineend="42" copyconst="true" implicit="true" imported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const FTPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="FTFont" id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5" file="4" linestart="56" lineend="385">
+<m name="Render" id="af2e25b84712f6ad6da553b30cee5d51_6e61d0d8ab697c99fb17265baa5a6f54" file="4" linestart="335" lineend="338" virtual="true" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="FTPoint">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+</fpt>
+<p name="string" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="len" proto="const int" const="true" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</p>
+<p name="position" proto="FTPoint" init="true" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+</p>
+<p name="spacing" proto="FTPoint" init="true" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+</p>
+<p name="renderMode" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+</cr>
+</Externals>

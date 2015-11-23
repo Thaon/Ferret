@@ -1,0 +1,1053 @@
+<Root>
+<Comments>
+<c f="1" b="15" e="15"/>
+<c f="1" b="17" e="15"/>
+<c f="1" b="22" e="22"/>
+<c f="1" b="23" e="22"/>
+<c f="1" b="29" e="29"/>
+<c f="1" b="30" e="30"/>
+<c f="1" b="33" e="30"/>
+</Comments>
+<Macros>
+<m f="1" bl="3" bc="27" el="3" ec="27"/>
+<m f="1" bl="28" bc="11" el="28" ec="11"/>
+<m f="1" bl="29" bc="16" el="29" ec="16"/>
+<m f="1" bl="33" bc="10" el="33" ec="10"/>
+<m f="1" bl="46" bc="12" el="46" ec="12"/>
+</Macros>
+<Comments>
+<c f="2" b="21" e="21"/>
+<c f="2" b="22" e="21"/>
+</Comments>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_4f773dde9f50bf353c62383d32431a84" file="2" linestart="7" lineend="22">
+<cr access="public" kind="class" name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_655173e2c5f45866c1ff20b499d5c8a3" file="2" linestart="7" lineend="7"/>
+<asd access="public"/>
+<m name="SetColor" id="964dcf4da91ef26b8a42a9773bf40926_0cefc64f9b102caa7561d89629b7787f" file="2" linestart="10" lineend="10" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="r" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="g" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="b" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="RenderSprite" id="964dcf4da91ef26b8a42a9773bf40926_c75426ff429f58a640990d47050ed41b" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="entity" proto="Entity *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="9b35aefd243d0609490a4ad3bf30da6a_a55938086881fbc64904917eaa62abf0"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="Render" id="964dcf4da91ef26b8a42a9773bf40926_e532575b3033e20e431575154a7d8ac8" file="2" linestart="13" lineend="13" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sceneGraph" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="RenderFont" id="964dcf4da91ef26b8a42a9773bf40926_d370351c54c97046acc542590efd32ee" file="2" linestart="15" lineend="15" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="font" proto="FTFont *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="text" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textPos" proto="FTPoint" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_734cf7607bd3397745d4b0777f29da32" file="2" linestart="17" lineend="17" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_a00bafc1bfaae83d45ea67b583aae24c" file="2" linestart="18" lineend="18" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<asd access="private"/>
+<c name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_d5f940041b0cc85b4909f80b7da0df74" file="2" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const RenderSystem &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="964dcf4da91ef26b8a42a9773bf40926_4f773dde9f50bf353c62383d32431a84"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<v name="pInstance" proto="RenderSystem *" isPtr="true" isLiteral="true" id="52dc7b74ec597ddaf83586900a670bc1_f9d77902aebc8c3b19ec78c8c62c1651" file="1" linestart="3" lineend="3" init="true" access2="none">
+<pt>
+<rt>
+<cr id="964dcf4da91ef26b8a42a9773bf40926_4f773dde9f50bf353c62383d32431a84"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="3" cb="27">
+<n45 lb="3" cb="27">
+<flit/>
+</n45>
+</n32>
+
+</Stmt>
+</v>
+<c name="RenderSystem" id="52dc7b74ec597ddaf83586900a670bc1_734cf7607bd3397745d4b0777f29da32" file="1" linestart="5" lineend="7" previous="964dcf4da91ef26b8a42a9773bf40926_734cf7607bd3397745d4b0777f29da32" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="6" cb="1" le="7" ce="1"/>
+
+</Stmt>
+</c>
+<d name="~RenderSystem" id="52dc7b74ec597ddaf83586900a670bc1_a00bafc1bfaae83d45ea67b583aae24c" file="1" linestart="10" lineend="12" previous="964dcf4da91ef26b8a42a9773bf40926_a00bafc1bfaae83d45ea67b583aae24c" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="11" cb="1" le="12" ce="1"/>
+
+</Stmt>
+</d>
+<m name="RenderSprite" id="52dc7b74ec597ddaf83586900a670bc1_c75426ff429f58a640990d47050ed41b" file="1" linestart="17" lineend="49" previous="964dcf4da91ef26b8a42a9773bf40926_c75426ff429f58a640990d47050ed41b" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="entity" proto="Entity *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="9b35aefd243d0609490a4ad3bf30da6a_a55938086881fbc64904917eaa62abf0"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="18" cb="1" le="49" ce="1">
+<ce lb="19" cb="2" le="19" ce="17" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718">
+<exp pvirg="true"/>
+<n32 lb="19" cb="2">
+<drx lb="19" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" nm="glLoadIdentity"/>
+</n32>
+</ce>
+<ce lb="20" cb="2" le="20" ce="15" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285">
+<exp pvirg="true"/>
+<n32 lb="20" cb="2">
+<drx lb="20" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285" nm="glPushMatrix"/>
+</n32>
+</ce>
+<ce lb="23" cb="2" le="23" ce="183" nbparm="3" id="33c672c5ccce976484cd3521ee4ffa73_1d213c43fbee392d3acd775f254aa4bb">
+<exp pvirg="true"/>
+<n32 lb="23" cb="2">
+<drx lb="23" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_1d213c43fbee392d3acd775f254aa4bb" nm="glTranslatef"/>
+</n32>
+<mex lb="23" cb="15" le="23" ce="94" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="23" cb="15" le="23" ce="94" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="23" cb="15" le="23" ce="92" nbparm="1" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0">
+<exp pvirg="true"/>
+<mex lb="23" cb="15" le="23" ce="45" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" nm="GetCenter" arrow="1">
+<mce lb="23" cb="15" le="23" ce="42" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="23" cb="15" le="23" ce="23" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="23" cb="15">
+<drx lb="23" cb="15" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+<n10 lb="23" cb="55" le="23" ce="91">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="23" cb="55" le="23" ce="91">
+<exp pvirg="true"/>
+<n32 lb="23" cb="55" le="23" ce="91">
+<mce lb="23" cb="55" le="23" ce="91" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="23" cb="55" le="23" ce="79" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="23" cb="55" le="23" ce="76" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="23" cb="55" le="23" ce="63" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="23" cb="55">
+<drx lb="23" cb="55" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</mte>
+</n10>
+</mce>
+</mex>
+</mex>
+<mex lb="23" cb="97" le="23" ce="176" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="23" cb="97" le="23" ce="176" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="23" cb="97" le="23" ce="174" nbparm="1" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0">
+<exp pvirg="true"/>
+<mex lb="23" cb="97" le="23" ce="127" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" nm="GetCenter" arrow="1">
+<mce lb="23" cb="97" le="23" ce="124" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="23" cb="97" le="23" ce="105" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="23" cb="97">
+<drx lb="23" cb="97" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+<n10 lb="23" cb="137" le="23" ce="173">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="23" cb="137" le="23" ce="173">
+<exp pvirg="true"/>
+<n32 lb="23" cb="137" le="23" ce="173">
+<mce lb="23" cb="137" le="23" ce="173" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="23" cb="137" le="23" ce="161" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="23" cb="137" le="23" ce="158" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="23" cb="137" le="23" ce="145" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="23" cb="137">
+<drx lb="23" cb="137" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</mte>
+</n10>
+</mce>
+</mex>
+</mex>
+<n40 lb="23" cb="179">
+<flit/>
+</n40>
+</ce>
+<ce lb="24" cb="2" le="24" ce="67" nbparm="4" id="33c672c5ccce976484cd3521ee4ffa73_920c4c022993772282b9716560116cca">
+<exp pvirg="true"/>
+<n32 lb="24" cb="2">
+<drx lb="24" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_920c4c022993772282b9716560116cca" nm="glRotatef"/>
+</n32>
+<mce lb="24" cb="12" le="24" ce="48" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_8f9b8ba3a52b126aec836d51c8f5b879">
+<exp pvirg="true"/>
+<mex lb="24" cb="12" le="24" ce="36" id="ff48d3afd1ac5a24135f20f0d75fe24a_8f9b8ba3a52b126aec836d51c8f5b879" nm="GetRotation" arrow="1">
+<mce lb="24" cb="12" le="24" ce="33" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="24" cb="12" le="24" ce="20" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="24" cb="12">
+<drx lb="24" cb="12" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n40 lb="24" cb="51"/>
+<n40 lb="24" cb="57"/>
+<n40 lb="24" cb="63">
+<flit/>
+</n40>
+</ce>
+<ce lb="25" cb="2" le="25" ce="91" nbparm="3" id="33c672c5ccce976484cd3521ee4ffa73_fe485badd496e2d01eab69b594402dd5">
+<exp pvirg="true"/>
+<n32 lb="25" cb="2">
+<drx lb="25" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_fe485badd496e2d01eab69b594402dd5" nm="glScalef"/>
+</n32>
+<mex lb="25" cb="11" le="25" ce="46" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="25" cb="11" le="25" ce="46" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="25" cb="11" le="25" ce="44" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_d84de9118f0b16be777f60fb3d5a776f">
+<exp pvirg="true"/>
+<mex lb="25" cb="11" le="25" ce="35" id="ff48d3afd1ac5a24135f20f0d75fe24a_d84de9118f0b16be777f60fb3d5a776f" nm="GetScale" arrow="1">
+<mce lb="25" cb="11" le="25" ce="32" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="25" cb="11" le="25" ce="19" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="25" cb="11">
+<drx lb="25" cb="11" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<mex lb="25" cb="49" le="25" ce="84" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="25" cb="49" le="25" ce="84" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="25" cb="49" le="25" ce="82" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_d84de9118f0b16be777f60fb3d5a776f">
+<exp pvirg="true"/>
+<mex lb="25" cb="49" le="25" ce="73" id="ff48d3afd1ac5a24135f20f0d75fe24a_d84de9118f0b16be777f60fb3d5a776f" nm="GetScale" arrow="1">
+<mce lb="25" cb="49" le="25" ce="70" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="25" cb="49" le="25" ce="57" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="25" cb="49">
+<drx lb="25" cb="49" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<n40 lb="25" cb="87"/>
+</ce>
+<ce lb="26" cb="2" le="26" ce="185" nbparm="3" id="33c672c5ccce976484cd3521ee4ffa73_1d213c43fbee392d3acd775f254aa4bb">
+<exp pvirg="true"/>
+<n32 lb="26" cb="2">
+<drx lb="26" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_1d213c43fbee392d3acd775f254aa4bb" nm="glTranslatef"/>
+</n32>
+<uo lb="26" cb="15" le="26" ce="95" kind="-">
+<mex lb="26" cb="16" le="26" ce="95" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="26" cb="16" le="26" ce="95" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="26" cb="16" le="26" ce="93" nbparm="1" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0">
+<exp pvirg="true"/>
+<mex lb="26" cb="16" le="26" ce="46" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" nm="GetCenter" arrow="1">
+<mce lb="26" cb="16" le="26" ce="43" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="26" cb="16" le="26" ce="24" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="26" cb="16">
+<drx lb="26" cb="16" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+<n10 lb="26" cb="56" le="26" ce="92">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="26" cb="56" le="26" ce="92">
+<exp pvirg="true"/>
+<n32 lb="26" cb="56" le="26" ce="92">
+<mce lb="26" cb="56" le="26" ce="92" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="26" cb="56" le="26" ce="80" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="26" cb="56" le="26" ce="77" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="26" cb="56" le="26" ce="64" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="26" cb="56">
+<drx lb="26" cb="56" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</mte>
+</n10>
+</mce>
+</mex>
+</mex>
+</uo>
+<uo lb="26" cb="98" le="26" ce="178" kind="-">
+<mex lb="26" cb="99" le="26" ce="178" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="26" cb="99" le="26" ce="178" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="26" cb="99" le="26" ce="176" nbparm="1" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0">
+<exp pvirg="true"/>
+<mex lb="26" cb="99" le="26" ce="129" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" nm="GetCenter" arrow="1">
+<mce lb="26" cb="99" le="26" ce="126" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="26" cb="99" le="26" ce="107" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="26" cb="99">
+<drx lb="26" cb="99" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+<n10 lb="26" cb="139" le="26" ce="175">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="26" cb="139" le="26" ce="175">
+<exp pvirg="true"/>
+<n32 lb="26" cb="139" le="26" ce="175">
+<mce lb="26" cb="139" le="26" ce="175" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="26" cb="139" le="26" ce="163" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="26" cb="139" le="26" ce="160" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="26" cb="139" le="26" ce="147" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="26" cb="139">
+<drx lb="26" cb="139" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</mte>
+</n10>
+</mce>
+</mex>
+</mex>
+</uo>
+<n40 lb="26" cb="181"/>
+</ce>
+<ce lb="28" cb="2" le="28" ce="24" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42">
+<exp pvirg="true"/>
+<n32 lb="28" cb="2">
+<drx lb="28" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42" nm="glEnable"/>
+</n32>
+<n32 lb="28" cb="11">
+<n45 lb="28" cb="11">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="29" cb="2" le="29" ce="73" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_1be04bfaa50b01cc1b0ad8f21985bca2">
+<exp pvirg="true"/>
+<n32 lb="29" cb="2">
+<drx lb="29" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_1be04bfaa50b01cc1b0ad8f21985bca2" nm="glBindTexture"/>
+</n32>
+<n32 lb="29" cb="16">
+<n45 lb="29" cb="16"/>
+</n32>
+<mce lb="29" cb="31" le="29" ce="72" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_0ea5054f52876162fa14210772af1f2f">
+<exp pvirg="true"/>
+<mex lb="29" cb="31" le="29" ce="61" id="2888ea4ff5f6e154a249ba44fc3820b1_0ea5054f52876162fa14210772af1f2f" nm="GetTexture" arrow="1">
+<mce lb="29" cb="31" le="29" ce="58" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="29" cb="31" le="29" ce="39" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="29" cb="31">
+<drx lb="29" cb="31" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</ce>
+<ce lb="33" cb="2" le="33" ce="18" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_97dfddbed787fac1ea0723b86b2e82d4">
+<exp pvirg="true"/>
+<n32 lb="33" cb="2">
+<drx lb="33" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_97dfddbed787fac1ea0723b86b2e82d4" nm="glBegin"/>
+</n32>
+<n32 lb="33" cb="10">
+<n45 lb="33" cb="10">
+<flit/>
+</n45>
+</n32>
+</ce>
+<ce lb="34" cb="2" le="34" ce="34" nbparm="3" id="33c672c5ccce976484cd3521ee4ffa73_ca858af3a324ff357d56f04ae29bc175">
+<exp pvirg="true"/>
+<n32 lb="34" cb="2">
+<drx lb="34" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_ca858af3a324ff357d56f04ae29bc175" nm="glColor3f"/>
+</n32>
+<n40 lb="34" cb="12">
+<flit/>
+</n40>
+<n40 lb="34" cb="20"/>
+<n40 lb="34" cb="28"/>
+</ce>
+<ce lb="35" cb="2" le="35" ce="121" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2">
+<exp pvirg="true"/>
+<n32 lb="35" cb="2">
+<drx lb="35" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2" nm="glTexCoord2f"/>
+</n32>
+<n32 lb="35" cb="15" le="35" ce="66">
+<mex lb="35" cb="15" le="35" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="35" cb="15" le="35" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="35" cb="15" le="35" ce="64">
+<exp pvirg="true"/>
+<mce lb="35" cb="15" le="35" ce="61" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="35" cb="15" le="35" ce="45" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="35" cb="15" le="35" ce="42" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="35" cb="15" le="35" ce="23" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="35" cb="15">
+<drx lb="35" cb="15" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="35" cb="63"/>
+</n2>
+</mex>
+</mex>
+</n32>
+<n32 lb="35" cb="69" le="35" ce="120">
+<mex lb="35" cb="69" le="35" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="35" cb="69" le="35" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="35" cb="69" le="35" ce="118">
+<exp pvirg="true"/>
+<mce lb="35" cb="69" le="35" ce="115" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="35" cb="69" le="35" ce="99" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="35" cb="69" le="35" ce="96" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="35" cb="69" le="35" ce="77" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="35" cb="69">
+<drx lb="35" cb="69" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="35" cb="117"/>
+</n2>
+</mex>
+</mex>
+</n32>
+</ce>
+<ce lb="36" cb="2" le="36" ce="93" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276">
+<exp pvirg="true"/>
+<n32 lb="36" cb="2">
+<drx lb="36" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276" nm="glVertex2f"/>
+</n32>
+<mex lb="36" cb="13" le="36" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="36" cb="13" le="36" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="36" cb="13" le="36" ce="49" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="36" cb="13" le="36" ce="37" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="36" cb="13" le="36" ce="34" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="36" cb="13" le="36" ce="21" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="36" cb="13">
+<drx lb="36" cb="13" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<mex lb="36" cb="54" le="36" ce="92" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="36" cb="54" le="36" ce="92" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="36" cb="54" le="36" ce="90" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="36" cb="54" le="36" ce="78" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="36" cb="54" le="36" ce="75" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="36" cb="54" le="36" ce="62" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="36" cb="54">
+<drx lb="36" cb="54" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+</ce>
+<ce lb="37" cb="2" le="37" ce="121" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2">
+<exp pvirg="true"/>
+<n32 lb="37" cb="2">
+<drx lb="37" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2" nm="glTexCoord2f"/>
+</n32>
+<n32 lb="37" cb="15" le="37" ce="66">
+<mex lb="37" cb="15" le="37" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="37" cb="15" le="37" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="37" cb="15" le="37" ce="64">
+<exp pvirg="true"/>
+<mce lb="37" cb="15" le="37" ce="61" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="37" cb="15" le="37" ce="45" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="37" cb="15" le="37" ce="42" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="37" cb="15" le="37" ce="23" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="37" cb="15">
+<drx lb="37" cb="15" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="37" cb="63">
+<flit/>
+</n45>
+</n2>
+</mex>
+</mex>
+</n32>
+<n32 lb="37" cb="69" le="37" ce="120">
+<mex lb="37" cb="69" le="37" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="37" cb="69" le="37" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="37" cb="69" le="37" ce="118">
+<exp pvirg="true"/>
+<mce lb="37" cb="69" le="37" ce="115" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="37" cb="69" le="37" ce="99" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="37" cb="69" le="37" ce="96" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="37" cb="69" le="37" ce="77" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="37" cb="69">
+<drx lb="37" cb="69" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="37" cb="117"/>
+</n2>
+</mex>
+</mex>
+</n32>
+</ce>
+<ce lb="38" cb="2" le="38" ce="136" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276">
+<exp pvirg="true"/>
+<n32 lb="38" cb="2">
+<drx lb="38" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276" nm="glVertex2f"/>
+</n32>
+<xop lb="38" cb="13" le="38" ce="94" kind="+">
+<mex lb="38" cb="13" le="38" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="38" cb="13" le="38" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="38" cb="13" le="38" ce="49" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="38" cb="13" le="38" ce="37" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="38" cb="13" le="38" ce="34" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="38" cb="13" le="38" ce="21" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="38" cb="13">
+<drx lb="38" cb="13" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<n32 lb="38" cb="55" le="38" ce="94">
+<mce lb="38" cb="55" le="38" ce="94" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b">
+<exp pvirg="true"/>
+<mex lb="38" cb="55" le="38" ce="85" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b" nm="GetWidth" arrow="1">
+<mce lb="38" cb="55" le="38" ce="82" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="38" cb="55" le="38" ce="63" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="38" cb="55">
+<drx lb="38" cb="55" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</xop>
+<mex lb="38" cb="97" le="38" ce="135" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="38" cb="97" le="38" ce="135" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="38" cb="97" le="38" ce="133" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="38" cb="97" le="38" ce="121" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="38" cb="97" le="38" ce="118" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="38" cb="97" le="38" ce="105" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="38" cb="97">
+<drx lb="38" cb="97" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+</ce>
+<ce lb="39" cb="2" le="39" ce="121" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2">
+<exp pvirg="true"/>
+<n32 lb="39" cb="2">
+<drx lb="39" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2" nm="glTexCoord2f"/>
+</n32>
+<n32 lb="39" cb="15" le="39" ce="66">
+<mex lb="39" cb="15" le="39" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="39" cb="15" le="39" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="39" cb="15" le="39" ce="64">
+<exp pvirg="true"/>
+<mce lb="39" cb="15" le="39" ce="61" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="39" cb="15" le="39" ce="45" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="39" cb="15" le="39" ce="42" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="39" cb="15" le="39" ce="23" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="39" cb="15">
+<drx lb="39" cb="15" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="39" cb="63">
+<flit/>
+</n45>
+</n2>
+</mex>
+</mex>
+</n32>
+<n32 lb="39" cb="69" le="39" ce="120">
+<mex lb="39" cb="69" le="39" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="39" cb="69" le="39" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="39" cb="69" le="39" ce="118">
+<exp pvirg="true"/>
+<mce lb="39" cb="69" le="39" ce="115" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="39" cb="69" le="39" ce="99" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="39" cb="69" le="39" ce="96" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="39" cb="69" le="39" ce="77" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="39" cb="69">
+<drx lb="39" cb="69" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="39" cb="117"/>
+</n2>
+</mex>
+</mex>
+</n32>
+</ce>
+<ce lb="40" cb="2" le="40" ce="180" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276">
+<exp pvirg="true"/>
+<n32 lb="40" cb="2">
+<drx lb="40" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276" nm="glVertex2f"/>
+</n32>
+<xop lb="40" cb="13" le="40" ce="94" kind="+">
+<mex lb="40" cb="13" le="40" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="40" cb="13" le="40" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="40" cb="13" le="40" ce="49" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="40" cb="13" le="40" ce="37" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="40" cb="13" le="40" ce="34" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="40" cb="13" le="40" ce="21" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="40" cb="13">
+<drx lb="40" cb="13" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<n32 lb="40" cb="55" le="40" ce="94">
+<mce lb="40" cb="55" le="40" ce="94" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b">
+<exp pvirg="true"/>
+<mex lb="40" cb="55" le="40" ce="85" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b" nm="GetWidth" arrow="1">
+<mce lb="40" cb="55" le="40" ce="82" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="40" cb="55" le="40" ce="63" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="40" cb="55">
+<drx lb="40" cb="55" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</xop>
+<xop lb="40" cb="97" le="40" ce="179" kind="+">
+<mex lb="40" cb="97" le="40" ce="135" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="40" cb="97" le="40" ce="135" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="40" cb="97" le="40" ce="133" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="40" cb="97" le="40" ce="121" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="40" cb="97" le="40" ce="118" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="40" cb="97" le="40" ce="105" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="40" cb="97">
+<drx lb="40" cb="97" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<n32 lb="40" cb="139" le="40" ce="179">
+<mce lb="40" cb="139" le="40" ce="179" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4">
+<exp pvirg="true"/>
+<mex lb="40" cb="139" le="40" ce="169" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4" nm="GetHeight" arrow="1">
+<mce lb="40" cb="139" le="40" ce="166" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="40" cb="139" le="40" ce="147" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="40" cb="139">
+<drx lb="40" cb="139" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</xop>
+</ce>
+<ce lb="41" cb="2" le="41" ce="121" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2">
+<exp pvirg="true"/>
+<n32 lb="41" cb="2">
+<drx lb="41" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2" nm="glTexCoord2f"/>
+</n32>
+<n32 lb="41" cb="15" le="41" ce="66">
+<mex lb="41" cb="15" le="41" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="41" cb="15" le="41" ce="66" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="41" cb="15" le="41" ce="64">
+<exp pvirg="true"/>
+<mce lb="41" cb="15" le="41" ce="61" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="41" cb="15" le="41" ce="45" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="41" cb="15" le="41" ce="42" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="41" cb="15" le="41" ce="23" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="41" cb="15">
+<drx lb="41" cb="15" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="41" cb="63">
+<flit/>
+</n45>
+</n2>
+</mex>
+</mex>
+</n32>
+<n32 lb="41" cb="69" le="41" ce="120">
+<mex lb="41" cb="69" le="41" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="41" cb="69" le="41" ce="120" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<n2 lb="41" cb="69" le="41" ce="118">
+<exp pvirg="true"/>
+<mce lb="41" cb="69" le="41" ce="115" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689">
+<exp pvirg="true"/>
+<mex lb="41" cb="69" le="41" ce="99" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" nm="GetTexCoordData" arrow="1">
+<mce lb="41" cb="69" le="41" ce="96" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="41" cb="69" le="41" ce="77" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="41" cb="69">
+<drx lb="41" cb="69" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+<n45 lb="41" cb="117"/>
+</n2>
+</mex>
+</mex>
+</n32>
+</ce>
+<ce lb="42" cb="2" le="42" ce="137" nbparm="2" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276">
+<exp pvirg="true"/>
+<n32 lb="42" cb="2">
+<drx lb="42" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276" nm="glVertex2f"/>
+</n32>
+<mex lb="42" cb="13" le="42" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="42" cb="13" le="42" ce="51" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="42" cb="13" le="42" ce="49" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="42" cb="13" le="42" ce="37" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="42" cb="13" le="42" ce="34" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="42" cb="13" le="42" ce="21" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="42" cb="13">
+<drx lb="42" cb="13" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<xop lb="42" cb="54" le="42" ce="136" kind="+">
+<mex lb="42" cb="54" le="42" ce="92" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="42" cb="54" le="42" ce="92" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<mce lb="42" cb="54" le="42" ce="90" nbparm="0" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c">
+<exp pvirg="true"/>
+<mex lb="42" cb="54" le="42" ce="78" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" nm="GetPosition" arrow="1">
+<mce lb="42" cb="54" le="42" ce="75" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39">
+<exp pvirg="true"/>
+<mex lb="42" cb="54" le="42" ce="62" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" nm="GetTransform" arrow="1">
+<n32 lb="42" cb="54">
+<drx lb="42" cb="54" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</mex>
+</mex>
+<n32 lb="42" cb="96" le="42" ce="136">
+<mce lb="42" cb="96" le="42" ce="136" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4">
+<exp pvirg="true"/>
+<mex lb="42" cb="96" le="42" ce="126" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4" nm="GetHeight" arrow="1">
+<mce lb="42" cb="96" le="42" ce="123" nbparm="0" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e">
+<exp pvirg="true"/>
+<mex lb="42" cb="96" le="42" ce="104" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" nm="GetSpriteComponent" arrow="1">
+<n32 lb="42" cb="96">
+<drx lb="42" cb="96" kind="lvalue" nm="entity"/>
+</n32>
+</mex>
+</mce>
+</mex>
+</mce>
+</n32>
+</xop>
+</ce>
+<ce lb="44" cb="2" le="44" ce="8" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_e8c7f1209bbc6f5b5a99913e9ea4e5f3">
+<exp pvirg="true"/>
+<n32 lb="44" cb="2">
+<drx lb="44" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_e8c7f1209bbc6f5b5a99913e9ea4e5f3" nm="glEnd"/>
+</n32>
+</ce>
+<ce lb="46" cb="2" le="46" ce="25" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_52aeab64c2eb15ce51bd3f409d5a4e18">
+<exp pvirg="true"/>
+<n32 lb="46" cb="2">
+<drx lb="46" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_52aeab64c2eb15ce51bd3f409d5a4e18" nm="glDisable"/>
+</n32>
+<n32 lb="46" cb="12">
+<n45 lb="46" cb="12"/>
+</n32>
+</ce>
+<ce lb="48" cb="2" le="48" ce="14" nbparm="0" id="33c672c5ccce976484cd3521ee4ffa73_85b6f8521e7a4e5528d7926ff2f37b8f">
+<exp pvirg="true"/>
+<n32 lb="48" cb="2">
+<drx lb="48" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_85b6f8521e7a4e5528d7926ff2f37b8f" nm="glPopMatrix"/>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<m name="Render" id="52dc7b74ec597ddaf83586900a670bc1_e532575b3033e20e431575154a7d8ac8" file="1" linestart="51" lineend="57" previous="964dcf4da91ef26b8a42a9773bf40926_e532575b3033e20e431575154a7d8ac8" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sceneGraph" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="52" cb="1" le="57" ce="1"/>
+
+</Stmt>
+</m>
+<m name="SetColor" id="52dc7b74ec597ddaf83586900a670bc1_0cefc64f9b102caa7561d89629b7787f" file="1" linestart="59" lineend="62" previous="964dcf4da91ef26b8a42a9773bf40926_0cefc64f9b102caa7561d89629b7787f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="r" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="g" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="b" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="60" cb="1" le="62" ce="1">
+<ce lb="61" cb="2" le="61" ce="19" nbparm="3" id="33c672c5ccce976484cd3521ee4ffa73_ca858af3a324ff357d56f04ae29bc175">
+<exp pvirg="true"/>
+<n32 lb="61" cb="2">
+<drx lb="61" cb="2" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_ca858af3a324ff357d56f04ae29bc175" nm="glColor3f"/>
+</n32>
+<n32 lb="61" cb="12">
+<drx lb="61" cb="12" kind="lvalue" nm="r"/>
+</n32>
+<n32 lb="61" cb="15">
+<drx lb="61" cb="15" kind="lvalue" nm="g"/>
+</n32>
+<n32 lb="61" cb="18">
+<drx lb="61" cb="18" kind="lvalue" nm="b"/>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with CppDepend v6.0.0.9010</Info>
+  <Info>No Baseline for Comparison loaded.</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>8 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <Info>CppCheck is enabled.You can disable it from 'Project Properties=&gt;Plugins Tab'</Info>
+  <Info>Vera++ is not enabled.You can enable it from 'Project Properties=&gt;Plugins Tab' if you are interested to have style diagnostics</Info>
+  <ClangError>Project:Ferret=&gt;use of undeclared identifier 'renderSystem'; did you mean 'renderSys'? at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp:27:2</ClangError>
+  <ClangError>Project:Ferret=&gt;use of undeclared identifier 'make_pair'; did you mean 'std::make_pair'? at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFontMgr.cpp:34:20</ClangError>
+  <ClangError>Project:Ferret=&gt;no matching function for call to 'MessageBoxW' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp:31:3</ClangError>
+  <ClangError>Project:Ferret=&gt;no template named 'map'; did you mean 'std::map'? at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFontMgr.cpp:40:2</ClangError>
+  <ClangError>Project:Ferret=&gt;use of undeclared identifier 'glPushMatrix' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp:68:2</ClangError>
+  <ClangError>Project:Ferret=&gt;use of undeclared identifier 'glPopMatrix' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cFont.cpp:72:2</ClangError>
+  <ClangError>Project:Ferret=&gt;expected '(' after 'for' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\BehaviourSystem.cpp:17:6</ClangError>
+  <ClangError>Project:Ferret=&gt;assigning to 'LPCWSTR' (aka 'const wchar_t *') from incompatible type 'const char [7]' at C:\Users\Thaon\documents\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp:61:30</ClangError>
+  <ClangError>Project:Ferret=&gt;no matching function for call to 'CreateWindowExW' at C:\Users\Thaon\documents\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp:76:11</ClangError>
+  <ClangError>Project:Ferret=&gt;cannot initialize a parameter of type 'BehaviourComponent *' with an rvalue of type 'RocketBehaviour *' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\main.cpp:31:20</ClangError>
+  <ClangError>Project:Ferret=&gt;no matching constructor for initialization of 'cFontMgr' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\FerretGame.cpp:55:16</ClangError>
+  <ClangError>Project:Ferret=&gt;calling a protected constructor of class 'cSoundMgr' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\FerretGame.cpp:58:17</ClangError>
+  <ClangError>Project:Ferret=&gt;cannot initialize object parameter of type 'BehaviourComponent' with an expression of type 'RocketBehaviour' at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\RocketBehaviour.cpp:7:3</ClangError>
+  <Warning>The project Ferret contains 13 Clang errors, to see them you can activate the Clang parsing errors tab.</Warning>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Info>CppDepend analysis done. Duration: 00:16</Info>
+</InfoWarnings>

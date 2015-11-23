@@ -1,0 +1,857 @@
+<Root>
+<Comments>
+<c f="1" b="22" e="22"/>
+<c f="1" b="23" e="22"/>
+<c f="1" b="25" e="25"/>
+<c f="1" b="26" e="25"/>
+<c f="1" b="28" e="28"/>
+<c f="1" b="29" e="28"/>
+<c f="1" b="32" e="32"/>
+<c f="1" b="33" e="32"/>
+<c f="1" b="35" e="35"/>
+<c f="1" b="37" e="35"/>
+<c f="1" b="38" e="38"/>
+<c f="1" b="39" e="38"/>
+<c f="1" b="42" e="42"/>
+<c f="1" b="43" e="42"/>
+<c f="1" b="45" e="45"/>
+<c f="1" b="46" e="45"/>
+<c f="1" b="51" e="51"/>
+<c f="1" b="52" e="51"/>
+<c f="1" b="54" e="54"/>
+<c f="1" b="55" e="54"/>
+<c f="1" b="57" e="57"/>
+<c f="1" b="58" e="57"/>
+<c f="1" b="60" e="60"/>
+<c f="1" b="61" e="60"/>
+<c f="1" b="62" e="62"/>
+<c f="1" b="63" e="62"/>
+<c f="1" b="65" e="65"/>
+<c f="1" b="66" e="65"/>
+<c f="1" b="68" e="68"/>
+<c f="1" b="69" e="68"/>
+<c f="1" b="81" e="81"/>
+<c f="1" b="82" e="81"/>
+<c f="1" b="91" e="91"/>
+<c f="1" b="93" e="93"/>
+<c f="1" b="94" e="93"/>
+<c f="1" b="96" e="96"/>
+<c f="1" b="97" e="96"/>
+<c f="1" b="100" e="100"/>
+<c f="1" b="101" e="100"/>
+<c f="1" b="108" e="108"/>
+<c f="1" b="109" e="108"/>
+<c f="1" b="112" e="112"/>
+<c f="1" b="113" e="112"/>
+<c f="1" b="113" e="113"/>
+<c f="1" b="114" e="113"/>
+</Comments>
+<Macros>
+<m f="1" bl="3" bc="32" el="3" ec="32"/>
+<m f="1" bl="37" bc="3" el="37" ec="3"/>
+<m f="1" bl="37" bc="14" el="37" ec="14"/>
+<m f="1" bl="37" bc="79" el="37" ec="79"/>
+<m f="1" bl="37" bc="94" el="37" ec="94"/>
+<m f="1" bl="44" bc="3" el="44" ec="3"/>
+<m f="1" bl="44" bc="14" el="44" ec="14"/>
+<m f="1" bl="44" bc="81" el="44" ec="81"/>
+<m f="1" bl="44" bc="96" el="44" ec="96"/>
+<m f="1" bl="99" bc="11" el="99" ec="11"/>
+<m f="1" bl="99" bc="33" el="99" ec="33"/>
+</Macros>
+<Comments/>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="FerretGame" id="0b8bbc731cf91ae326dfbbbf4da99de8_23ae848e7c639579a04a787830e803b3" file="2" linestart="10" lineend="47">
+<cr access="public" kind="class" name="FerretGame" id="0b8bbc731cf91ae326dfbbbf4da99de8_3db76dc0ad17dccf0d5d79a709a716e9" file="2" linestart="10" lineend="10"/>
+<asd access="private"/>
+<fl name="m_lastTime" id="0b8bbc731cf91ae326dfbbbf4da99de8_fac7b55acd5fcab4a11c9b3a1e96458d" file="2" linestart="13" lineend="13" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_isRunning" id="0b8bbc731cf91ae326dfbbbf4da99de8_5ecf1c4544b51daf6126eab1130a7cae" file="2" linestart="14" lineend="14" isLiteral="true" access="private" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="isPaused" id="0b8bbc731cf91ae326dfbbbf4da99de8_e46929f61bb7e17218a793584403969c" file="2" linestart="15" lineend="15" isLiteral="true" access="private" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="deltaTime" id="0b8bbc731cf91ae326dfbbbf4da99de8_121af237e4f247f7cc0a204427e85eb1" file="2" linestart="16" lineend="16" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="window" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" file="2" linestart="18" lineend="18" isPtr="true" isLiteral="true" access="private" proto="cWNDManager *">
+<pt>
+<rt>
+<cr id="fdd628f40d6689b3f612b98d4cd8f518_39a8c1ef985010194384a98a4bdde963"/>
+</rt>
+</pt>
+</fl>
+<fl name="sceneGraph" id="0b8bbc731cf91ae326dfbbbf4da99de8_7d70f3d17c00177ba51b2862349082ab" file="2" linestart="19" lineend="19" isPtr="true" isLiteral="true" access="private" proto="Scenegraph *">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+</fl>
+<fl name="theInputMgr" id="0b8bbc731cf91ae326dfbbbf4da99de8_2ae77fc32120af6a2457b10051b268b6" file="2" linestart="20" lineend="20" isPtr="true" isLiteral="true" access="private" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fl>
+<fl name="fontMgr" id="0b8bbc731cf91ae326dfbbbf4da99de8_80ad24f693cc4e6991f2f196854b32a1" file="2" linestart="21" lineend="21" isPtr="true" isLiteral="true" access="private" proto="cFontMgr *">
+<pt>
+<rt>
+<cr id="8ce5c8cad69cf5321d960b06c1495c07_a8f8825e90267481e2bc89227744e2c4"/>
+</rt>
+</pt>
+</fl>
+<fl name="audioMgr" id="0b8bbc731cf91ae326dfbbbf4da99de8_95d94d94977837f8ad98ad2b044daee9" file="2" linestart="22" lineend="22" isPtr="true" isLiteral="true" access="private" proto="cSoundMgr *">
+<pt>
+<rt>
+<cr id="dbfbdfb378e293600b4f5389cff16061_d7f408e245d21106b6e54718a67ead29"/>
+</rt>
+</pt>
+</fl>
+<fl name="behaviourSys" id="0b8bbc731cf91ae326dfbbbf4da99de8_541317d1b2168e75e7de0bc491053080" file="2" linestart="23" lineend="23" isPtr="true" isLiteral="true" access="private" proto="BehaviourSystem *">
+<pt>
+<rt>
+<cr id="d2625f60a712817666c4c4c0638ade98_f307459d4ad1c208ee077b615224d4f0"/>
+</rt>
+</pt>
+</fl>
+<fl name="renderSys" id="0b8bbc731cf91ae326dfbbbf4da99de8_31ccaed5f7796cf85742a4f142a766a1" file="2" linestart="24" lineend="24" isPtr="true" isLiteral="true" access="private" proto="RenderSystem *">
+<pt>
+<rt>
+<cr id="964dcf4da91ef26b8a42a9773bf40926_4f773dde9f50bf353c62383d32431a84"/>
+</rt>
+</pt>
+</fl>
+<fl name="collisionSys" id="0b8bbc731cf91ae326dfbbbf4da99de8_e9faf63e09ac4d7397b65863cd614aa4" file="2" linestart="25" lineend="25" isPtr="true" isLiteral="true" access="private" proto="CollisionSystem *">
+<pt>
+<rt>
+<cr id="22bb5bf19453be097a60eb72c4d2aff8_2d74b47ac2e118f1e674a9b529c35e54"/>
+</rt>
+</pt>
+</fl>
+<v name="pInstance" proto="FerretGame *" isPtr="true" isLiteral="true" id="0b8bbc731cf91ae326dfbbbf4da99de8_3b7c4b9769f9c9053587a7d82c24c907" file="2" linestart="26" lineend="26" storage="static" access2="private">
+<pt>
+<rt>
+<cr id="0b8bbc731cf91ae326dfbbbf4da99de8_23ae848e7c639579a04a787830e803b3"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</v>
+<fl name="pgmWNDMgr" id="0b8bbc731cf91ae326dfbbbf4da99de8_f626fd4b394fe23cd1b4b9833233a441" file="2" linestart="27" lineend="27" isPtr="true" isLiteral="true" access="private" proto="FerretGame *">
+<pt>
+<rt>
+<cr id="0b8bbc731cf91ae326dfbbbf4da99de8_23ae848e7c639579a04a787830e803b3"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_gameTitle" id="0b8bbc731cf91ae326dfbbbf4da99de8_aceb9dcb5d0edbe293f8fe630cdba2a0" file="2" linestart="29" lineend="29" access="private" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<asd access="public"/>
+<c name="FerretGame" id="0b8bbc731cf91ae326dfbbbf4da99de8_e2c737384c29353ed1c087dff5006816" file="2" linestart="32" lineend="32" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~FerretGame" id="0b8bbc731cf91ae326dfbbbf4da99de8_5a424577e666cf99dd6283a51f6c4b37" file="2" linestart="33" lineend="33" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="isRunning" id="0b8bbc731cf91ae326dfbbbf4da99de8_01f1041928d14a826946d01f1de8ce24" file="2" linestart="35" lineend="35" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="GetElapsedSeconds" id="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561" file="2" linestart="37" lineend="37" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="float">
+<bt name="float"/>
+</fpt>
+</m>
+<m name="GetSceneGraph" id="0b8bbc731cf91ae326dfbbbf4da99de8_8b90238f15b213ac4324c7f5fd950d16" file="2" linestart="39" lineend="39" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="Scenegraph *">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="39" cb="30" le="39" ce="51">
+<rx lb="39" cb="32" le="39" ce="39" pvirg="true">
+<n32 lb="39" cb="39">
+<mex lb="39" cb="39" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_7d70f3d17c00177ba51b2862349082ab" nm="sceneGraph" arrow="1">
+<n19 lb="39" cb="39"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Input" id="0b8bbc731cf91ae326dfbbbf4da99de8_8a498f199e3fd19878d26826719d1a2e" file="2" linestart="40" lineend="40" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="40" cb="21" le="40" ce="43">
+<rx lb="40" cb="23" le="40" ce="30" pvirg="true">
+<n32 lb="40" cb="30">
+<mex lb="40" cb="30" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_2ae77fc32120af6a2457b10051b268b6" nm="theInputMgr" arrow="1">
+<n19 lb="40" cb="30"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Text" id="0b8bbc731cf91ae326dfbbbf4da99de8_f52466262982ede531ae1b33eefd3bf8" file="2" linestart="41" lineend="41" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cFontMgr *">
+<pt>
+<rt>
+<cr id="8ce5c8cad69cf5321d960b06c1495c07_a8f8825e90267481e2bc89227744e2c4"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="41" cb="19" le="41" ce="37">
+<rx lb="41" cb="21" le="41" ce="28" pvirg="true">
+<n32 lb="41" cb="28">
+<mex lb="41" cb="28" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_80ad24f693cc4e6991f2f196854b32a1" nm="fontMgr" arrow="1">
+<n19 lb="41" cb="28"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Audio" id="0b8bbc731cf91ae326dfbbbf4da99de8_a98dc350bce5001e9576f8b3a6b3b9e8" file="2" linestart="42" lineend="42" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="cSoundMgr *">
+<pt>
+<rt>
+<cr id="dbfbdfb378e293600b4f5389cff16061_d7f408e245d21106b6e54718a67ead29"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="42" cb="21" le="42" ce="40">
+<rx lb="42" cb="23" le="42" ce="30" pvirg="true">
+<n32 lb="42" cb="30">
+<mex lb="42" cb="30" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_95d94d94977837f8ad98ad2b044daee9" nm="audioMgr" arrow="1">
+<n19 lb="42" cb="30"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Run" id="0b8bbc731cf91ae326dfbbbf4da99de8_3023ebf2b301d91b5192b3286d2c877f" file="2" linestart="44" lineend="44" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="Init" id="0b8bbc731cf91ae326dfbbbf4da99de8_e2ebb931d8d79a34b456588ab049e2ab" file="2" linestart="45" lineend="45" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="windowWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="windowHeight" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="BPP" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="FerretGame" id="0b8bbc731cf91ae326dfbbbf4da99de8_49e147319127d58f5a9b329cf1fc0706" file="2" linestart="10" lineend="10" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const FerretGame &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="0b8bbc731cf91ae326dfbbbf4da99de8_23ae848e7c639579a04a787830e803b3"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<v name="pInstance" proto="FerretGame *" isPtr="true" isLiteral="true" id="0f7abd03a039b35b20336ca15dcc5461_9662c8c62a55def9d842089b1472ccf9" file="1" linestart="3" lineend="3" storage="static" init="true" access2="none">
+<pt>
+<rt>
+<cr id="0b8bbc731cf91ae326dfbbbf4da99de8_23ae848e7c639579a04a787830e803b3"/>
+</rt>
+</pt>
+<Stmt>
+<n32 lb="3" cb="32">
+<n45 lb="3" cb="32">
+<flit/>
+</n45>
+</n32>
+
+</Stmt>
+</v>
+<c name="FerretGame" id="0f7abd03a039b35b20336ca15dcc5461_e2c737384c29353ed1c087dff5006816" file="1" linestart="5" lineend="7" previous="0b8bbc731cf91ae326dfbbbf4da99de8_e2c737384c29353ed1c087dff5006816" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="6" cb="1" le="7" ce="1"/>
+
+</Stmt>
+</c>
+<d name="~FerretGame" id="0f7abd03a039b35b20336ca15dcc5461_5a424577e666cf99dd6283a51f6c4b37" file="1" linestart="10" lineend="12" previous="0b8bbc731cf91ae326dfbbbf4da99de8_5a424577e666cf99dd6283a51f6c4b37" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="11" cb="1" le="12" ce="1"/>
+
+</Stmt>
+</d>
+<m name="GetElapsedSeconds" id="0f7abd03a039b35b20336ca15dcc5461_85922dd6258a6bb1513b5a13e4de7561" file="1" linestart="14" lineend="18" previous="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="float">
+<bt name="float"/>
+</fpt>
+<Stmt>
+<u lb="15" cb="1" le="18" ce="1">
+<dst lb="16" cb="2" le="16" ce="53">
+<exp pvirg="true"/>
+<Var nm="currentTime" value="true">
+<bt name="float"/>
+<xop lb="16" cb="22" le="16" ce="46" kind="/">
+<n26 lb="16" cb="22" le="16" ce="42">
+<n32 lb="16" cb="28" le="16" ce="41">
+<ce lb="16" cb="28" le="16" ce="41" nbparm="0" id="dc257e2b5e5d8c9ac34a9dc2ef52272e_e061dca899064911815159fbd2acd403">
+<exp pvirg="true"/>
+<n32 lb="16" cb="28">
+<drx lb="16" cb="28" kind="lvalue" id="dc257e2b5e5d8c9ac34a9dc2ef52272e_e061dca899064911815159fbd2acd403" nm="GetTickCount"/>
+</n32>
+</ce>
+</n32>
+</n26>
+<n40 lb="16" cb="46">
+<flit/>
+</n40>
+</xop>
+</Var>
+</dst>
+<rx lb="17" cb="2" le="17" ce="9" pvirg="true">
+<n32 lb="17" cb="9">
+<drx lb="17" cb="9" kind="lvalue" nm="currentTime"/>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Init" id="0f7abd03a039b35b20336ca15dcc5461_e2ebb931d8d79a34b456588ab049e2ab" file="1" linestart="20" lineend="70" previous="0b8bbc731cf91ae326dfbbbf4da99de8_e2ebb931d8d79a34b456588ab049e2ab" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="windowWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="windowHeight" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="BPP" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="21" cb="1" le="70" ce="1">
+<xop lb="23" cb="2" le="23" ce="36" kind="=">
+<mex lb="23" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="23" cb="2"/>
+</mex>
+<ce lb="23" cb="11" le="23" ce="36" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_073c818a77feb093d7a6f41c604c9e25">
+<exp pvirg="true"/>
+<n32 lb="23" cb="11" le="23" ce="24">
+<drx lb="23" cb="11" le="23" ce="24" kind="lvalue" id="fdd628f40d6689b3f612b98d4cd8f518_073c818a77feb093d7a6f41c604c9e25" nm="getInstance"/>
+</n32>
+</ce>
+</xop>
+<dst lb="26" cb="2" le="26" ce="21">
+<exp pvirg="true"/>
+<Var nm="theOGLWnd" value="true">
+<rt>
+<cr id="5c67ba9747117b1c6a81bdc2fd6ac0ba_d6a2ffa37bdf20d91b82e293ed1b2ab9"/>
+</rt>
+<n10 lb="26" cb="12">
+<typeptr id="5c67ba9747117b1c6a81bdc2fd6ac0ba_887a1fc5ea8809051b61aefd09c4de58"/>
+<temp/>
+</n10>
+</Var>
+</dst>
+<xop lb="29" cb="2" le="29" ce="20" kind="=">
+<mex lb="29" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_2ae77fc32120af6a2457b10051b268b6" nm="theInputMgr" arrow="1">
+<n19 lb="29" cb="2"/>
+</mex>
+<new lb="29" cb="16" le="29" ce="20">
+<typeptr id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd"/>
+<exp pvirg="true"/>
+<n10 lb="29" cb="20">
+<typeptr id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd"/>
+<temp/>
+</n10>
+</new>
+</xop>
+<mce lb="30" cb="2" le="30" ce="36" nbparm="1" id="fdd628f40d6689b3f612b98d4cd8f518_2d076ea34a51c18ef69e7683dcfb051b">
+<exp pvirg="true"/>
+<mex lb="30" cb="2" le="30" ce="10" id="fdd628f40d6689b3f612b98d4cd8f518_2d076ea34a51c18ef69e7683dcfb051b" nm="attachInputMgr" arrow="1">
+<n32 lb="30" cb="2">
+<mex lb="30" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="30" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="30" cb="25">
+<mex lb="30" cb="25" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_2ae77fc32120af6a2457b10051b268b6" nm="theInputMgr" arrow="1">
+<n19 lb="30" cb="25"/>
+</mex>
+</n32>
+</mce>
+<if lb="33" cb="2" le="40" ce="2">
+<uo lb="33" cb="6" le="33" ce="55" kind="!">
+<mce lb="33" cb="7" le="33" ce="55" nbparm="3" id="fdd628f40d6689b3f612b98d4cd8f518_573320b79e23e62decbe24c37330d849">
+<exp pvirg="true"/>
+<mex lb="33" cb="7" le="33" ce="15" id="fdd628f40d6689b3f612b98d4cd8f518_573320b79e23e62decbe24c37330d849" nm="createWND" arrow="1">
+<n32 lb="33" cb="7">
+<mex lb="33" cb="7" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="33" cb="7"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="33" cb="25">
+<drx lb="33" cb="25" kind="lvalue" nm="windowWidth"/>
+</n32>
+<n32 lb="33" cb="38">
+<drx lb="33" cb="38" kind="lvalue" nm="windowHeight"/>
+</n32>
+<n32 lb="33" cb="52">
+<drx lb="33" cb="52" kind="lvalue" nm="BPP"/>
+</n32>
+</mce>
+</uo>
+<u lb="34" cb="2" le="40" ce="2">
+<mce lb="38" cb="3" le="38" ce="22" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9">
+<exp pvirg="true"/>
+<mex lb="38" cb="3" le="38" ce="11" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9" nm="destroyWND" arrow="1">
+<n32 lb="38" cb="3">
+<mex lb="38" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="38" cb="3"/>
+</mex>
+</n32>
+</mex>
+</mce>
+<rx lb="39" cb="3" pvirg="true"/>
+</u>
+</if>
+<if lb="42" cb="2" le="47" ce="2">
+<uo lb="42" cb="6" le="42" ce="50" kind="!">
+<mce lb="42" cb="7" le="42" ce="50" nbparm="2" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_587aa14c3ae4128140e90fd9e9f3a015">
+<exp pvirg="true"/>
+<mex lb="42" cb="7" le="42" ce="17" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_587aa14c3ae4128140e90fd9e9f3a015" nm="initOGL" point="1">
+<drx lb="42" cb="7" kind="lvalue" nm="theOGLWnd"/>
+</mex>
+<n32 lb="42" cb="25">
+<drx lb="42" cb="25" kind="lvalue" nm="windowWidth"/>
+</n32>
+<n32 lb="42" cb="38">
+<drx lb="42" cb="38" kind="lvalue" nm="windowHeight"/>
+</n32>
+</mce>
+</uo>
+<u lb="43" cb="2" le="47" ce="2">
+<mce lb="45" cb="3" le="45" ce="22" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9">
+<exp pvirg="true"/>
+<mex lb="45" cb="3" le="45" ce="11" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9" nm="destroyWND" arrow="1">
+<n32 lb="45" cb="3">
+<mex lb="45" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="45" cb="3"/>
+</mex>
+</n32>
+</mex>
+</mce>
+<rx lb="46" cb="3" pvirg="true"/>
+</u>
+</if>
+<xop lb="49" cb="2" le="49" ce="19" kind="=">
+<mex lb="49" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_7d70f3d17c00177ba51b2862349082ab" nm="sceneGraph" arrow="1">
+<n19 lb="49" cb="2"/>
+</mex>
+<new lb="49" cb="15" le="49" ce="19">
+<typeptr id="5a824d0dd6dd18987632e6b7e8cdc0c0_baf63877ed63f9aecb41790f33b7bf7c"/>
+<exp pvirg="true"/>
+<n10 lb="49" cb="19">
+<typeptr id="5a824d0dd6dd18987632e6b7e8cdc0c0_baf63877ed63f9aecb41790f33b7bf7c"/>
+<temp/>
+</n10>
+</new>
+</xop>
+<xop lb="52" cb="2" le="52" ce="18" kind="=">
+<mex lb="52" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_31ccaed5f7796cf85742a4f142a766a1" nm="renderSys" arrow="1">
+<n19 lb="52" cb="2"/>
+</mex>
+<new lb="52" cb="14" le="52" ce="18">
+<typeptr id="964dcf4da91ef26b8a42a9773bf40926_734cf7607bd3397745d4b0777f29da32"/>
+<exp pvirg="true"/>
+<n10 lb="52" cb="18">
+<typeptr id="964dcf4da91ef26b8a42a9773bf40926_734cf7607bd3397745d4b0777f29da32"/>
+<temp/>
+</n10>
+</new>
+</xop>
+<xop lb="58" cb="2" le="58" ce="17" kind="=">
+<mex lb="58" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_95d94d94977837f8ad98ad2b044daee9" nm="audioMgr" arrow="1">
+<n19 lb="58" cb="2"/>
+</mex>
+<new lb="58" cb="13" le="58" ce="17">
+<typeptr id="dbfbdfb378e293600b4f5389cff16061_157ee3be4856af852c3f4998f40e866a"/>
+<exp pvirg="true"/>
+<n10 lb="58" cb="17">
+<typeptr id="dbfbdfb378e293600b4f5389cff16061_157ee3be4856af852c3f4998f40e866a"/>
+<temp/>
+</n10>
+</new>
+</xop>
+<dst lb="61" cb="2" le="61" ce="51">
+<exp pvirg="true"/>
+<Var nm="theInputMgr">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+<ce lb="61" cb="27" le="61" ce="50" nbparm="0" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde">
+<exp pvirg="true"/>
+<n32 lb="61" cb="27" le="61" ce="38">
+<drx lb="61" cb="27" le="61" ce="38" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" nm="getInstance"/>
+</n32>
+</ce>
+</Var>
+</dst>
+<mce lb="63" cb="2" le="63" ce="92" nbparm="1" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14">
+<exp pvirg="true"/>
+<mex lb="63" cb="2" le="63" ce="15" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" nm="clearBuffers" arrow="1">
+<n32 lb="63" cb="2">
+<drx lb="63" cb="2" kind="lvalue" nm="theInputMgr"/>
+</n32>
+</mex>
+<n32 lb="63" cb="28" le="63" ce="73">
+<xop lb="63" cb="28" le="63" ce="73" kind="|">
+<n32 lb="63" cb="28" le="63" ce="41">
+<n32 lb="63" cb="28" le="63" ce="41">
+<mex lb="63" cb="28" le="63" ce="41" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" nm="KEYS_DOWN_BUFFER" arrow="1">
+<n32 lb="63" cb="28">
+<drx lb="63" cb="28" kind="lvalue" nm="theInputMgr"/>
+</n32>
+</mex>
+</n32>
+</n32>
+<n32 lb="63" cb="60" le="63" ce="73">
+<n32 lb="63" cb="60" le="63" ce="73">
+<mex lb="63" cb="60" le="63" ce="73" kind="lvalue" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" nm="KEYS_PRESSED_BUFFER" arrow="1">
+<n32 lb="63" cb="60">
+<drx lb="63" cb="60" kind="lvalue" nm="theInputMgr"/>
+</n32>
+</mex>
+</n32>
+</n32>
+</xop>
+</n32>
+</mce>
+<xop lb="66" cb="2" le="66" ce="21" kind="=">
+<mex lb="66" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_541317d1b2168e75e7de0bc491053080" nm="behaviourSys" arrow="1">
+<n19 lb="66" cb="2"/>
+</mex>
+<new lb="66" cb="17" le="66" ce="21">
+<typeptr id="d2625f60a712817666c4c4c0638ade98_7829e2de8530ab875da55196ff1e2563"/>
+<exp pvirg="true"/>
+<n10 lb="66" cb="21">
+<typeptr id="d2625f60a712817666c4c4c0638ade98_7829e2de8530ab875da55196ff1e2563"/>
+<temp/>
+</n10>
+</new>
+</xop>
+<xop lb="69" cb="2" le="69" ce="21" kind="=">
+<mex lb="69" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_e9faf63e09ac4d7397b65863cd614aa4" nm="collisionSys" arrow="1">
+<n19 lb="69" cb="2"/>
+</mex>
+<new lb="69" cb="17" le="69" ce="21">
+<typeptr id="22bb5bf19453be097a60eb72c4d2aff8_f828417384cdbf9824c1d32d6887e990"/>
+<exp pvirg="true"/>
+<n10 lb="69" cb="21">
+<typeptr id="22bb5bf19453be097a60eb72c4d2aff8_f828417384cdbf9824c1d32d6887e990"/>
+<temp/>
+</n10>
+</new>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="isRunning" id="0f7abd03a039b35b20336ca15dcc5461_01f1041928d14a826946d01f1de8ce24" file="1" linestart="72" lineend="75" previous="0b8bbc731cf91ae326dfbbbf4da99de8_01f1041928d14a826946d01f1de8ce24" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<Stmt>
+<u lb="73" cb="1" le="75" ce="1">
+<rx lb="74" cb="2" le="74" ce="9" pvirg="true">
+<n32 lb="74" cb="9">
+<mex lb="74" cb="9" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_5ecf1c4544b51daf6126eab1130a7cae" nm="m_isRunning" arrow="1">
+<n19 lb="74" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Run" id="0f7abd03a039b35b20336ca15dcc5461_3023ebf2b301d91b5192b3286d2c877f" file="1" linestart="77" lineend="115" previous="0b8bbc731cf91ae326dfbbbf4da99de8_3023ebf2b301d91b5192b3286d2c877f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="78" cb="1" le="115" ce="1">
+<xop lb="79" cb="2" le="79" ce="16" kind="=">
+<mex lb="79" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_5ecf1c4544b51daf6126eab1130a7cae" nm="m_isRunning" arrow="1">
+<n19 lb="79" cb="2"/>
+</mex>
+<n9 lb="79" cb="16"/>
+</xop>
+<dst lb="84" cb="2" le="84" ce="37">
+<exp pvirg="true"/>
+<Var nm="oldTime" value="true">
+<bt name="float"/>
+<mce lb="84" cb="18" le="84" ce="36" nbparm="0" id="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561">
+<exp pvirg="true"/>
+<mex lb="84" cb="18" id="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561" nm="GetElapsedSeconds" arrow="1">
+<n19 lb="84" cb="18"/>
+</mex>
+</mce>
+</Var>
+</dst>
+<wy lb="86" cb="2" le="110" ce="2">
+<mce lb="86" cb="9" le="86" ce="19" nbparm="0" id="0b8bbc731cf91ae326dfbbbf4da99de8_01f1041928d14a826946d01f1de8ce24">
+<exp pvirg="true"/>
+<mex lb="86" cb="9" id="0b8bbc731cf91ae326dfbbbf4da99de8_01f1041928d14a826946d01f1de8ce24" nm="isRunning" arrow="1">
+<n19 lb="86" cb="9"/>
+</mex>
+</mce>
+<u lb="87" cb="2" le="110" ce="2">
+<dst lb="88" cb="3" le="88" ce="38">
+<exp pvirg="true"/>
+<Var nm="newTime" value="true">
+<bt name="float"/>
+<mce lb="88" cb="19" le="88" ce="37" nbparm="0" id="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561">
+<exp pvirg="true"/>
+<mex lb="88" cb="19" id="0b8bbc731cf91ae326dfbbbf4da99de8_85922dd6258a6bb1513b5a13e4de7561" nm="GetElapsedSeconds" arrow="1">
+<n19 lb="88" cb="19"/>
+</mex>
+</mce>
+</Var>
+</dst>
+<xop lb="89" cb="3" le="89" ce="25" kind="=">
+<mex lb="89" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_121af237e4f247f7cc0a204427e85eb1" nm="deltaTime" arrow="1">
+<n19 lb="89" cb="3"/>
+</mex>
+<xop lb="89" cb="15" le="89" ce="25" kind="-">
+<n32 lb="89" cb="15">
+<drx lb="89" cb="15" kind="lvalue" nm="newTime"/>
+</n32>
+<n32 lb="89" cb="25">
+<drx lb="89" cb="25" kind="lvalue" nm="oldTime"/>
+</n32>
+</xop>
+</xop>
+<mce lb="91" cb="3" le="91" ce="28" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_ee0a18d9868845c06b04d84d5be08959">
+<exp pvirg="true"/>
+<mex lb="91" cb="3" le="91" ce="11" id="fdd628f40d6689b3f612b98d4cd8f518_ee0a18d9868845c06b04d84d5be08959" nm="processWNDEvents" arrow="1">
+<n32 lb="91" cb="3">
+<mex lb="91" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="91" cb="3"/>
+</mex>
+</n32>
+</mex>
+</mce>
+<mce lb="94" cb="3" le="94" ce="33" nbparm="1" id="d2625f60a712817666c4c4c0638ade98_bc537b6274cc63505693e20dcd9b4aee">
+<exp pvirg="true"/>
+<mex lb="94" cb="3" le="94" ce="17" id="d2625f60a712817666c4c4c0638ade98_bc537b6274cc63505693e20dcd9b4aee" nm="Update" arrow="1">
+<n32 lb="94" cb="3">
+<mex lb="94" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_541317d1b2168e75e7de0bc491053080" nm="behaviourSys" arrow="1">
+<n19 lb="94" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="94" cb="24">
+<mex lb="94" cb="24" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_121af237e4f247f7cc0a204427e85eb1" nm="deltaTime" arrow="1">
+<n19 lb="94" cb="24"/>
+</mex>
+</n32>
+</mce>
+<mce lb="97" cb="3" le="97" ce="34" nbparm="1" id="22bb5bf19453be097a60eb72c4d2aff8_7fbdbad17049ffa5d339901ca7ddb16a">
+<exp pvirg="true"/>
+<mex lb="97" cb="3" le="97" ce="17" id="22bb5bf19453be097a60eb72c4d2aff8_7fbdbad17049ffa5d339901ca7ddb16a" nm="Update" arrow="1">
+<n32 lb="97" cb="3">
+<mex lb="97" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_e9faf63e09ac4d7397b65863cd614aa4" nm="collisionSys" arrow="1">
+<n19 lb="97" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="97" cb="24">
+<mex lb="97" cb="24" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_7d70f3d17c00177ba51b2862349082ab" nm="sceneGraph" arrow="1">
+<n19 lb="97" cb="24"/>
+</mex>
+</n32>
+</mce>
+<ce lb="99" cb="3" le="99" ce="52" nbparm="1" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320">
+<exp pvirg="true"/>
+<n32 lb="99" cb="3">
+<drx lb="99" cb="3" kind="lvalue" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320" nm="glClear"/>
+</n32>
+<n32 lb="99" cb="11" le="99" ce="33">
+<xop lb="99" cb="11" le="99" ce="33" kind="|">
+<n45 lb="99" cb="11">
+<flit/>
+</n45>
+<n45 lb="99" cb="33">
+<flit/>
+</n45>
+</xop>
+</n32>
+</ce>
+<mce lb="101" cb="3" le="101" ce="31" nbparm="1" id="964dcf4da91ef26b8a42a9773bf40926_e532575b3033e20e431575154a7d8ac8">
+<exp pvirg="true"/>
+<mex lb="101" cb="3" le="101" ce="14" id="964dcf4da91ef26b8a42a9773bf40926_e532575b3033e20e431575154a7d8ac8" nm="Render" arrow="1">
+<n32 lb="101" cb="3">
+<mex lb="101" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_31ccaed5f7796cf85742a4f142a766a1" nm="renderSys" arrow="1">
+<n19 lb="101" cb="3"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="101" cb="21">
+<mex lb="101" cb="21" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_7d70f3d17c00177ba51b2862349082ab" nm="sceneGraph" arrow="1">
+<n19 lb="101" cb="21"/>
+</mex>
+</n32>
+</mce>
+<mce lb="102" cb="3" le="102" ce="23" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_8c209d70d4ed34d5cf30066a6a5fa05b">
+<exp pvirg="true"/>
+<mex lb="102" cb="3" le="102" ce="11" id="fdd628f40d6689b3f612b98d4cd8f518_8c209d70d4ed34d5cf30066a6a5fa05b" nm="swapBuffers" arrow="1">
+<n32 lb="102" cb="3">
+<mex lb="102" cb="3" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="102" cb="3"/>
+</mex>
+</n32>
+</mex>
+</mce>
+<if lb="103" cb="3" le="106" ce="3">
+<uo lb="103" cb="7" le="103" ce="29" kind="!">
+<mce lb="103" cb="8" le="103" ce="29" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_6ffac447608b0272cb10d00b8024efa8">
+<exp pvirg="true"/>
+<mex lb="103" cb="8" le="103" ce="16" id="fdd628f40d6689b3f612b98d4cd8f518_6ffac447608b0272cb10d00b8024efa8" nm="isWNDRunning" arrow="1">
+<n32 lb="103" cb="8">
+<mex lb="103" cb="8" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="103" cb="8"/>
+</mex>
+</n32>
+</mex>
+</mce>
+</uo>
+<u lb="104" cb="3" le="106" ce="3">
+<xop lb="105" cb="4" le="105" ce="18" kind="=">
+<mex lb="105" cb="4" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_5ecf1c4544b51daf6126eab1130a7cae" nm="m_isRunning" arrow="1">
+<n19 lb="105" cb="4"/>
+</mex>
+<n9 lb="105" cb="18"/>
+</xop>
+</u>
+</if>
+<xop lb="109" cb="3" le="109" ce="13" kind="=">
+<drx lb="109" cb="3" kind="lvalue" nm="oldTime"/>
+<n32 lb="109" cb="13">
+<drx lb="109" cb="13" kind="lvalue" nm="newTime"/>
+</n32>
+</xop>
+</u>
+</wy>
+<mce lb="113" cb="2" le="113" ce="21" nbparm="0" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9">
+<exp pvirg="true"/>
+<mex lb="113" cb="2" le="113" ce="10" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9" nm="destroyWND" arrow="1">
+<n32 lb="113" cb="2">
+<mex lb="113" cb="2" kind="lvalue" id="0b8bbc731cf91ae326dfbbbf4da99de8_acc0fbcb771a5ac2562258c6880c5cc5" nm="window" arrow="1">
+<n19 lb="113" cb="2"/>
+</mex>
+</n32>
+</mex>
+</mce>
+<rx lb="114" cb="2" le="114" ce="9" pvirg="true">
+<n45 lb="114" cb="9">
+<flit/>
+</n45>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

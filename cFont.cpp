@@ -65,5 +65,9 @@ Render the text using the desired font
 */
 void cFont::printText(LPCSTR text, FTPoint textPos)
 {
-	renderSystem->RenderFont(theFont, text, textPos);
+	glPushMatrix();
+
+	theFont->Render(text, -1, textPos);
+
+	glPopMatrix();
 }

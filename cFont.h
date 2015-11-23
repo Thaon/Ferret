@@ -10,18 +10,14 @@ cFont.h
 #include <map>
 #include <FTGL\ftgl.h>
 
-#include "RenderSystem.h"
-
 class cFont
 {
 private:
 	FTFont* theFont;
 
-	RenderSystem* renderSystem;
-
 public:
 	cFont();
-	cFont(LPCSTR fontFileName, int fontSize, RenderSystem* renderSys);
+	cFont(LPCSTR fontFileName, int fontSize);
 	~cFont();
 	FTFont* getFont();
 	void printText(LPCSTR text, FTPoint textPos);

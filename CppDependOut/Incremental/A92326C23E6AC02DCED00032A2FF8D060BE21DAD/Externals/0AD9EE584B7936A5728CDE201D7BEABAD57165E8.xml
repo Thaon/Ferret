@@ -1,0 +1,181 @@
+<Externals>
+<f name="glBindTexture" id="33c672c5ccce976484cd3521ee4ffa73_1be04bfaa50b01cc1b0ad8f21985bca2" file="3" linestart="1162" lineend="1162" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="target" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="texture" proto="GLuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glGenTextures" id="33c672c5ccce976484cd3521ee4ffa73_2276ce224e4031b73b46306323abbb35" file="3" linestart="1255" lineend="1255" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="n" proto="GLsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="textures" proto="GLuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="glTexImage2D" id="33c672c5ccce976484cd3521ee4ffa73_a47135ab735b501e308ba08f62b26473" file="3" linestart="1458" lineend="1458" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="target" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="level" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="internalformat" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="width" proto="GLsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="height" proto="GLsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="border" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="format" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="type" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="pixels" proto="const GLvoid *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="void"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="glTexParameteri" id="33c672c5ccce976484cd3521ee4ffa73_624f8222cba6bca213c0533337cf1934" file="3" linestart="1461" lineend="1461" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="target" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="pname" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="param" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+<f name="ilBindImage" id="4a7d8cb7048914f11547a6bcb10a2d8b_58ec2ed3c70849d6929e4942ddf4fa52" file="4" linestart="535" lineend="535" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="Image" proto="ILuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="ilConvertImage" id="4a7d8cb7048914f11547a6bcb10a2d8b_1d6ea92e2ba6187eed04cff05f31c668" file="4" linestart="543" lineend="543" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="DestFormat" proto="ILenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="DestType" proto="ILenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="ilDeleteImages" id="4a7d8cb7048914f11547a6bcb10a2d8b_d9d13f81fd5429a6a23ef549b19eb0ee" file="4" linestart="550" lineend="550" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="Num" proto="ILsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+</p>
+<p name="Images" proto="const ILuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="ilGenImages" id="4a7d8cb7048914f11547a6bcb10a2d8b_fcd17f8399ad107b689a06985393b3fe" file="4" linestart="560" lineend="560" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="Num" proto="ILsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</Tdef>
+</p>
+<p name="Images" proto="ILuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="ilGetData" id="4a7d8cb7048914f11547a6bcb10a2d8b_afdbe777b46439baadf278eefabe38de" file="4" linestart="565" lineend="565" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="ilGetInteger" id="4a7d8cb7048914f11547a6bcb10a2d8b_429e5831ebcd091bea587c2606032850" file="4" linestart="568" lineend="568" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="Mode" proto="ILenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="ilInit" id="4a7d8cb7048914f11547a6bcb10a2d8b_dad35e8173c41de36838701b6bdb750e" file="4" linestart="575" lineend="575" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="ilLoadImage" id="4a7d8cb7048914f11547a6bcb10a2d8b_6cbdad3206004b8e669d011617be2cb8" file="4" linestart="586" lineend="586" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="FileName" proto="const wchar_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="wchar_t"/>
+</QualType>
+</pt>
+</p>
+</f>
+</Externals>

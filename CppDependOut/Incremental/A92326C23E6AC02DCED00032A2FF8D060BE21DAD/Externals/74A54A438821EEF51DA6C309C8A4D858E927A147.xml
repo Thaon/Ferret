@@ -1,0 +1,4 @@
+<Externals>
+<cr access="none" kind="class" name="Entity" id="65dcaf2c10ae193c00d93b2b6839564c_a55938086881fbc64904917eaa62abf0" file="2" linestart="10" lineend="10"/>
+<cr access="public" depth="0" kind="class" name="BehaviourComponent" id="65dcaf2c10ae193c00d93b2b6839564c_4b49dca6b8a9aa3b9445729e4de4728c" file="2" linestart="12" lineend="42"/>
+</Externals>

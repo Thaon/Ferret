@@ -1,0 +1,47 @@
+<Root>
+<Comments/>
+<Macros/>
+<tun>
+<cr access="public" depth="1" kind="class" name="HelloBehaviour" id="e2c5df0d32dd7223b78a9d64ac1e8daa_e0c77d8a3c9aa079b4c15cff01e526e6" file="1" linestart="4" lineend="11">
+<base access="public">
+<rt>
+<cr id="65dcaf2c10ae193c00d93b2b6839564c_4b49dca6b8a9aa3b9445729e4de4728c"/>
+</rt>
+</base>
+<cr access="public" kind="class" name="HelloBehaviour" id="e2c5df0d32dd7223b78a9d64ac1e8daa_d4a31f35703ba033f3cdb655711697f9" file="1" linestart="4" lineend="4"/>
+<asd access="public"/>
+<m name="Start" id="e2c5df0d32dd7223b78a9d64ac1e8daa_a9598af07b393ff6e2583db386498ab1" file="1" linestart="7" lineend="10" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="8" cb="2" le="10" ce="2">
+<ocx lb="9" cb="3" le="9" ce="16" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="9" cb="13">
+<drx lb="9" cb="13" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="9" cb="3" le="9" ce="8" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="9" cb="16">
+<n52 lb="9" cb="16">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tun>
+</Root>

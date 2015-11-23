@@ -1,0 +1,258 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="5"/>
+<c f="1" b="6" e="5"/>
+<c f="1" b="10" e="14"/>
+<c f="1" b="15" e="14"/>
+<c f="1" b="19" e="23"/>
+<c f="1" b="24" e="23"/>
+<c f="1" b="42" e="46"/>
+<c f="1" b="47" e="46"/>
+<c f="1" b="51" e="55"/>
+<c f="1" b="56" e="55"/>
+<c f="1" b="61" e="65"/>
+<c f="1" b="66" e="65"/>
+</Comments>
+<Macros>
+<m f="1" bl="17" bc="12" el="17" ec="12"/>
+<m f="1" bl="29" bc="17" el="29" ec="17"/>
+<m f="1" bl="31" bc="3" el="31" ec="3"/>
+<m f="1" bl="31" bc="14" el="31" ec="14"/>
+<m f="1" bl="31" bc="80" el="31" ec="80"/>
+<m f="1" bl="31" bc="95" el="31" ec="95"/>
+<m f="1" bl="37" bc="3" el="37" ec="3"/>
+<m f="1" bl="37" bc="14" el="37" ec="14"/>
+<m f="1" bl="37" bc="81" el="37" ec="81"/>
+<m f="1" bl="37" bc="96" el="37" ec="96"/>
+</Macros>
+<Comments>
+<c f="2" b="1" e="5"/>
+<c f="2" b="7" e="5"/>
+</Comments>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6" file="2" linestart="13" lineend="25">
+<cr access="public" kind="class" name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_83e25bf3e06b41e19b692543638d660f" file="2" linestart="13" lineend="13"/>
+<asd access="private"/>
+<fl name="theFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" file="2" linestart="16" lineend="16" isPtr="true" isLiteral="true" access="private" proto="FTFont *">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+</fl>
+<asd access="public"/>
+<c name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2a154666c56cda0a8181c09f62de254c" file="2" linestart="19" lineend="19" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2ddb35ea1a1cb00c90983422d86a49d6" file="2" linestart="20" lineend="20" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="fontFileName" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="fontSize" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<d name="~cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_2e759a3059ab236ecf5f038776508163" file="2" linestart="21" lineend="21" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="getFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_9582edc4eecfb734d506b97a3c2e346f" file="2" linestart="22" lineend="22" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="FTFont *">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="printText" id="1b1c8261cbde8e9a6d774f8d6ad05095_56fb8d4c9f3e7853461608713cccc547" file="2" linestart="23" lineend="23" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="text" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textPos" proto="FTPoint" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="cFont" id="1b1c8261cbde8e9a6d774f8d6ad05095_a58c79a70ca629f39393e9552aaf1abe" file="2" linestart="13" lineend="13" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cFont &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="1b1c8261cbde8e9a6d774f8d6ad05095_fcd139915e49927d682498fbe25a39f6"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<NamedDecl name="&lt;using-directive&gt;" id="3425dd019f1314ad9d797390b9ceff60_6728b6b0f829183eb7bbd3d3d987c87d" file="1" linestart="8" lineend="8"/>
+<c name="cFont" id="3425dd019f1314ad9d797390b9ceff60_2a154666c56cda0a8181c09f62de254c" file="1" linestart="15" lineend="18" previous="1b1c8261cbde8e9a6d774f8d6ad05095_2a154666c56cda0a8181c09f62de254c" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="16" cb="1" le="18" ce="1">
+<xop lb="17" cb="2" le="17" ce="12" kind="=">
+<mex lb="17" cb="2" kind="lvalue" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" nm="theFont" arrow="1">
+<n19 lb="17" cb="2"/>
+</mex>
+<n32 lb="17" cb="12">
+<n45 lb="17" cb="12">
+<flit/>
+</n45>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<d name="~cFont" id="3425dd019f1314ad9d797390b9ceff60_2e759a3059ab236ecf5f038776508163" file="1" linestart="47" lineend="50" previous="1b1c8261cbde8e9a6d774f8d6ad05095_2e759a3059ab236ecf5f038776508163" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="48" cb="1" le="50" ce="1">
+<n13 lb="49" cb="2" le="49" ce="9">
+<exp pvirg="true"/>
+<n32 lb="49" cb="9">
+<mex lb="49" cb="9" kind="lvalue" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" nm="theFont" arrow="1">
+<n19 lb="49" cb="9"/>
+</mex>
+</n32>
+</n13>
+</u>
+
+</Stmt>
+</d>
+<m name="getFont" id="3425dd019f1314ad9d797390b9ceff60_9582edc4eecfb734d506b97a3c2e346f" file="1" linestart="56" lineend="59" previous="1b1c8261cbde8e9a6d774f8d6ad05095_9582edc4eecfb734d506b97a3c2e346f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="FTFont *">
+<pt>
+<rt>
+<cr id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="57" cb="1" le="59" ce="1">
+<rx lb="58" cb="2" le="58" ce="9" pvirg="true">
+<n32 lb="58" cb="9">
+<mex lb="58" cb="9" kind="lvalue" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" nm="theFont" arrow="1">
+<n19 lb="58" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="printText" id="3425dd019f1314ad9d797390b9ceff60_56fb8d4c9f3e7853461608713cccc547" file="1" linestart="66" lineend="73" previous="1b1c8261cbde8e9a6d774f8d6ad05095_56fb8d4c9f3e7853461608713cccc547" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="text" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textPos" proto="FTPoint" access2="none">
+<rt>
+<cr id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393"/>
+</rt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="67" cb="1" le="73" ce="1">
+<mce lb="70" cb="2" le="70" ce="35" nbparm="5" id="af2e25b84712f6ad6da553b30cee5d51_6e61d0d8ab697c99fb17265baa5a6f54">
+<exp pvirg="true"/>
+<mex lb="70" cb="2" le="70" ce="11" id="af2e25b84712f6ad6da553b30cee5d51_6e61d0d8ab697c99fb17265baa5a6f54" nm="Render" arrow="1">
+<n32 lb="70" cb="2">
+<mex lb="70" cb="2" kind="lvalue" id="1b1c8261cbde8e9a6d774f8d6ad05095_c27ce1532f6a73c719395303ef0280a7" nm="theFont" arrow="1">
+<n19 lb="70" cb="2"/>
+</mex>
+</n32>
+</mex>
+<n32 lb="70" cb="18">
+<drx lb="70" cb="18" kind="lvalue" nm="text"/>
+</n32>
+<uo lb="70" cb="24" le="70" ce="25" kind="-">
+<n45 lb="70" cb="25">
+<flit/>
+</n45>
+</uo>
+<n10 lb="70" cb="28">
+<typeptr id="36333ea59dacc6aaabc9b7c667f5a491_eb7a53f18c854f39241f37bbf8d6e2ac"/>
+<temp/>
+<n32 lb="70" cb="28">
+<drx lb="70" cb="28" kind="lvalue" nm="textPos"/>
+</n32>
+</n10>
+<n12>
+<exp pvirg="true"/>
+</n12>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</mce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

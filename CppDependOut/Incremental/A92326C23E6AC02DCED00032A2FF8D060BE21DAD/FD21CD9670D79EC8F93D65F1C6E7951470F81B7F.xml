@@ -1,0 +1,901 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="5"/>
+<c f="1" b="6" e="5"/>
+<c f="1" b="11" e="11"/>
+<c f="1" b="12" e="11"/>
+<c f="1" b="12" e="12"/>
+<c f="1" b="13" e="12"/>
+<c f="1" b="13" e="13"/>
+<c f="1" b="14" e="13"/>
+<c f="1" b="14" e="14"/>
+<c f="1" b="15" e="14"/>
+<c f="1" b="15" e="15"/>
+<c f="1" b="17" e="15"/>
+<c f="1" b="27" e="27"/>
+<c f="1" b="28" e="27"/>
+<c f="1" b="29" e="29"/>
+<c f="1" b="30" e="29"/>
+<c f="1" b="30" e="30"/>
+<c f="1" b="32" e="32"/>
+<c f="1" b="33" e="32"/>
+<c f="1" b="35" e="35"/>
+<c f="1" b="36" e="35"/>
+<c f="1" b="38" e="38"/>
+<c f="1" b="39" e="38"/>
+<c f="1" b="41" e="41"/>
+<c f="1" b="42" e="41"/>
+<c f="1" b="44" e="44"/>
+<c f="1" b="45" e="44"/>
+<c f="1" b="47" e="47"/>
+<c f="1" b="48" e="47"/>
+<c f="1" b="64" e="64"/>
+<c f="1" b="65" e="64"/>
+<c f="1" b="70" e="70"/>
+<c f="1" b="71" e="70"/>
+<c f="1" b="85" e="85"/>
+<c f="1" b="86" e="85"/>
+<c f="1" b="88" e="88"/>
+<c f="1" b="89" e="88"/>
+<c f="1" b="91" e="91"/>
+<c f="1" b="92" e="91"/>
+</Comments>
+<Macros>
+<m f="1" bl="11" bc="14" el="11" ec="14"/>
+<m f="1" bl="45" bc="25" el="45" ec="25"/>
+<m f="1" bl="62" bc="34" el="62" ec="34"/>
+<m f="1" bl="77" bc="28" el="77" ec="28"/>
+<m f="1" bl="78" bc="15" el="78" ec="15"/>
+<m f="1" bl="89" bc="24" el="89" ec="24"/>
+</Macros>
+<Comments>
+<c f="2" b="1" e="5"/>
+<c f="2" b="7" e="5"/>
+<c f="2" b="9" e="9"/>
+<c f="2" b="10" e="9"/>
+<c f="2" b="22" e="22"/>
+<c f="2" b="23" e="22"/>
+<c f="2" b="23" e="23"/>
+<c f="2" b="24" e="23"/>
+<c f="2" b="24" e="24"/>
+<c f="2" b="25" e="24"/>
+<c f="2" b="25" e="25"/>
+<c f="2" b="26" e="25"/>
+<c f="2" b="26" e="26"/>
+<c f="2" b="27" e="26"/>
+<c f="2" b="27" e="27"/>
+<c f="2" b="28" e="27"/>
+<c f="2" b="28" e="28"/>
+<c f="2" b="29" e="28"/>
+<c f="2" b="29" e="29"/>
+<c f="2" b="30" e="29"/>
+<c f="2" b="30" e="30"/>
+<c f="2" b="31" e="30"/>
+<c f="2" b="31" e="31"/>
+<c f="2" b="32" e="31"/>
+<c f="2" b="32" e="32"/>
+<c f="2" b="33" e="32"/>
+<c f="2" b="33" e="33"/>
+<c f="2" b="34" e="33"/>
+<c f="2" b="34" e="34"/>
+<c f="2" b="36" e="34"/>
+</Comments>
+<Macros/>
+<tun>
+<NamedDecl name="&lt;using-directive&gt;" id="a10dc6eeef41eceb389744a3dd5a06e7_6728b6b0f829183eb7bbd3d3d987c87d" file="2" linestart="16" lineend="16"/>
+<cr access="none" depth="0" kind="class" name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699" file="2" linestart="18" lineend="55">
+<cr access="public" kind="class" name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_6dedc88d3dd630fedcb0c36bec75bf1a" file="2" linestart="18" lineend="18"/>
+<asd access="private"/>
+<fl name="m_OALData" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" file="2" linestart="22" lineend="22" isPtr="true" isLiteral="true" access="private" proto="char *">
+<pt>
+<bt name="char"/>
+</pt>
+</fl>
+<fl name="m_OALFormat" id="a10dc6eeef41eceb389744a3dd5a06e7_a09c5e01fe6383e78089b641b3602082" file="2" linestart="23" lineend="23" isLiteral="true" access="private" proto="ALenum">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fl>
+<fl name="m_OALFrequency" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" file="2" linestart="24" lineend="24" isLiteral="true" access="private" proto="ALsizei">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</fl>
+<fl name="m_OALBufferLen" id="a10dc6eeef41eceb389744a3dd5a06e7_e1df3cfc5f3a79a7f292fa49e8347e83" file="2" linestart="25" lineend="25" isLiteral="true" access="private" proto="long">
+<bt name="long"/>
+</fl>
+<fl name="m_OALChannels" id="a10dc6eeef41eceb389744a3dd5a06e7_0359650fdf10e7850d503ea5a302abd3" file="2" linestart="26" lineend="26" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALSize" id="a10dc6eeef41eceb389744a3dd5a06e7_c2df5c13f4f96480416b62728b01a85a" file="2" linestart="27" lineend="27" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALBitRate" id="a10dc6eeef41eceb389744a3dd5a06e7_2532932fda5843a86d0fb2d69abe5f4e" file="2" linestart="28" lineend="28" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_OALLength" id="a10dc6eeef41eceb389744a3dd5a06e7_7ee606766e029cc6366ab84327fa17c9" file="2" linestart="29" lineend="29" isLiteral="true" access="private" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_OALLoop" id="a10dc6eeef41eceb389744a3dd5a06e7_6339d17df81f2d565cf62d830bc8e853" file="2" linestart="30" lineend="30" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<fl name="m_OALSource" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" file="2" linestart="31" lineend="31" isLiteral="true" access="private" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_OALBuffer" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" file="2" linestart="32" lineend="32" isLiteral="true" access="private" proto="ALuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<fl name="m_OALbEAX" id="a10dc6eeef41eceb389744a3dd5a06e7_318ffd20f84ec8575fa0953bc18beaee" file="2" linestart="33" lineend="33" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<fl name="m_alLoop" id="a10dc6eeef41eceb389744a3dd5a06e7_d2517f46ec7917d988853d8bfef8d3cb" file="2" linestart="34" lineend="34" isLiteral="true" access="private" proto="ALboolean">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</fl>
+<cr parent="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699" access="private" depth="0" pod="true" kind="struct" name="FMTCHUNK" id="a10dc6eeef41eceb389744a3dd5a06e7_5be45eb7d4ced18ff245adf0cfb4df14" file="2" linestart="36" lineend="43">
+<cr access="public" kind="struct" name="FMTCHUNK" id="a10dc6eeef41eceb389744a3dd5a06e7_23b9f39b617140c8b7620c988ddb6e26" file="2" linestart="36" lineend="36"/>
+<fl name="format" id="a10dc6eeef41eceb389744a3dd5a06e7_0b539ce534cd4e3c5d3c4d9255f04c1d" file="2" linestart="37" lineend="37" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="channels" id="a10dc6eeef41eceb389744a3dd5a06e7_38f357d60b727ca8ac6df2891eade81f" file="2" linestart="38" lineend="38" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="srate" id="a10dc6eeef41eceb389744a3dd5a06e7_98a48a1ae6255c3dc7a62b42c5a4d63f" file="2" linestart="39" lineend="39" isLiteral="true" access="public" proto="unsigned long">
+<bt name="unsigned long"/>
+</fl>
+<fl name="bps" id="a10dc6eeef41eceb389744a3dd5a06e7_98f1411ba3e3b1d777d4a74941fae1aa" file="2" linestart="40" lineend="40" isLiteral="true" access="public" proto="unsigned long">
+<bt name="unsigned long"/>
+</fl>
+<fl name="balign" id="a10dc6eeef41eceb389744a3dd5a06e7_1096865edbaa704bc8d3df308bfbabd6" file="2" linestart="41" lineend="41" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+<fl name="samp" id="a10dc6eeef41eceb389744a3dd5a06e7_a45d5f12e7423417a4a4db2c734f1d30" file="2" linestart="42" lineend="42" isLiteral="true" access="public" proto="short">
+<bt name="short"/>
+</fl>
+</cr>
+<m name="LoadWAVInfo" id="a10dc6eeef41eceb389744a3dd5a06e7_3e68e558d8429e4e7a5693b0bbe5384f" file="2" linestart="45" lineend="45" access="private" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="ifstream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_99ad18f8609de6682f9f2a3400ac0853"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="size" proto="unsigned int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<bt name="unsigned int"/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<asd access="public"/>
+<c name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_f84c9ce928e7c8e0f6438c9019488f4e" file="2" linestart="48" lineend="48" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_06e65a95ab865f5fb70e93096badf844" file="2" linestart="49" lineend="49" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<m name="loadWAVFile" id="a10dc6eeef41eceb389744a3dd5a06e7_b073566a06dd811bc616f07d7b63f276" file="2" linestart="51" lineend="51" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="playAudio" id="a10dc6eeef41eceb389744a3dd5a06e7_6b327092b23595869c9589d37d845b82" file="2" linestart="52" lineend="52" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sndLoop" proto="ALboolean" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="stopAudio" id="a10dc6eeef41eceb389744a3dd5a06e7_eb638a504313e2226ddb838b5fd336b6" file="2" linestart="53" lineend="53" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="cleanUp" id="a10dc6eeef41eceb389744a3dd5a06e7_a0297e70354cc82b39ed2758ba85c588" file="2" linestart="54" lineend="54" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<c name="cSound" id="a10dc6eeef41eceb389744a3dd5a06e7_84b87809c161bf2b6593e009da3e8e47" file="2" linestart="18" lineend="18" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const cSound &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="a10dc6eeef41eceb389744a3dd5a06e7_a2e660ee410955c74c65700c9dfe7699"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="cSound" id="943407bf1131635c5f5bf1f8cc0e6e37_f84c9ce928e7c8e0f6438c9019488f4e" file="1" linestart="9" lineend="17" previous="a10dc6eeef41eceb389744a3dd5a06e7_f84c9ce928e7c8e0f6438c9019488f4e" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="10" cb="1" le="17" ce="1">
+<xop lb="11" cb="2" le="11" ce="14" kind="=">
+<mex lb="11" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" nm="m_OALData" arrow="1">
+<n19 lb="11" cb="2"/>
+</mex>
+<n32 lb="11" cb="14">
+<n45 lb="11" cb="14">
+<flit/>
+</n45>
+</n32>
+</xop>
+<xop lb="12" cb="2" le="12" ce="19" kind="=">
+<mex lb="12" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" nm="m_OALFrequency" arrow="1">
+<n19 lb="12" cb="2"/>
+</mex>
+<n45 lb="12" cb="19"/>
+</xop>
+<xop lb="13" cb="2" le="13" ce="17" kind="=">
+<mex lb="13" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2532932fda5843a86d0fb2d69abe5f4e" nm="m_OALBitRate" arrow="1">
+<n19 lb="13" cb="2"/>
+</mex>
+<n45 lb="13" cb="17"/>
+</xop>
+<xop lb="14" cb="2" le="14" ce="16" kind="=">
+<mex lb="14" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_7ee606766e029cc6366ab84327fa17c9" nm="m_OALLength" arrow="1">
+<n19 lb="14" cb="2"/>
+</mex>
+<n32 lb="14" cb="16">
+<n45 lb="14" cb="16"/>
+</n32>
+</xop>
+<xop lb="15" cb="2" le="15" ce="16" kind="=">
+<mex lb="15" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" nm="m_OALBuffer" arrow="1">
+<n19 lb="15" cb="2"/>
+</mex>
+<n32 lb="15" cb="16">
+<n45 lb="15" cb="16"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<d name="~cSound" id="943407bf1131635c5f5bf1f8cc0e6e37_06e65a95ab865f5fb70e93096badf844" file="1" linestart="19" lineend="23" previous="a10dc6eeef41eceb389744a3dd5a06e7_06e65a95ab865f5fb70e93096badf844" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="20" cb="1" le="23" ce="1">
+<mce lb="22" cb="2" le="22" ce="10" nbparm="0" id="a10dc6eeef41eceb389744a3dd5a06e7_a0297e70354cc82b39ed2758ba85c588">
+<exp pvirg="true"/>
+<mex lb="22" cb="2" id="a10dc6eeef41eceb389744a3dd5a06e7_a0297e70354cc82b39ed2758ba85c588" nm="cleanUp" arrow="1">
+<n19 lb="22" cb="2"/>
+</mex>
+</mce>
+</u>
+
+</Stmt>
+</d>
+<m name="loadWAVFile" id="943407bf1131635c5f5bf1f8cc0e6e37_b073566a06dd811bc616f07d7b63f276" file="1" linestart="25" lineend="49" previous="a10dc6eeef41eceb389744a3dd5a06e7_b073566a06dd811bc616f07d7b63f276" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="LPCSTR" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="26" cb="1" le="49" ce="1">
+<xop lb="28" cb="2" le="28" ce="43" kind="=">
+<mex lb="28" cb="2" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_318ffd20f84ec8575fa0953bc18beaee" nm="m_OALbEAX" arrow="1">
+<n19 lb="28" cb="2"/>
+</mex>
+<ce lb="28" cb="14" le="28" ce="43" nbparm="1" id="4e342ab6e1dc15203cf88b69f99c7ac8_3c40a9fee3cedc8de1d0f0e181ac6ebe">
+<exp pvirg="true"/>
+<n32 lb="28" cb="14">
+<drx lb="28" cb="14" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_3c40a9fee3cedc8de1d0f0e181ac6ebe" nm="alIsExtensionPresent"/>
+</n32>
+<n32 lb="28" cb="35">
+<n52 lb="28" cb="35">
+<slit/>
+</n52>
+</n32>
+</ce>
+</xop>
+<ce lb="30" cb="2" le="30" ce="13" nbparm="0" id="4e342ab6e1dc15203cf88b69f99c7ac8_1fcecd6b56000e73aa8d48fa328c28c3">
+<exp pvirg="true"/>
+<n32 lb="30" cb="2">
+<drx lb="30" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_1fcecd6b56000e73aa8d48fa328c28c3" nm="alGetError"/>
+</n32>
+</ce>
+<ce lb="33" cb="2" le="33" ce="127" nbparm="6" id="02d6f3394134f12d23779209c941c402_70ae48d2135ca2b9a2159aaa16bac035">
+<exp pvirg="true"/>
+<n32 lb="33" cb="2">
+<drx lb="33" cb="2" kind="lvalue" id="02d6f3394134f12d23779209c941c402_70ae48d2135ca2b9a2159aaa16bac035" nm="alutLoadWAVFile"/>
+</n32>
+<ocast lb="33" cb="18" le="33" ce="28">
+<pt>
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</pt>
+<n32 lb="33" cb="28">
+<drx lb="33" cb="28" kind="lvalue" nm="filename"/>
+</n32>
+</ocast>
+<uo lb="33" cb="38" le="33" ce="39" kind="&amp;">
+<mex lb="33" cb="39" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_a09c5e01fe6383e78089b641b3602082" nm="m_OALFormat" arrow="1">
+<n19 lb="33" cb="39"/>
+</mex>
+</uo>
+<ocast lb="33" cb="52" le="33" ce="62">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+<uo lb="33" cb="61" le="33" ce="62" kind="&amp;">
+<mex lb="33" cb="62" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" nm="m_OALData" arrow="1">
+<n19 lb="33" cb="62"/>
+</mex>
+</uo>
+</ocast>
+<ocast lb="33" cb="73" le="33" ce="85">
+<pt>
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</pt>
+<uo lb="33" cb="84" le="33" ce="85" kind="&amp;">
+<mex lb="33" cb="85" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e1df3cfc5f3a79a7f292fa49e8347e83" nm="m_OALBufferLen" arrow="1">
+<n19 lb="33" cb="85"/>
+</mex>
+</uo>
+</ocast>
+<uo lb="33" cb="101" le="33" ce="102" kind="&amp;">
+<mex lb="33" cb="102" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" nm="m_OALFrequency" arrow="1">
+<n19 lb="33" cb="102"/>
+</mex>
+</uo>
+<uo lb="33" cb="118" le="33" ce="119" kind="&amp;">
+<mex lb="33" cb="119" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_d2517f46ec7917d988853d8bfef8d3cb" nm="m_alLoop" arrow="1">
+<n19 lb="33" cb="119"/>
+</mex>
+</uo>
+</ce>
+<ce lb="36" cb="2" le="36" ce="30" nbparm="2" id="4e342ab6e1dc15203cf88b69f99c7ac8_4039d6d58884159ea871c6371521f5e5">
+<exp pvirg="true"/>
+<n32 lb="36" cb="2">
+<drx lb="36" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_4039d6d58884159ea871c6371521f5e5" nm="alGenSources"/>
+</n32>
+<n45 lb="36" cb="15">
+<flit/>
+</n45>
+<uo lb="36" cb="18" le="36" ce="19" kind="&amp;">
+<mex lb="36" cb="19" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="36" cb="19"/>
+</mex>
+</uo>
+</ce>
+<ce lb="39" cb="2" le="39" ce="30" nbparm="2" id="4e342ab6e1dc15203cf88b69f99c7ac8_cc2a455f1ffde29a3fda9bf6256c1c02">
+<exp pvirg="true"/>
+<n32 lb="39" cb="2">
+<drx lb="39" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_cc2a455f1ffde29a3fda9bf6256c1c02" nm="alGenBuffers"/>
+</n32>
+<n45 lb="39" cb="15"/>
+<uo lb="39" cb="18" le="39" ce="19" kind="&amp;">
+<mex lb="39" cb="19" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" nm="m_OALBuffer" arrow="1">
+<n19 lb="39" cb="19"/>
+</mex>
+</uo>
+</ce>
+<ce lb="42" cb="2" le="42" ce="82" nbparm="5" id="4e342ab6e1dc15203cf88b69f99c7ac8_15133248d1eca54dd842b7a9cd01f4ff">
+<exp pvirg="true"/>
+<n32 lb="42" cb="2">
+<drx lb="42" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_15133248d1eca54dd842b7a9cd01f4ff" nm="alBufferData"/>
+</n32>
+<n32 lb="42" cb="15">
+<mex lb="42" cb="15" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" nm="m_OALBuffer" arrow="1">
+<n19 lb="42" cb="15"/>
+</mex>
+</n32>
+<n32 lb="42" cb="28">
+<mex lb="42" cb="28" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_a09c5e01fe6383e78089b641b3602082" nm="m_OALFormat" arrow="1">
+<n19 lb="42" cb="28"/>
+</mex>
+</n32>
+<n32 lb="42" cb="41">
+<n32 lb="42" cb="41">
+<mex lb="42" cb="41" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" nm="m_OALData" arrow="1">
+<n19 lb="42" cb="41"/>
+</mex>
+</n32>
+</n32>
+<n32 lb="42" cb="52">
+<n32 lb="42" cb="52">
+<mex lb="42" cb="52" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e1df3cfc5f3a79a7f292fa49e8347e83" nm="m_OALBufferLen" arrow="1">
+<n19 lb="42" cb="52"/>
+</mex>
+</n32>
+</n32>
+<n32 lb="42" cb="68">
+<mex lb="42" cb="68" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" nm="m_OALFrequency" arrow="1">
+<n19 lb="42" cb="68"/>
+</mex>
+</n32>
+</ce>
+<ce lb="45" cb="2" le="45" ce="47" nbparm="3" id="4e342ab6e1dc15203cf88b69f99c7ac8_8da496d3ec0c9bb2a31ca67320d208b8">
+<exp pvirg="true"/>
+<n32 lb="45" cb="2">
+<drx lb="45" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_8da496d3ec0c9bb2a31ca67320d208b8" nm="alSourcei"/>
+</n32>
+<n32 lb="45" cb="12">
+<mex lb="45" cb="12" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="45" cb="12"/>
+</mex>
+</n32>
+<n45 lb="45" cb="25">
+<flit/>
+</n45>
+<n32 lb="45" cb="36">
+<n32 lb="45" cb="36">
+<mex lb="45" cb="36" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" nm="m_OALBuffer" arrow="1">
+<n19 lb="45" cb="36"/>
+</mex>
+</n32>
+</n32>
+</ce>
+<ce lb="48" cb="2" le="48" ce="70" nbparm="4" id="02d6f3394134f12d23779209c941c402_ffcef8680b615f3ef7baa9cf0a66e790">
+<exp pvirg="true"/>
+<n32 lb="48" cb="2">
+<drx lb="48" cb="2" kind="lvalue" id="02d6f3394134f12d23779209c941c402_ffcef8680b615f3ef7baa9cf0a66e790" nm="alutUnloadWAV"/>
+</n32>
+<n32 lb="48" cb="16">
+<mex lb="48" cb="16" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_a09c5e01fe6383e78089b641b3602082" nm="m_OALFormat" arrow="1">
+<n19 lb="48" cb="16"/>
+</mex>
+</n32>
+<n32 lb="48" cb="29">
+<n32 lb="48" cb="29">
+<mex lb="48" cb="29" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" nm="m_OALData" arrow="1">
+<n19 lb="48" cb="29"/>
+</mex>
+</n32>
+</n32>
+<n32 lb="48" cb="40">
+<n32 lb="48" cb="40">
+<mex lb="48" cb="40" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e1df3cfc5f3a79a7f292fa49e8347e83" nm="m_OALBufferLen" arrow="1">
+<n19 lb="48" cb="40"/>
+</mex>
+</n32>
+</n32>
+<n32 lb="48" cb="56">
+<mex lb="48" cb="56" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_e999dcab0b1e93b4ea21595cc9cb554b" nm="m_OALFrequency" arrow="1">
+<n19 lb="48" cb="56"/>
+</mex>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<m name="LoadWAVInfo" id="943407bf1131635c5f5bf1f8cc0e6e37_3e68e558d8429e4e7a5693b0bbe5384f" file="1" linestart="51" lineend="58" previous="a10dc6eeef41eceb389744a3dd5a06e7_3e68e558d8429e4e7a5693b0bbe5384f" access="private" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="filename" proto="ifstream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_99ad18f8609de6682f9f2a3400ac0853"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="name" proto="string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="size" proto="unsigned int &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<bt name="unsigned int"/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="52" cb="1" le="58" ce="1">
+<dst lb="53" cb="2" le="53" ce="15">
+<exp pvirg="true"/>
+<Var nm="chunk" value="true">
+<cat>
+<bt name="char"/>
+</cat>
+</Var>
+</dst>
+<mce lb="54" cb="2" le="54" ce="33" nbparm="2" id="38c307a25635ec17ba75ea5d86a3178c_445368cc515b4366fa77c5fd09e4261a">
+<exp pvirg="true"/>
+<mex lb="54" cb="2" le="54" ce="11" id="38c307a25635ec17ba75ea5d86a3178c_445368cc515b4366fa77c5fd09e4261a" nm="read" point="1">
+<n32 lb="54" cb="2">
+<drx lb="54" cb="2" kind="lvalue" nm="filename"/>
+</n32>
+</mex>
+<ocast lb="54" cb="16" le="54" ce="25">
+<pt>
+<bt name="char"/>
+</pt>
+<uo lb="54" cb="24" le="54" ce="25" kind="&amp;">
+<drx lb="54" cb="25" kind="lvalue" nm="chunk"/>
+</uo>
+</ocast>
+<n32 lb="54" cb="32">
+<n45 lb="54" cb="32">
+<flit/>
+</n45>
+</n32>
+</mce>
+<mce lb="55" cb="2" le="55" ce="32" nbparm="2" id="38c307a25635ec17ba75ea5d86a3178c_445368cc515b4366fa77c5fd09e4261a">
+<exp pvirg="true"/>
+<mex lb="55" cb="2" le="55" ce="11" id="38c307a25635ec17ba75ea5d86a3178c_445368cc515b4366fa77c5fd09e4261a" nm="read" point="1">
+<n32 lb="55" cb="2">
+<drx lb="55" cb="2" kind="lvalue" nm="filename"/>
+</n32>
+</mex>
+<ocast lb="55" cb="16" le="55" ce="25">
+<pt>
+<bt name="char"/>
+</pt>
+<uo lb="55" cb="24" le="55" ce="25" kind="&amp;">
+<drx lb="55" cb="25" kind="lvalue" nm="size"/>
+</uo>
+</ocast>
+<n32 lb="55" cb="31">
+<n45 lb="55" cb="31"/>
+</n32>
+</mce>
+<n37 lb="57" cb="2" le="57" ce="24">
+<ocx lb="57" cb="2" le="57" ce="24" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_8208dba780d5e51414b5f3b597a067dd">
+<exp pvirg="true"/>
+<n32 lb="57" cb="7">
+<drx lb="57" cb="7" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_8208dba780d5e51414b5f3b597a067dd" nm="operator="/>
+</n32>
+<drx lb="57" cb="2" kind="lvalue" nm="name"/>
+<mte lb="57" cb="9" le="57" ce="24">
+<exp pvirg="true"/>
+<n8 lb="57" cb="9" le="57" ce="24" >
+<temp/>
+<n11 lb="57" cb="9" le="57" ce="24">
+<typeptr id="43e57e2314d98c3481e7c5229eab5466_8e69e6d99e27802f8e3df27c31ba6bd1">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<n32 lb="57" cb="16">
+<n32 lb="57" cb="16">
+<drx lb="57" cb="16" kind="lvalue" nm="chunk"/>
+</n32>
+</n32>
+<n32 lb="57" cb="23">
+<n45 lb="57" cb="23"/>
+</n32>
+</n11>
+</n8>
+</mte>
+</ocx>
+</n37>
+</u>
+
+</Stmt>
+</m>
+<m name="playAudio" id="943407bf1131635c5f5bf1f8cc0e6e37_6b327092b23595869c9589d37d845b82" file="1" linestart="60" lineend="66" previous="a10dc6eeef41eceb389744a3dd5a06e7_6b327092b23595869c9589d37d845b82" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sndLoop" proto="ALboolean" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="61" cb="1" le="66" ce="1">
+<ce lb="62" cb="2" le="62" ce="41" nbparm="3" id="4e342ab6e1dc15203cf88b69f99c7ac8_8da496d3ec0c9bb2a31ca67320d208b8">
+<exp pvirg="true"/>
+<n32 lb="62" cb="2">
+<drx lb="62" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_8da496d3ec0c9bb2a31ca67320d208b8" nm="alSourcei"/>
+</n32>
+<n32 lb="62" cb="12">
+<mex lb="62" cb="12" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="62" cb="12"/>
+</mex>
+</n32>
+<n32 lb="62" cb="25">
+<n32 lb="62" cb="25">
+<drx lb="62" cb="25" kind="lvalue" nm="sndLoop"/>
+</n32>
+</n32>
+<n45 lb="62" cb="34">
+<flit/>
+</n45>
+</ce>
+<ce lb="65" cb="2" le="65" ce="26" nbparm="1" id="4e342ab6e1dc15203cf88b69f99c7ac8_5435c7d9b80f3dfc527c6b8d20b6f89a">
+<exp pvirg="true"/>
+<n32 lb="65" cb="2">
+<drx lb="65" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_5435c7d9b80f3dfc527c6b8d20b6f89a" nm="alSourcePlay"/>
+</n32>
+<n32 lb="65" cb="15">
+<mex lb="65" cb="15" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="65" cb="15"/>
+</mex>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<m name="stopAudio" id="943407bf1131635c5f5bf1f8cc0e6e37_eb638a504313e2226ddb838b5fd336b6" file="1" linestart="68" lineend="72" previous="a10dc6eeef41eceb389744a3dd5a06e7_eb638a504313e2226ddb838b5fd336b6" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="69" cb="1" le="72" ce="1">
+<ce lb="71" cb="2" le="71" ce="26" nbparm="1" id="4e342ab6e1dc15203cf88b69f99c7ac8_a2d9d6e4b497b477536be8c2c79e5dcb">
+<exp pvirg="true"/>
+<n32 lb="71" cb="2">
+<drx lb="71" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_a2d9d6e4b497b477536be8c2c79e5dcb" nm="alSourceStop"/>
+</n32>
+<n32 lb="71" cb="15">
+<mex lb="71" cb="15" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="71" cb="15"/>
+</mex>
+</n32>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<m name="cleanUp" id="943407bf1131635c5f5bf1f8cc0e6e37_a0297e70354cc82b39ed2758ba85c588" file="1" linestart="74" lineend="93" previous="a10dc6eeef41eceb389744a3dd5a06e7_a0297e70354cc82b39ed2758ba85c588" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="75" cb="1" le="93" ce="1">
+<dst lb="76" cb="2" le="76" ce="11">
+<exp pvirg="true"/>
+<Var nm="state" value="true">
+<bt name="int"/>
+</Var>
+</dst>
+<ce lb="77" cb="2" le="77" ce="51" nbparm="3" id="4e342ab6e1dc15203cf88b69f99c7ac8_51306f8c86fefc36ba671e1c72bbd8f9">
+<exp pvirg="true"/>
+<n32 lb="77" cb="2">
+<drx lb="77" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_51306f8c86fefc36ba671e1c72bbd8f9" nm="alGetSourcei"/>
+</n32>
+<n32 lb="77" cb="15">
+<mex lb="77" cb="15" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="77" cb="15"/>
+</mex>
+</n32>
+<n45 lb="77" cb="28">
+<flit/>
+</n45>
+<uo lb="77" cb="45" le="77" ce="46" kind="&amp;">
+<drx lb="77" cb="46" kind="lvalue" nm="state"/>
+</uo>
+</ce>
+<if lb="78" cb="2" le="81" ce="2">
+<xop lb="78" cb="6" le="78" ce="15" kind="==">
+<n32 lb="78" cb="6">
+<drx lb="78" cb="6" kind="lvalue" nm="state"/>
+</n32>
+<n45 lb="78" cb="15">
+<flit/>
+</n45>
+</xop>
+<u lb="79" cb="2" le="81" ce="2">
+<mce lb="80" cb="3" le="80" ce="13" nbparm="0" id="a10dc6eeef41eceb389744a3dd5a06e7_eb638a504313e2226ddb838b5fd336b6">
+<exp pvirg="true"/>
+<mex lb="80" cb="3" id="a10dc6eeef41eceb389744a3dd5a06e7_eb638a504313e2226ddb838b5fd336b6" nm="stopAudio" arrow="1">
+<n19 lb="80" cb="3"/>
+</mex>
+</mce>
+</u>
+</if>
+<ce lb="83" cb="2" le="83" ce="33" nbparm="2" id="4e342ab6e1dc15203cf88b69f99c7ac8_f6328d3c2d4bd5b1906968fbb9467dd7">
+<exp pvirg="true"/>
+<n32 lb="83" cb="2">
+<drx lb="83" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_f6328d3c2d4bd5b1906968fbb9467dd7" nm="alDeleteSources"/>
+</n32>
+<n45 lb="83" cb="18">
+<flit/>
+</n45>
+<n32 lb="83" cb="21" le="83" ce="22">
+<uo lb="83" cb="21" le="83" ce="22" kind="&amp;">
+<mex lb="83" cb="22" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_1a1910c3322f2d3b1c141be543d6671b" nm="m_OALSource" arrow="1">
+<n19 lb="83" cb="22"/>
+</mex>
+</uo>
+</n32>
+</ce>
+<ce lb="86" cb="2" le="86" ce="33" nbparm="2" id="4e342ab6e1dc15203cf88b69f99c7ac8_e41ee601e3ba7ff989640f0f0ff6d99c">
+<exp pvirg="true"/>
+<n32 lb="86" cb="2">
+<drx lb="86" cb="2" kind="lvalue" id="4e342ab6e1dc15203cf88b69f99c7ac8_e41ee601e3ba7ff989640f0f0ff6d99c" nm="alDeleteBuffers"/>
+</n32>
+<n45 lb="86" cb="18"/>
+<n32 lb="86" cb="21" le="86" ce="22">
+<uo lb="86" cb="21" le="86" ce="22" kind="&amp;">
+<mex lb="86" cb="22" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_52b0a77774ddeb9430276988c49e4198" nm="m_OALBuffer" arrow="1">
+<n19 lb="86" cb="22"/>
+</mex>
+</uo>
+</n32>
+</ce>
+<ce lb="89" cb="2" le="89" ce="28" nbparm="1" id="390e604191f8956f2144925e280ea7ce_beaa4c3313040c6b3190cba27b7868f6">
+<exp pvirg="true"/>
+<n32 lb="89" cb="2">
+<drx lb="89" cb="2" kind="lvalue" id="390e604191f8956f2144925e280ea7ce_beaa4c3313040c6b3190cba27b7868f6" nm="alcMakeContextCurrent"/>
+</n32>
+<n32 lb="89" cb="24">
+<n45 lb="89" cb="24">
+<flit/>
+</n45>
+</n32>
+</ce>
+<n13 lb="92" cb="2" le="92" ce="9">
+<exp pvirg="true"/>
+<n32 lb="92" cb="9">
+<mex lb="92" cb="9" kind="lvalue" id="a10dc6eeef41eceb389744a3dd5a06e7_2a08100b82af00a2b7af20c607cec119" nm="m_OALData" arrow="1">
+<n19 lb="92" cb="9"/>
+</mex>
+</n32>
+</n13>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

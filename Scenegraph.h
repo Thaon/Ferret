@@ -16,7 +16,6 @@ public:
 
 	Entity* Instantiate(Entity* entity, glm::vec2 position, float orientation);
 
-
 	//getters
 	Entity* Find(std::string name);
 	std::vector<Entity*> GetEntities();

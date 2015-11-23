@@ -1,0 +1,37 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b" file="3" linestart="12" lineend="52">
+<m name="getInstance" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" file="3" linestart="26" lineend="26" access="public" storage="static">
+<fpt cc="cdecl" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<fl name="KEYS_DOWN_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" file="3" linestart="29" lineend="29" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<fl name="KEYS_PRESSED_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" file="3" linestart="30" lineend="30" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<m name="clearBuffers" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" file="3" linestart="41" lineend="41" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bufferToClear" proto="BYTE" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</p>
+</m>
+</cr>
+</Externals>

@@ -1,0 +1,393 @@
+<Externals>
+<cr namespace="std" access="none" depth="1" kind="struct" name="char_traits" id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639" file="3" linestart="260" lineend="263">
+<base access="public">
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_0e14667e7fa909cae787013e4a665cda"/>
+<template_arguments>
+<ttp/>
+<bt name="long"/>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cts Spec="&lt;char&gt;" namespace="std" access="none" depth="0" pod="true" kind="struct" name="char_traits" id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098" file="3" linestart="505" lineend="608"/>
+<tm namespace="std" access="none" kind="class" name="allocator" id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85" file="3" linestart="611" lineend="612">
+<template_parameters>
+<ttp name="_Ty" id="1b9b5f13fc50919fc1cbcbc41c4276ce_5dabb8add95e1f50264087371ebe1436" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" kind="class" name="allocator" id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85" file="3" linestart="612" lineend="612"/>
+</tm>
+<cr namespace="std" access="none" kind="class" name="basic_ifstream" id="1b9b5f13fc50919fc1cbcbc41c4276ce_99ad18f8609de6682f9f2a3400ac0853" file="3" linestart="656" lineend="656"/>
+<cr namespace="std" access="none" depth="0" kind="class" name="allocator" id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85" file="4" linestart="582" lineend="671" previous="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<tm parent="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85" access="none" depth="0" pod="true" kind="struct" name="rebind" id="6296f70cc969544ce1f87c96145b57ec_38c2be5a786a253bb82af3c54854f921" file="4" linestart="603" lineend="607">
+<template_parameters>
+<ttp name="_Other" id="6296f70cc969544ce1f87c96145b57ec_5cb4d687f09ee7cb5b3575605cef20a8" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+</cr>
+<tm namespace="std" access="none" depth="1" kind="class" name="basic_string" id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb" file="5" linestart="735" lineend="2254" previous="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb">
+<template_parameters>
+<ttp name="_Elem" id="43e57e2314d98c3481e7c5229eab5466_97d2655bc427b0bca0bf3fd72608091f" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Traits" id="43e57e2314d98c3481e7c5229eab5466_88cafbb8af4cbe00477f4d0dc5b6f62c" depth="0" index="1" proto="type-parameter-0-1"/>
+<ttp name="_Alloc" id="43e57e2314d98c3481e7c5229eab5466_636b2981289c18feee5282669fe62e0a" depth="0" index="2" proto="type-parameter-0-2"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="basic_string" id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb" file="5" linestart="738" lineend="2254" previous="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb">
+<base access="public">
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_fd6b90577893febf1782c3472e44b788"/>
+<template_arguments>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_15e8cc19f33496752ccbe61f65b7379c"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="basic_string" id="43e57e2314d98c3481e7c5229eab5466_7808f3d3e2ddb7f603f560a243578200" file="5" linestart="738" lineend="738"/>
+<c name="basic_string&lt;_Elem, _Traits, _Ax&gt;" id="43e57e2314d98c3481e7c5229eab5466_8e69e6d99e27802f8e3df27c31ba6bd1" file="5" linestart="808" lineend="813" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Ptr" proto="const _Elem *" isPtr="true" access2="none">
+<pt>
+<QualType const="true">
+<ttp/>
+</QualType>
+</pt>
+</p>
+<p name="_Count" proto="size_type" access2="none">
+<Tdef>
+<DependentName/>
+</Tdef>
+</p>
+</c>
+<m name="operator=" id="43e57e2314d98c3481e7c5229eab5466_8208dba780d5e51414b5f3b597a067dd" file="5" linestart="914" lineend="932" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="_Myt &amp;">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+</fpt>
+<p name="_Right" proto="_Myt &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</Tdef>
+</rrf>
+</p>
+</m>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="3" kind="class" name="basic_istream" id="38c307a25635ec17ba75ea5d86a3178c_5c6d7e4c6688589190c3a33cc3b03025" file="6" linestart="19" lineend="893" previous="1b9b5f13fc50919fc1cbcbc41c4276ce_5c6d7e4c6688589190c3a33cc3b03025">
+<template_parameters>
+<ttp name="_Elem" id="38c307a25635ec17ba75ea5d86a3178c_38afd025d6c506e89b9b919133b177c0" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Traits" id="38c307a25635ec17ba75ea5d86a3178c_bb0637a36b2947a9502d359586193738" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="3" kind="class" name="basic_istream" id="38c307a25635ec17ba75ea5d86a3178c_5c6d7e4c6688589190c3a33cc3b03025" file="6" linestart="21" lineend="893" previous="1b9b5f13fc50919fc1cbcbc41c4276ce_5c6d7e4c6688589190c3a33cc3b03025">
+<base access="public">
+<tss>
+<templatebase id="aafb470fd944bd3f3c7c06c248c806a6_0973aa6d290bf2c44e86c2f58971d880"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="basic_istream" id="38c307a25635ec17ba75ea5d86a3178c_3e5ae7e309e8873fb10c8c3c97439443" file="6" linestart="21" lineend="21"/>
+<m name="read" id="38c307a25635ec17ba75ea5d86a3178c_445368cc515b4366fa77c5fd09e4261a" file="6" linestart="725" lineend="744" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="_Myt &amp;">
+<lrf>
+<Tdef>
+<tss>
+<templatebase id="38c307a25635ec17ba75ea5d86a3178c_5c6d7e4c6688589190c3a33cc3b03025"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</Tdef>
+</lrf>
+</fpt>
+<p name="_Str" proto="_Elem *" isPtr="true" access2="none">
+<pt>
+<ttp/>
+</pt>
+</p>
+<p name="_Count" proto="streamsize" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<Tdef>
+<bt name="long long"/>
+</Tdef>
+</Tdef>
+</p>
+</m>
+</cr>
+</tm>
+<f name="alGetError" id="4e342ab6e1dc15203cf88b69f99c7ac8_1fcecd6b56000e73aa8d48fa328c28c3" file="7" linestart="406" lineend="406" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="alIsExtensionPresent" id="4e342ab6e1dc15203cf88b69f99c7ac8_3c40a9fee3cedc8de1d0f0e181ac6ebe" file="7" linestart="414" lineend="414" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="extname" proto="const ALchar *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="alGenSources" id="4e342ab6e1dc15203cf88b69f99c7ac8_4039d6d58884159ea871c6371521f5e5" file="7" linestart="499" lineend="499" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="n" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="sources" proto="ALuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="alDeleteSources" id="4e342ab6e1dc15203cf88b69f99c7ac8_f6328d3c2d4bd5b1906968fbb9467dd7" file="7" linestart="502" lineend="502" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="n" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="sources" proto="const ALuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="alSourcei" id="4e342ab6e1dc15203cf88b69f99c7ac8_8da496d3ec0c9bb2a31ca67320d208b8" file="7" linestart="516" lineend="516" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="sid" proto="ALuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="param" proto="ALenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="value" proto="ALint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+<f name="alSourcePlay" id="4e342ab6e1dc15203cf88b69f99c7ac8_5435c7d9b80f3dfc527c6b8d20b6f89a" file="7" linestart="559" lineend="559" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="sid" proto="ALuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="alSourceStop" id="4e342ab6e1dc15203cf88b69f99c7ac8_a2d9d6e4b497b477536be8c2c79e5dcb" file="7" linestart="562" lineend="562" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="sid" proto="ALuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="alGenBuffers" id="4e342ab6e1dc15203cf88b69f99c7ac8_cc2a455f1ffde29a3fda9bf6256c1c02" file="7" linestart="593" lineend="593" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="n" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="buffers" proto="ALuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="alGetSourcei" id="4e342ab6e1dc15203cf88b69f99c7ac8_51306f8c86fefc36ba671e1c72bbd8f9" file="7" linestart="531" lineend="531" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="sid" proto="ALuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="param" proto="ALenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="value" proto="ALint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="alDeleteBuffers" id="4e342ab6e1dc15203cf88b69f99c7ac8_e41ee601e3ba7ff989640f0f0ff6d99c" file="7" linestart="596" lineend="596" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="n" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="buffers" proto="const ALuint *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="alBufferData" id="4e342ab6e1dc15203cf88b69f99c7ac8_15133248d1eca54dd842b7a9cd01f4ff" file="7" linestart="602" lineend="602" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="bid" proto="ALuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="format" proto="ALenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="data" proto="const ALvoid *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="void"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="size" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="freq" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+<f name="alcMakeContextCurrent" id="390e604191f8956f2144925e280ea7ce_beaa4c3313040c6b3190cba27b7868f6" file="8" linestart="188" lineend="188" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="context" proto="ALCcontext *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="390e604191f8956f2144925e280ea7ce_312b9ba113d630cc0711bdf6a15ce0e9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="alutLoadWAVFile" id="02d6f3394134f12d23779209c941c402_70ae48d2135ca2b9a2159aaa16bac035" file="9" linestart="113" lineend="113" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="fileName" proto="ALbyte *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</pt>
+</p>
+<p name="format" proto="ALenum *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</pt>
+</p>
+<p name="data" proto="void **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<bt name="void"/>
+</pt>
+</pt>
+</p>
+<p name="size" proto="ALsizei *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</pt>
+</p>
+<p name="frequency" proto="ALsizei *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</pt>
+</p>
+<p name="loop" proto="ALboolean *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="char"/>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="alutUnloadWAV" id="02d6f3394134f12d23779209c941c402_ffcef8680b615f3ef7baa9cf0a66e790" file="9" linestart="116" lineend="116" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="format" proto="ALenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="data" proto="ALvoid *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<bt name="void"/>
+</Tdef>
+</pt>
+</p>
+<p name="size" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="frequency" proto="ALsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+</Externals>

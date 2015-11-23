@@ -1,0 +1,109 @@
+<Root>
+<Comments>
+<c f="1" b="18" e="18"/>
+<c f="1" b="19" e="18"/>
+<c f="1" b="20" e="20"/>
+<c f="1" b="21" e="20"/>
+<c f="1" b="23" e="23"/>
+<c f="1" b="24" e="23"/>
+<c f="1" b="24" e="24"/>
+<c f="1" b="25" e="24"/>
+<c f="1" b="31" e="31"/>
+<c f="1" b="32" e="31"/>
+<c f="1" b="36" e="36"/>
+<c f="1" b="37" e="36"/>
+</Comments>
+<Macros>
+<m f="1" bl="16" bc="46" el="16" ec="46"/>
+<m f="1" bl="31" bc="39" el="31" ec="39"/>
+<m f="1" bl="36" bc="40" el="36" ec="40"/>
+</Macros>
+<Comments/>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_2d74b47ac2e118f1e674a9b529c35e54" file="2" linestart="7" lineend="16">
+<cr access="public" kind="class" name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_1d877006a312945297ba0bdb9e0a5bd5" file="2" linestart="7" lineend="7"/>
+<asd access="private"/>
+<asd access="public"/>
+<m name="Update" id="22bb5bf19453be097a60eb72c4d2aff8_7fbdbad17049ffa5d339901ca7ddb16a" file="2" linestart="12" lineend="12" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="scene" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<c name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_f828417384cdbf9824c1d32d6887e990" file="2" linestart="14" lineend="14" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<d name="~CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_2b4ba098a3b2bcc5186651ef75185464" file="2" linestart="15" lineend="15" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<c name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_c548ccdbcac265bc9f77ca393460d768" file="2" linestart="7" lineend="7" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const CollisionSystem &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="22bb5bf19453be097a60eb72c4d2aff8_2d74b47ac2e118f1e674a9b529c35e54"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<c name="CollisionSystem" id="3fc86b542730151ff6c56d2901a6632e_f828417384cdbf9824c1d32d6887e990" file="1" linestart="4" lineend="6" previous="22bb5bf19453be097a60eb72c4d2aff8_f828417384cdbf9824c1d32d6887e990" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="5" cb="1" le="6" ce="1"/>
+
+</Stmt>
+</c>
+<d name="~CollisionSystem" id="3fc86b542730151ff6c56d2901a6632e_2b4ba098a3b2bcc5186651ef75185464" file="1" linestart="8" lineend="10" previous="22bb5bf19453be097a60eb72c4d2aff8_2b4ba098a3b2bcc5186651ef75185464" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="9" cb="1" le="10" ce="1"/>
+
+</Stmt>
+</d>
+<m name="Update" id="3fc86b542730151ff6c56d2901a6632e_7fbdbad17049ffa5d339901ca7ddb16a" file="1" linestart="12" lineend="45" previous="22bb5bf19453be097a60eb72c4d2aff8_7fbdbad17049ffa5d339901ca7ddb16a" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="scene" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="13" cb="1" le="45" ce="1"/>
+
+</Stmt>
+</m>
+</tun>
+</Root>

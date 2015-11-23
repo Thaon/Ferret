@@ -1,0 +1,114 @@
+<Externals>
+<f name="glBlendFunc" id="33c672c5ccce976484cd3521ee4ffa73_e1f9d042505e3dbf117d4dc1540acbac" file="3" linestart="1164" lineend="1164" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="sfactor" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="dfactor" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glClear" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320" file="3" linestart="1167" lineend="1167" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="mask" proto="GLbitfield" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glEnable" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42" file="3" linestart="1229" lineend="1229" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="cap" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glLoadIdentity" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" file="3" linestart="1314" lineend="1314" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glMatrixMode" id="33c672c5ccce976484cd3521ee4ffa73_5da453484a1de22e44c981ee2fe75cb2" file="3" linestart="1331" lineend="1331" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="mode" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glOrtho" id="33c672c5ccce976484cd3521ee4ffa73_14077fc24048a108e023254cf0cd7dc4" file="3" linestart="1346" lineend="1346" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="left" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+<p name="right" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+<p name="bottom" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+<p name="top" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+<p name="zNear" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+<p name="zFar" proto="GLdouble" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="double"/>
+</Tdef>
+</p>
+</f>
+<f name="glPolygonMode" id="33c672c5ccce976484cd3521ee4ffa73_0071604b66960728458bd4a347ac7857" file="3" linestart="1357" lineend="1357" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="face" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="mode" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glPushMatrix" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285" file="3" linestart="1367" lineend="1367" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glViewport" id="33c672c5ccce976484cd3521ee4ffa73_d1f12406c0a4ce59b04cd8473318c989" file="3" linestart="1492" lineend="1492" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="x" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="y" proto="GLint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="width" proto="GLsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="height" proto="GLsizei" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+</Externals>

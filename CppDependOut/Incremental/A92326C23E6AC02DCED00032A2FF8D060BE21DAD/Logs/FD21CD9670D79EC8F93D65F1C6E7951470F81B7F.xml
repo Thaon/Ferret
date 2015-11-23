@@ -1,0 +1,14 @@
+<log>
+ <error level="warning" id="warn_using_directive_in_header" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret/cSound.h" line="16" col="17" msg="using namespace directive in global context in header" />
+ <error level="warning" id="warn_old_style_cast" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="33" col="18" msg="use of old-style cast" />
+ <error level="warning" id="warn_old_style_cast" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="33" col="52" msg="use of old-style cast" />
+ <error level="warning" id="warn_old_style_cast" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="33" col="73" msg="use of old-style cast" />
+ <error level="warning" id="warn_deprecated" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="33" col="2" msg="&apos;alutLoadWAVFile&apos; is deprecated" />
+ <error level="warning" id="warn_impcast_integer_sign" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="45" col="36" msg="implicit conversion changes signedness: &apos;ALuint&apos; (aka &apos;unsigned int&apos;) to &apos;ALint&apos; (aka &apos;int&apos;)" />
+ <error level="warning" id="warn_deprecated" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="48" col="2" msg="&apos;alutUnloadWAV&apos; is deprecated" />
+ <error level="warning" id="warn_old_style_cast" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="54" col="16" msg="use of old-style cast" />
+ <error level="warning" id="warn_old_style_cast" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="55" col="16" msg="use of old-style cast" />
+ <error level="note" id="note_template_member_function_here" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="57" col="7" msg="in instantiation of member function &apos;std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::operator=&apos; requested here" />
+ <error level="note" id="note_template_member_function_here" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="57" col="7" msg="in instantiation of member function &apos;std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::operator=&apos; requested here" />
+ <error level="note" id="note_template_member_function_here" file="C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\cSound.cpp" line="57" col="7" msg="in instantiation of member function &apos;std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::operator=&apos; requested here" />
+</log>

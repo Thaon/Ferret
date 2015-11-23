@@ -1,0 +1,230 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_d6a2ffa37bdf20d91b82e293ed1b2ab9" file="3" linestart="7" lineend="18">
+<c name="windowOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_887a1fc5ea8809051b61aefd09c4de58" file="3" linestart="10" lineend="10" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="initOGL" id="5c67ba9747117b1c6a81bdc2fd6ac0ba_587aa14c3ae4128140e90fd9e9f3a015" file="3" linestart="12" lineend="12" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="struct" name="char_traits" id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639" file="4" linestart="260" lineend="263">
+<base access="public">
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_0e14667e7fa909cae787013e4a665cda"/>
+<template_arguments>
+<ttp/>
+<bt name="long"/>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr namespace="std" access="none" depth="0" kind="class" name="allocator" id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85" file="5" linestart="582" lineend="671" previous="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<tm parent="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85" access="none" depth="0" pod="true" kind="struct" name="rebind" id="6296f70cc969544ce1f87c96145b57ec_38c2be5a786a253bb82af3c54854f921" file="5" linestart="603" lineend="607">
+<template_parameters>
+<ttp name="_Other" id="6296f70cc969544ce1f87c96145b57ec_5cb4d687f09ee7cb5b3575605cef20a8" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="class" name="basic_string" id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb" file="6" linestart="738" lineend="2254" previous="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb">
+<base access="public">
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_fd6b90577893febf1782c3472e44b788"/>
+<template_arguments>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_15e8cc19f33496752ccbe61f65b7379c"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b" file="7" linestart="12" lineend="52">
+<m name="getInstance" id="dab4800d34fc66b2ae29608690d5eae5_9369a69821f4defb2c14fc556c021bde" file="7" linestart="26" lineend="26" access="public" storage="static">
+<fpt cc="cdecl" proto="cInputMgr *">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<fl name="KEYS_DOWN_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_3893029ccc44c1f543a1013bef2edbcd" file="7" linestart="29" lineend="29" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<fl name="KEYS_PRESSED_BUFFER" id="dab4800d34fc66b2ae29608690d5eae5_efa4d2cbbb290fa8ba1d96c4521b52e8" file="7" linestart="30" lineend="30" isLiteral="true" access="public" proto="const BYTE">
+<QualType const="true">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</QualType>
+</fl>
+<c name="cInputMgr" id="dab4800d34fc66b2ae29608690d5eae5_9a9e9dad3865079353a920ab767ed6fd" file="7" linestart="34" lineend="34" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="clearBuffers" id="dab4800d34fc66b2ae29608690d5eae5_1749e132df7233093d943899d54acb14" file="7" linestart="41" lineend="41" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bufferToClear" proto="BYTE" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned char"/>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="cWNDManager" id="fdd628f40d6689b3f612b98d4cd8f518_39a8c1ef985010194384a98a4bdde963" file="8" linestart="17" lineend="63">
+<m name="createWND" id="fdd628f40d6689b3f612b98d4cd8f518_573320b79e23e62decbe24c37330d849" file="8" linestart="23" lineend="23" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="bpp" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<m name="destroyWND" id="fdd628f40d6689b3f612b98d4cd8f518_90babd90fe0525f5ddeafda2e0f7e8e9" file="8" linestart="24" lineend="24" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="processWNDEvents" id="fdd628f40d6689b3f612b98d4cd8f518_ee0a18d9868845c06b04d84d5be08959" file="8" linestart="25" lineend="25" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="attachInputMgr" id="fdd628f40d6689b3f612b98d4cd8f518_2d076ea34a51c18ef69e7683dcfb051b" file="8" linestart="27" lineend="27" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="inputMgr" proto="cInputMgr *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="dab4800d34fc66b2ae29608690d5eae5_5e68fc5a92a016e4866703ffb4a7b59b"/>
+</rt>
+</pt>
+</p>
+</m>
+<m name="isWNDRunning" id="fdd628f40d6689b3f612b98d4cd8f518_6ffac447608b0272cb10d00b8024efa8" file="8" linestart="29" lineend="29" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="swapBuffers" id="fdd628f40d6689b3f612b98d4cd8f518_8c209d70d4ed34d5cf30066a6a5fa05b" file="8" linestart="34" lineend="34" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="getInstance" id="fdd628f40d6689b3f612b98d4cd8f518_073c818a77feb093d7a6f41c604c9e25" file="8" linestart="39" lineend="39" access="public" storage="static">
+<fpt cc="cdecl" proto="cWNDManager *">
+<pt>
+<rt>
+<cr id="fdd628f40d6689b3f612b98d4cd8f518_39a8c1ef985010194384a98a4bdde963"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="public" depth="0" kind="class" name="cFontMgr" id="8ce5c8cad69cf5321d960b06c1495c07_a8f8825e90267481e2bc89227744e2c4" file="9" linestart="13" lineend="28"/>
+<cr access="none" depth="0" kind="class" name="Scenegraph" id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47" file="10" linestart="7" lineend="22">
+<c name="Scenegraph" id="5a824d0dd6dd18987632e6b7e8cdc0c0_baf63877ed63f9aecb41790f33b7bf7c" file="10" linestart="14" lineend="14" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_4f773dde9f50bf353c62383d32431a84" file="11" linestart="7" lineend="22">
+<m name="Render" id="964dcf4da91ef26b8a42a9773bf40926_e532575b3033e20e431575154a7d8ac8" file="11" linestart="13" lineend="13" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="sceneGraph" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+</p>
+</m>
+<c name="RenderSystem" id="964dcf4da91ef26b8a42a9773bf40926_734cf7607bd3397745d4b0777f29da32" file="11" linestart="17" lineend="17" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="BehaviourSystem" id="d2625f60a712817666c4c4c0638ade98_f307459d4ad1c208ee077b615224d4f0" file="12" linestart="6" lineend="17">
+<c name="BehaviourSystem" id="d2625f60a712817666c4c4c0638ade98_7829e2de8530ab875da55196ff1e2563" file="12" linestart="11" lineend="11" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="Update" id="d2625f60a712817666c4c4c0638ade98_bc537b6274cc63505693e20dcd9b4aee" file="12" linestart="16" lineend="16" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="deltaTime" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_2d74b47ac2e118f1e674a9b529c35e54" file="13" linestart="7" lineend="16">
+<m name="Update" id="22bb5bf19453be097a60eb72c4d2aff8_7fbdbad17049ffa5d339901ca7ddb16a" file="13" linestart="12" lineend="12" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="scene" proto="Scenegraph *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47"/>
+</rt>
+</pt>
+</p>
+</m>
+<c name="CollisionSystem" id="22bb5bf19453be097a60eb72c4d2aff8_f828417384cdbf9824c1d32d6887e990" file="13" linestart="14" lineend="14" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_d7f408e245d21106b6e54718a67ead29" file="14" linestart="14" lineend="30">
+<c name="cSoundMgr" id="dbfbdfb378e293600b4f5389cff16061_157ee3be4856af852c3f4998f40e866a" file="14" linestart="21" lineend="21" access="protected">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f name="GetTickCount" id="dc257e2b5e5d8c9ac34a9dc2ef52272e_e061dca899064911815159fbd2acd403" file="15" linestart="200" lineend="205" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glClear" id="33c672c5ccce976484cd3521ee4ffa73_48ed61ea94b5de85e850039d4105d320" file="16" linestart="1167" lineend="1167" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="mask" proto="GLbitfield" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+</Externals>

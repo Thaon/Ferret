@@ -1,0 +1,930 @@
+<Root>
+<Comments>
+<c f="1" b="8" e="8"/>
+<c f="1" b="9" e="9"/>
+<c f="1" b="10" e="10"/>
+<c f="1" b="11" e="11"/>
+<c f="1" b="12" e="12"/>
+<c f="1" b="13" e="13"/>
+<c f="1" b="14" e="14"/>
+<c f="1" b="15" e="15"/>
+<c f="1" b="17" e="15"/>
+<c f="1" b="17" e="17"/>
+<c f="1" b="18" e="17"/>
+<c f="1" b="22" e="22"/>
+<c f="1" b="23" e="22"/>
+</Comments>
+<Macros/>
+<Comments>
+<c f="2" b="2" e="2"/>
+<c f="2" b="3" e="2"/>
+<c f="2" b="18" e="18"/>
+<c f="2" b="19" e="18"/>
+<c f="2" b="22" e="22"/>
+<c f="2" b="23" e="22"/>
+<c f="2" b="32" e="32"/>
+<c f="2" b="33" e="32"/>
+<c f="2" b="34" e="34"/>
+<c f="2" b="35" e="34"/>
+<c f="2" b="40" e="40"/>
+<c f="2" b="41" e="40"/>
+<c f="2" b="41" e="41"/>
+<c f="2" b="42" e="41"/>
+</Comments>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="class" name="SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed" file="2" linestart="7" lineend="45">
+<cr access="public" kind="class" name="SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_63cb63f960c1821a9b302e4169cefe10" file="2" linestart="7" lineend="7"/>
+<asd access="private"/>
+<c name="SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_f4febbc9eaeca3604d3cb2669ac65d55" file="2" linestart="10" lineend="10" copyconst="true" access="private" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const SpriteComponent &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<m name="operator=" id="2888ea4ff5f6e154a249ba44fc3820b1_202810f023e8e3be5a5816a518168da0" file="2" linestart="11" lineend="11" operator="true" access="private" isdef="true">
+<fpt cc="x86_thiscall" proto="SpriteComponent &amp;">
+<lrf>
+<rt>
+<cr id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="SpriteComponent &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<fl name="boundingRect" id="2888ea4ff5f6e154a249ba44fc3820b1_0a32ecff858310004d945c8fc9ce6761" file="2" linestart="13" lineend="13" isLiteral="true" access="private" proto="RECT">
+<Tdef>
+<ety>
+<rt>
+<cr id="f8c7bb7766b7ee6e6614d6ac86f6c998_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="zOrder" id="2888ea4ff5f6e154a249ba44fc3820b1_f9685353b824b84929f057433ed2f803" file="2" linestart="14" lineend="14" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="spriteCenter" id="2888ea4ff5f6e154a249ba44fc3820b1_057b56e45b5a4a19f4905bf327fc6442" file="2" linestart="16" lineend="16" access="private" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fl>
+<fl name="spriteVertexData" id="2888ea4ff5f6e154a249ba44fc3820b1_2f0dc17eaab8d8920ae9ab1c58f0232f" file="2" linestart="19" lineend="19" isArray="true" access="private" proto="glm::vec2 [4]">
+<cat>
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</cat>
+</fl>
+<fl name="spriteTexCoordData" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" file="2" linestart="20" lineend="20" isArray="true" access="private" proto="glm::vec2 [4]">
+<cat>
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</cat>
+</fl>
+<fl name="texture" id="2888ea4ff5f6e154a249ba44fc3820b1_9cca0a85684192e46eba0c159b12f1fa" file="2" linestart="23" lineend="23" access="private" proto="cTexture">
+<rt>
+<cr id="26b337a232fd70493084c0879cb3456c_494d0a6038517a43fe2ecf2a4211013b"/>
+</rt>
+</fl>
+<fl name="textureWidth" id="2888ea4ff5f6e154a249ba44fc3820b1_3845354ac096f45de25acfe445feb506" file="2" linestart="25" lineend="25" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="textureHeight" id="2888ea4ff5f6e154a249ba44fc3820b1_c2e8b5d06fb31c64accb85e024e95c1c" file="2" linestart="26" lineend="26" isLiteral="true" access="private" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="GLTextureID" id="2888ea4ff5f6e154a249ba44fc3820b1_948a603e4a6153d158a8e1541521f2d6" file="2" linestart="27" lineend="27" isLiteral="true" access="private" proto="GLuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fl>
+<asd access="public"/>
+<c name="SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_73526f63d1c08e61c9d8af004e240b46" file="2" linestart="30" lineend="30" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="GetCenter" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" file="2" linestart="33" lineend="33" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fpt>
+<p name="position" proto="glm::vec2" access2="none">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="GetTexture" id="2888ea4ff5f6e154a249ba44fc3820b1_0ea5054f52876162fa14210772af1f2f" file="2" linestart="34" lineend="34" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="GLuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+<m name="GetRekt" id="2888ea4ff5f6e154a249ba44fc3820b1_c8fa96c50304f56918acace4fb35d991" file="2" linestart="35" lineend="35" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="RECT *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="f8c7bb7766b7ee6e6614d6ac86f6c998_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fpt>
+</m>
+<m name="GetTexCoordData" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" file="2" linestart="36" lineend="36" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="glm::vec2 *">
+<pt>
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</pt>
+</fpt>
+</m>
+<m name="GetWidth" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b" file="2" linestart="37" lineend="37" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="37" cb="17" le="37" ce="40">
+<rx lb="37" cb="19" le="37" ce="26" pvirg="true">
+<n32 lb="37" cb="26">
+<mex lb="37" cb="26" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_3845354ac096f45de25acfe445feb506" nm="textureWidth" arrow="1">
+<n19 lb="37" cb="26"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="GetHeight" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4" file="2" linestart="38" lineend="38" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="38" cb="18" le="38" ce="42">
+<rx lb="38" cb="20" le="38" ce="27" pvirg="true">
+<n32 lb="38" cb="27">
+<mex lb="38" cb="27" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_c2e8b5d06fb31c64accb85e024e95c1c" nm="textureHeight" arrow="1">
+<n19 lb="38" cb="27"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="setTexture" id="2888ea4ff5f6e154a249ba44fc3820b1_0e8223c4ee6a8c119cf7044d2f7fa333" file="2" linestart="41" lineend="41" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="GLtexID" proto="GLuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="setSpriteTexCoordData" id="2888ea4ff5f6e154a249ba44fc3820b1_9a6ea6929d743386dcc813f9633d6578" file="2" linestart="42" lineend="42" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="setTextureDimensions" id="2888ea4ff5f6e154a249ba44fc3820b1_ccf6440d523287f450301a11c86f296d" file="2" linestart="43" lineend="43" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="texWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textHeight" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="SetSprite" id="2888ea4ff5f6e154a249ba44fc3820b1_99758826c0254b1d52a57c7b982bcc53" file="2" linestart="44" lineend="44" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="path" proto="std::string" access2="none">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<d name="~SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_3b0711bf29352fd24b9034b8f861f2e4" file="2" linestart="7" lineend="7" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+</cr>
+<c name="SpriteComponent" id="0de4f98d199aa9ddfd447dd200afea37_73526f63d1c08e61c9d8af004e240b46" file="1" linestart="3" lineend="6" previous="2888ea4ff5f6e154a249ba44fc3820b1_73526f63d1c08e61c9d8af004e240b46" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="4" cb="1" le="6" ce="1">
+<xop lb="5" cb="2" le="5" ce="11" kind="=">
+<mex lb="5" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_f9685353b824b84929f057433ed2f803" nm="zOrder" arrow="1">
+<n19 lb="5" cb="2"/>
+</mex>
+<n45 lb="5" cb="11">
+<flit/>
+</n45>
+</xop>
+</u>
+
+</Stmt>
+</c>
+<m name="GetTexture" id="0de4f98d199aa9ddfd447dd200afea37_0ea5054f52876162fa14210772af1f2f" file="1" linestart="17" lineend="20" previous="2888ea4ff5f6e154a249ba44fc3820b1_0ea5054f52876162fa14210772af1f2f" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="GLuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+<Stmt>
+<u lb="18" cb="1" le="20" ce="1">
+<rx lb="19" cb="2" le="19" ce="9" pvirg="true">
+<n32 lb="19" cb="9">
+<mex lb="19" cb="9" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_948a603e4a6153d158a8e1541521f2d6" nm="GLTextureID" arrow="1">
+<n19 lb="19" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="setTexture" id="0de4f98d199aa9ddfd447dd200afea37_0e8223c4ee6a8c119cf7044d2f7fa333" file="1" linestart="22" lineend="25" previous="2888ea4ff5f6e154a249ba44fc3820b1_0e8223c4ee6a8c119cf7044d2f7fa333" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="GLtexID" proto="GLuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="23" cb="1" le="25" ce="1">
+<xop lb="24" cb="2" le="24" ce="16" kind="=">
+<mex lb="24" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_948a603e4a6153d158a8e1541521f2d6" nm="GLTextureID" arrow="1">
+<n19 lb="24" cb="2"/>
+</mex>
+<n32 lb="24" cb="16">
+<drx lb="24" cb="16" kind="lvalue" nm="GLtexID"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="setSpriteTexCoordData" id="0de4f98d199aa9ddfd447dd200afea37_9a6ea6929d743386dcc813f9633d6578" file="1" linestart="27" lineend="33" previous="2888ea4ff5f6e154a249ba44fc3820b1_9a6ea6929d743386dcc813f9633d6578" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="28" cb="1" le="33" ce="1">
+<ocx lb="29" cb="2" le="29" ce="46" nbparm="2" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed">
+<exp pvirg="true"/>
+<n32 lb="29" cb="24">
+<drx lb="29" cb="24" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed" nm="operator="/>
+</n32>
+<n2 lb="29" cb="2" le="29" ce="22">
+<exp pvirg="true"/>
+<n32 lb="29" cb="2">
+<mex lb="29" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" nm="spriteTexCoordData" arrow="1">
+<n19 lb="29" cb="2"/>
+</mex>
+</n32>
+<n45 lb="29" cb="21">
+<flit/>
+</n45>
+</n2>
+<mte lb="29" cb="26" le="29" ce="46">
+<exp pvirg="true"/>
+<n32 lb="29" cb="26" le="29" ce="46">
+<n11 lb="29" cb="26" le="29" ce="46">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_3d0c95f84472359c00f79e87173e4a1a">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="29" cb="36">
+<exp pvirg="true"/>
+<n40 lb="29" cb="36"/>
+</mte>
+<mte lb="29" cb="42">
+<exp pvirg="true"/>
+<n40 lb="29" cb="42"/>
+</mte>
+</n11>
+</n32>
+</mte>
+</ocx>
+<ocx lb="30" cb="2" le="30" ce="46" nbparm="2" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed">
+<exp pvirg="true"/>
+<n32 lb="30" cb="24">
+<drx lb="30" cb="24" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed" nm="operator="/>
+</n32>
+<n2 lb="30" cb="2" le="30" ce="22">
+<exp pvirg="true"/>
+<n32 lb="30" cb="2">
+<mex lb="30" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" nm="spriteTexCoordData" arrow="1">
+<n19 lb="30" cb="2"/>
+</mex>
+</n32>
+<n45 lb="30" cb="21">
+<flit/>
+</n45>
+</n2>
+<mte lb="30" cb="26" le="30" ce="46">
+<exp pvirg="true"/>
+<n32 lb="30" cb="26" le="30" ce="46">
+<n11 lb="30" cb="26" le="30" ce="46">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_3d0c95f84472359c00f79e87173e4a1a">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="30" cb="36">
+<exp pvirg="true"/>
+<n40 lb="30" cb="36">
+<flit/>
+</n40>
+</mte>
+<mte lb="30" cb="42">
+<exp pvirg="true"/>
+<n40 lb="30" cb="42"/>
+</mte>
+</n11>
+</n32>
+</mte>
+</ocx>
+<ocx lb="31" cb="2" le="31" ce="46" nbparm="2" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed">
+<exp pvirg="true"/>
+<n32 lb="31" cb="24">
+<drx lb="31" cb="24" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed" nm="operator="/>
+</n32>
+<n2 lb="31" cb="2" le="31" ce="22">
+<exp pvirg="true"/>
+<n32 lb="31" cb="2">
+<mex lb="31" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" nm="spriteTexCoordData" arrow="1">
+<n19 lb="31" cb="2"/>
+</mex>
+</n32>
+<n45 lb="31" cb="21">
+<flit/>
+</n45>
+</n2>
+<mte lb="31" cb="26" le="31" ce="46">
+<exp pvirg="true"/>
+<n32 lb="31" cb="26" le="31" ce="46">
+<n11 lb="31" cb="26" le="31" ce="46">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_3d0c95f84472359c00f79e87173e4a1a">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="31" cb="36">
+<exp pvirg="true"/>
+<n40 lb="31" cb="36"/>
+</mte>
+<mte lb="31" cb="42">
+<exp pvirg="true"/>
+<n40 lb="31" cb="42"/>
+</mte>
+</n11>
+</n32>
+</mte>
+</ocx>
+<ocx lb="32" cb="2" le="32" ce="46" nbparm="2" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed">
+<exp pvirg="true"/>
+<n32 lb="32" cb="24">
+<drx lb="32" cb="24" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed" nm="operator="/>
+</n32>
+<n2 lb="32" cb="2" le="32" ce="22">
+<exp pvirg="true"/>
+<n32 lb="32" cb="2">
+<mex lb="32" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" nm="spriteTexCoordData" arrow="1">
+<n19 lb="32" cb="2"/>
+</mex>
+</n32>
+<n45 lb="32" cb="21">
+<flit/>
+</n45>
+</n2>
+<mte lb="32" cb="26" le="32" ce="46">
+<exp pvirg="true"/>
+<n32 lb="32" cb="26" le="32" ce="46">
+<n11 lb="32" cb="26" le="32" ce="46">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_3d0c95f84472359c00f79e87173e4a1a">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="32" cb="36">
+<exp pvirg="true"/>
+<n40 lb="32" cb="36"/>
+</mte>
+<mte lb="32" cb="42">
+<exp pvirg="true"/>
+<n40 lb="32" cb="42"/>
+</mte>
+</n11>
+</n32>
+</mte>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+<m name="setTextureDimensions" id="0de4f98d199aa9ddfd447dd200afea37_ccf6440d523287f450301a11c86f296d" file="1" linestart="35" lineend="39" previous="2888ea4ff5f6e154a249ba44fc3820b1_ccf6440d523287f450301a11c86f296d" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="texWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="textHeight" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="36" cb="1" le="39" ce="1">
+<xop lb="37" cb="2" le="37" ce="17" kind="=">
+<mex lb="37" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_3845354ac096f45de25acfe445feb506" nm="textureWidth" arrow="1">
+<n19 lb="37" cb="2"/>
+</mex>
+<n32 lb="37" cb="17">
+<drx lb="37" cb="17" kind="lvalue" nm="texWidth"/>
+</n32>
+</xop>
+<xop lb="38" cb="2" le="38" ce="18" kind="=">
+<mex lb="38" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_c2e8b5d06fb31c64accb85e024e95c1c" nm="textureHeight" arrow="1">
+<n19 lb="38" cb="2"/>
+</mex>
+<n32 lb="38" cb="18">
+<drx lb="38" cb="18" kind="lvalue" nm="textHeight"/>
+</n32>
+</xop>
+</u>
+
+</Stmt>
+</m>
+<m name="GetCenter" id="0de4f98d199aa9ddfd447dd200afea37_46acf36b6fa282a496d3db5c9d3d36a0" file="1" linestart="41" lineend="45" previous="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fpt>
+<p name="position" proto="glm::vec2" access2="none">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="42" cb="1" le="45" ce="1">
+<ocx lb="43" cb="2" le="43" ce="88" nbparm="2" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed">
+<exp pvirg="true"/>
+<n32 lb="43" cb="15">
+<drx lb="43" cb="15" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_894e634ef98355b854407d2d0999faed" nm="operator="/>
+</n32>
+<mex lb="43" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_057b56e45b5a4a19f4905bf327fc6442" nm="spriteCenter" arrow="1">
+<n19 lb="43" cb="2"/>
+</mex>
+<mte lb="43" cb="17" le="43" ce="88">
+<exp pvirg="true"/>
+<n32 lb="43" cb="17" le="43" ce="88">
+<n11 lb="43" cb="17" le="43" ce="88">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_3d0c95f84472359c00f79e87173e4a1a">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="43" cb="27" le="43" ce="55">
+<exp pvirg="true"/>
+<xop lb="43" cb="27" le="43" ce="55" kind="+">
+<n32 lb="43" cb="27" le="43" ce="36">
+<mex lb="43" cb="27" le="43" ce="36" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" nm="x" point="1">
+<mex lb="43" cb="27" le="43" ce="36" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<drx lb="43" cb="27" kind="lvalue" nm="position"/>
+</mex>
+</mex>
+</n32>
+<n32 lb="43" cb="40" le="43" ce="55">
+<xop lb="43" cb="40" le="43" ce="55" kind="/">
+<n32 lb="43" cb="40">
+<mex lb="43" cb="40" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_3845354ac096f45de25acfe445feb506" nm="textureWidth" arrow="1">
+<n19 lb="43" cb="40"/>
+</mex>
+</n32>
+<n45 lb="43" cb="55">
+<flit/>
+</n45>
+</xop>
+</n32>
+</xop>
+</mte>
+<mte lb="43" cb="58" le="43" ce="87">
+<exp pvirg="true"/>
+<xop lb="43" cb="58" le="43" ce="87" kind="+">
+<n32 lb="43" cb="58" le="43" ce="67">
+<mex lb="43" cb="58" le="43" ce="67" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" nm="y" point="1">
+<mex lb="43" cb="58" le="43" ce="67" kind="lvalue" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" nm="" point="1">
+<drx lb="43" cb="58" kind="lvalue" nm="position"/>
+</mex>
+</mex>
+</n32>
+<n32 lb="43" cb="71" le="43" ce="87">
+<xop lb="43" cb="71" le="43" ce="87" kind="/">
+<n32 lb="43" cb="71">
+<mex lb="43" cb="71" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_c2e8b5d06fb31c64accb85e024e95c1c" nm="textureHeight" arrow="1">
+<n19 lb="43" cb="71"/>
+</mex>
+</n32>
+<n45 lb="43" cb="87"/>
+</xop>
+</n32>
+</xop>
+</mte>
+</n11>
+</n32>
+</mte>
+</ocx>
+<rx lb="44" cb="2" le="44" ce="9" pvirg="true">
+<n10 lb="44" cb="9">
+<typeptr id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839">
+<template_arguments>
+<bt name="float"/>
+<integer value="0"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<n32 lb="44" cb="9">
+<mex lb="44" cb="9" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_057b56e45b5a4a19f4905bf327fc6442" nm="spriteCenter" arrow="1">
+<n19 lb="44" cb="9"/>
+</mex>
+</n32>
+</n10>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="GetRekt" id="0de4f98d199aa9ddfd447dd200afea37_c8fa96c50304f56918acace4fb35d991" file="1" linestart="47" lineend="50" previous="2888ea4ff5f6e154a249ba44fc3820b1_c8fa96c50304f56918acace4fb35d991" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="RECT *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="f8c7bb7766b7ee6e6614d6ac86f6c998_25ee654fc4d784a3297c9294d415801a"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fpt>
+<Stmt>
+<u lb="48" cb="1" le="50" ce="1">
+<rx lb="49" cb="2" le="49" ce="10" pvirg="true">
+<uo lb="49" cb="9" le="49" ce="10" kind="&amp;">
+<mex lb="49" cb="10" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_0a32ecff858310004d945c8fc9ce6761" nm="boundingRect" arrow="1">
+<n19 lb="49" cb="10"/>
+</mex>
+</uo>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="GetTexCoordData" id="0de4f98d199aa9ddfd447dd200afea37_93370745053efef72b38e481e9684689" file="1" linestart="52" lineend="55" previous="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="glm::vec2 *">
+<pt>
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+<Stmt>
+<drx lb="65" cb="31" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" nm="highp"/>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</pt>
+</fpt>
+<Stmt>
+<u lb="53" cb="1" le="55" ce="1">
+<rx lb="54" cb="2" le="54" ce="9" pvirg="true">
+<n32 lb="54" cb="9">
+<mex lb="54" cb="9" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_d5f54cd045b658dce98f6f36726f2e27" nm="spriteTexCoordData" arrow="1">
+<n19 lb="54" cb="9"/>
+</mex>
+</n32>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="SetSprite" id="0de4f98d199aa9ddfd447dd200afea37_99758826c0254b1d52a57c7b982bcc53" file="1" linestart="57" lineend="63" previous="2888ea4ff5f6e154a249ba44fc3820b1_99758826c0254b1d52a57c7b982bcc53" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="path" proto="std::string" access2="none">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="58" cb="1" le="63" ce="1">
+<mce lb="59" cb="2" le="59" ce="36" nbparm="1" id="26b337a232fd70493084c0879cb3456c_f3e6eab8f4f1266e875ebcd541896ff3">
+<exp pvirg="true"/>
+<mex lb="59" cb="2" le="59" ce="10" id="26b337a232fd70493084c0879cb3456c_f3e6eab8f4f1266e875ebcd541896ff3" nm="createTexture" point="1">
+<mex lb="59" cb="2" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_9cca0a85684192e46eba0c159b12f1fa" nm="texture" arrow="1">
+<n19 lb="59" cb="2"/>
+</mex>
+</mex>
+<mce lb="59" cb="24" le="59" ce="35" nbparm="0" id="43e57e2314d98c3481e7c5229eab5466_65d516408dbbf5d49be55f4917fbb4c6">
+<exp pvirg="true"/>
+<mex lb="59" cb="24" le="59" ce="29" id="43e57e2314d98c3481e7c5229eab5466_65d516408dbbf5d49be55f4917fbb4c6" nm="c_str" point="1">
+<n32 lb="59" cb="24">
+<drx lb="59" cb="24" kind="lvalue" nm="path"/>
+</n32>
+</mex>
+</mce>
+</mce>
+<mce lb="60" cb="2" le="60" ce="33" nbparm="1" id="2888ea4ff5f6e154a249ba44fc3820b1_0e8223c4ee6a8c119cf7044d2f7fa333">
+<exp pvirg="true"/>
+<mex lb="60" cb="2" id="2888ea4ff5f6e154a249ba44fc3820b1_0e8223c4ee6a8c119cf7044d2f7fa333" nm="setTexture" arrow="1">
+<n19 lb="60" cb="2"/>
+</mex>
+<mce lb="60" cb="13" le="60" ce="32" nbparm="0" id="26b337a232fd70493084c0879cb3456c_3f8df5480d28be0c5bd5b4b7601d1c08">
+<exp pvirg="true"/>
+<mex lb="60" cb="13" le="60" ce="21" id="26b337a232fd70493084c0879cb3456c_3f8df5480d28be0c5bd5b4b7601d1c08" nm="getTexture" point="1">
+<mex lb="60" cb="13" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_9cca0a85684192e46eba0c159b12f1fa" nm="texture" arrow="1">
+<n19 lb="60" cb="13"/>
+</mex>
+</mex>
+</mce>
+</mce>
+<mce lb="61" cb="2" le="61" ce="64" nbparm="2" id="2888ea4ff5f6e154a249ba44fc3820b1_ccf6440d523287f450301a11c86f296d">
+<exp pvirg="true"/>
+<mex lb="61" cb="2" id="2888ea4ff5f6e154a249ba44fc3820b1_ccf6440d523287f450301a11c86f296d" nm="setTextureDimensions" arrow="1">
+<n19 lb="61" cb="2"/>
+</mex>
+<mce lb="61" cb="23" le="61" ce="41" nbparm="0" id="26b337a232fd70493084c0879cb3456c_1b84a7e4d54e73241f60e5d348756288">
+<exp pvirg="true"/>
+<mex lb="61" cb="23" le="61" ce="31" id="26b337a232fd70493084c0879cb3456c_1b84a7e4d54e73241f60e5d348756288" nm="getTWidth" point="1">
+<mex lb="61" cb="23" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_9cca0a85684192e46eba0c159b12f1fa" nm="texture" arrow="1">
+<n19 lb="61" cb="23"/>
+</mex>
+</mex>
+</mce>
+<mce lb="61" cb="44" le="61" ce="63" nbparm="0" id="26b337a232fd70493084c0879cb3456c_9ceab2a3276252d3d166f5074a607fa2">
+<exp pvirg="true"/>
+<mex lb="61" cb="44" le="61" ce="52" id="26b337a232fd70493084c0879cb3456c_9ceab2a3276252d3d166f5074a607fa2" nm="getTHeight" point="1">
+<mex lb="61" cb="44" kind="lvalue" id="2888ea4ff5f6e154a249ba44fc3820b1_9cca0a85684192e46eba0c159b12f1fa" nm="texture" arrow="1">
+<n19 lb="61" cb="44"/>
+</mex>
+</mex>
+</mce>
+</mce>
+<mce lb="62" cb="2" le="62" ce="24" nbparm="0" id="2888ea4ff5f6e154a249ba44fc3820b1_9a6ea6929d743386dcc813f9633d6578">
+<exp pvirg="true"/>
+<mex lb="62" cb="2" id="2888ea4ff5f6e154a249ba44fc3820b1_9a6ea6929d743386dcc813f9633d6578" nm="setSpriteTexCoordData" arrow="1">
+<n19 lb="62" cb="2"/>
+</mex>
+</mce>
+</u>
+
+</Stmt>
+</m>
+</tun>
+</Root>

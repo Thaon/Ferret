@@ -1,0 +1,341 @@
+<Externals>
+<tm namespace="glm.detail" access="none" depth="0" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" file="3" linestart="49" lineend="218" previous="04ab6e3ac7e082132d6f4c5dbe3dbda6_1d6d3ac9439e84a804fdde8e709dbc19">
+<template_parameters>
+<ttp name="T" id="d02fcd10780b91a55c473144bcb3a13f_72caa53b641e978ed8d6a14151d5bf95" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="glm.detail" access="none" depth="0" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_162b87dad9a7f950e97830cfb9e07a48" file="3" linestart="50" lineend="218" previous="04ab6e3ac7e082132d6f4c5dbe3dbda6_162b87dad9a7f950e97830cfb9e07a48">
+<cr access="public" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_585f650193ee88b518fb83d06bb92057" file="3" linestart="50" lineend="50"/>
+<e parent="d02fcd10780b91a55c473144bcb3a13f_162b87dad9a7f950e97830cfb9e07a48" access="public" name="ctor" id="d02fcd10780b91a55c473144bcb3a13f_ffb6716d6699c0060bbc89c20af5fdd3" file="3" linestart="55" lineend="55" fixed="true">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<fl name="" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" file="3" linestart="88" lineend="88" access="public" proto="glm::detail::tvec2::(anonymous union at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\include\glm/detail/type_vec2.hpp:88:4)">
+<rt>
+<cr id="d02fcd10780b91a55c473144bcb3a13f_fbd8daf94b43bde2c5cf9a77dde0458e"/>
+</rt>
+</fl>
+<c name="tvec2&lt;T, P&gt;" id="d02fcd10780b91a55c473144bcb3a13f_70d13f4e22dcdf849a3525be85d54839" file="3" linestart="106" lineend="106" copyconst="true" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="v" proto="const tvec2&lt;T, P&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="d02fcd10780b91a55c473144bcb3a13f_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+</tm>
+<cr parent="d02fcd10780b91a55c473144bcb3a13f_0ac04393653649e85636c7ef973f758a" access="public" depth="0" pod="true" kind="union" name="" id="d02fcd10780b91a55c473144bcb3a13f_fbd8daf94b43bde2c5cf9a77dde0458e" file="3" linestart="88" lineend="88">
+<fl name="x" id="d02fcd10780b91a55c473144bcb3a13f_512f59f265b413088d350e93b13e58d8" file="3" linestart="88" lineend="88" isLiteral="true" access="public" proto="float">
+<sttp/>
+</fl>
+</cr>
+<cr parent="d02fcd10780b91a55c473144bcb3a13f_0ac04393653649e85636c7ef973f758a" access="public" depth="0" pod="true" kind="union" name="" id="d02fcd10780b91a55c473144bcb3a13f_736a1906e3a6cbb09bdc0a4f3545c3ab" file="3" linestart="89" lineend="89">
+<fl name="y" id="d02fcd10780b91a55c473144bcb3a13f_a6144b327c5c65306f9841552cfafaed" file="3" linestart="89" lineend="89" isLiteral="true" access="public" proto="float">
+<sttp/>
+</fl>
+</cr>
+<cr access="none" depth="0" kind="class" name="TransformComponent" id="ff48d3afd1ac5a24135f20f0d75fe24a_4ee5a505ab2fd0ac8a12eeee3341fbeb" file="4" linestart="4" lineend="28">
+<m name="GetPosition" id="ff48d3afd1ac5a24135f20f0d75fe24a_293a61eeaf3e8ed3adb3973f374d1a6c" file="4" linestart="19" lineend="19" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fpt>
+</m>
+<m name="GetRotation" id="ff48d3afd1ac5a24135f20f0d75fe24a_8f9b8ba3a52b126aec836d51c8f5b879" file="4" linestart="20" lineend="20" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="float">
+<bt name="float"/>
+</fpt>
+</m>
+<m name="GetScale" id="ff48d3afd1ac5a24135f20f0d75fe24a_d84de9118f0b16be777f60fb3d5a776f" file="4" linestart="21" lineend="21" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SpriteComponent" id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed" file="5" linestart="7" lineend="45">
+<m name="GetCenter" id="2888ea4ff5f6e154a249ba44fc3820b1_46acf36b6fa282a496d3db5c9d3d36a0" file="5" linestart="33" lineend="33" access="public">
+<fpt cc="x86_thiscall" proto="glm::vec2">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</fpt>
+<p name="position" proto="glm::vec2" access2="none">
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</p>
+</m>
+<m name="GetTexture" id="2888ea4ff5f6e154a249ba44fc3820b1_0ea5054f52876162fa14210772af1f2f" file="5" linestart="34" lineend="34" access="public">
+<fpt cc="x86_thiscall" proto="GLuint">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</fpt>
+</m>
+<m name="GetTexCoordData" id="2888ea4ff5f6e154a249ba44fc3820b1_93370745053efef72b38e481e9684689" file="5" linestart="36" lineend="36" access="public">
+<fpt cc="x86_thiscall" proto="glm::vec2 *">
+<pt>
+<ety>
+<Tdef>
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48"/>
+<template_arguments>
+<bt name="float"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+</Tdef>
+</ety>
+</pt>
+</fpt>
+</m>
+<m name="GetWidth" id="2888ea4ff5f6e154a249ba44fc3820b1_587bc35c95ecc01ba64471864a854c7b" file="5" linestart="37" lineend="37" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="GetHeight" id="2888ea4ff5f6e154a249ba44fc3820b1_9933900f5da15f5e599978519e3ea7e4" file="5" linestart="38" lineend="38" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="FTPoint" id="36333ea59dacc6aaabc9b7c667f5a491_a2b4741a4fc6ebc63a5de411b47d7393" file="6" linestart="42" lineend="269"/>
+<cr access="none" depth="0" kind="class" name="FTFont" id="af2e25b84712f6ad6da553b30cee5d51_3dd9dd9ac582e3bd8f56fbbad1b2b5d5" file="7" linestart="56" lineend="385"/>
+<cr access="none" depth="0" kind="class" name="Entity" id="9b35aefd243d0609490a4ad3bf30da6a_a55938086881fbc64904917eaa62abf0" file="8" linestart="10" lineend="39" previous="65dcaf2c10ae193c00d93b2b6839564c_a55938086881fbc64904917eaa62abf0">
+<m name="GetTransform" id="9b35aefd243d0609490a4ad3bf30da6a_3d5bfa1a24e7aa0eb99482b4d92e5f39" file="8" linestart="24" lineend="24" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="TransformComponent *">
+<pt>
+<rt>
+<cr id="ff48d3afd1ac5a24135f20f0d75fe24a_4ee5a505ab2fd0ac8a12eeee3341fbeb"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetSpriteComponent" id="9b35aefd243d0609490a4ad3bf30da6a_3b961686f7d8d578c4f4a793245b5e2e" file="8" linestart="27" lineend="27" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="SpriteComponent *">
+<pt>
+<rt>
+<cr id="2888ea4ff5f6e154a249ba44fc3820b1_32f6efe33535d573394408cc92c7fbed"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="Scenegraph" id="5a824d0dd6dd18987632e6b7e8cdc0c0_3752e632cc33b4102a6b52700ff14c47" file="9" linestart="7" lineend="22"/>
+<f name="glBegin" id="33c672c5ccce976484cd3521ee4ffa73_97dfddbed787fac1ea0723b86b2e82d4" file="10" linestart="1161" lineend="1161" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="mode" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glBindTexture" id="33c672c5ccce976484cd3521ee4ffa73_1be04bfaa50b01cc1b0ad8f21985bca2" file="10" linestart="1162" lineend="1162" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="target" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="texture" proto="GLuint" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glColor3f" id="33c672c5ccce976484cd3521ee4ffa73_ca858af3a324ff357d56f04ae29bc175" file="10" linestart="1178" lineend="1178" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="red" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="green" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="blue" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+<f name="glDisable" id="33c672c5ccce976484cd3521ee4ffa73_52aeab64c2eb15ce51bd3f409d5a4e18" file="10" linestart="1220" lineend="1220" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="cap" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glEnable" id="33c672c5ccce976484cd3521ee4ffa73_49262fc54d0924148d46d2326e0fce42" file="10" linestart="1229" lineend="1229" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="cap" proto="GLenum" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="glEnd" id="33c672c5ccce976484cd3521ee4ffa73_e8c7f1209bbc6f5b5a99913e9ea4e5f3" file="10" linestart="1231" lineend="1231" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glLoadIdentity" id="33c672c5ccce976484cd3521ee4ffa73_d3f1b2c9ba7d3256c19c470292d00718" file="10" linestart="1314" lineend="1314" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glPopMatrix" id="33c672c5ccce976484cd3521ee4ffa73_85b6f8521e7a4e5528d7926ff2f37b8f" file="10" linestart="1362" lineend="1362" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glPushMatrix" id="33c672c5ccce976484cd3521ee4ffa73_f35d189d971f0c7b10e8d6828e034285" file="10" linestart="1367" lineend="1367" extC="true" imported="true" access="none">
+<Attributed/>
+</f>
+<f name="glRotatef" id="33c672c5ccce976484cd3521ee4ffa73_920c4c022993772282b9716560116cca" file="10" linestart="1405" lineend="1405" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="angle" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="x" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="z" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+<f name="glScalef" id="33c672c5ccce976484cd3521ee4ffa73_fe485badd496e2d01eab69b594402dd5" file="10" linestart="1407" lineend="1407" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="x" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="z" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+<f name="glTexCoord2f" id="33c672c5ccce976484cd3521ee4ffa73_42156dd33fc69b943de5c4ce3c2be2b2" file="10" linestart="1424" lineend="1424" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="s" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="t" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+<f name="glTranslatef" id="33c672c5ccce976484cd3521ee4ffa73_1d213c43fbee392d3acd775f254aa4bb" file="10" linestart="1466" lineend="1466" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="x" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="z" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+<f name="glVertex2f" id="33c672c5ccce976484cd3521ee4ffa73_6a46ebd4b174a5ac768778fa303e8276" file="10" linestart="1469" lineend="1469" extC="true" imported="true" access="none">
+<Attributed/>
+<p name="x" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+<p name="y" proto="GLfloat" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="float"/>
+</Tdef>
+</p>
+</f>
+</Externals>

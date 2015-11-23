@@ -1,0 +1,47 @@
+<Externals>
+<e namespace="glm" access="none" name="precision" id="ac6a007b8f21891b03305a3e8bb3024b_e70de8524223d7e663b3083cea5d6c9e" file="3" linestart="34" lineend="40" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="highp" id="ac6a007b8f21891b03305a3e8bb3024b_a9adf7caac7dce59beba34d318937fc1" file="3" linestart="36" lineend="36">
+<et>
+<e id="ac6a007b8f21891b03305a3e8bb3024b_e70de8524223d7e663b3083cea5d6c9e"/>
+</et>
+</ec>
+</e>
+<cr namespace="glm.detail" access="none" kind="struct" name="tvec2" id="a4960c6670b02d9048a800ecb0b1c3e1_162b87dad9a7f950e97830cfb9e07a48" file="4" linestart="39" lineend="39"/>
+<tm namespace="glm.detail" access="none" depth="0" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" file="5" linestart="49" lineend="218" previous="04ab6e3ac7e082132d6f4c5dbe3dbda6_1d6d3ac9439e84a804fdde8e709dbc19">
+<template_parameters>
+<ttp name="T" id="d02fcd10780b91a55c473144bcb3a13f_72caa53b641e978ed8d6a14151d5bf95" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="glm.detail" access="none" depth="0" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_162b87dad9a7f950e97830cfb9e07a48" file="5" linestart="50" lineend="218" previous="04ab6e3ac7e082132d6f4c5dbe3dbda6_162b87dad9a7f950e97830cfb9e07a48">
+<cr access="public" kind="struct" name="tvec2" id="d02fcd10780b91a55c473144bcb3a13f_585f650193ee88b518fb83d06bb92057" file="5" linestart="50" lineend="50"/>
+<e parent="d02fcd10780b91a55c473144bcb3a13f_162b87dad9a7f950e97830cfb9e07a48" access="public" name="ctor" id="d02fcd10780b91a55c473144bcb3a13f_ffb6716d6699c0060bbc89c20af5fdd3" file="5" linestart="55" lineend="55" fixed="true">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<fl name="" id="d02fcd10780b91a55c473144bcb3a13f_1d6d3ac9439e84a804fdde8e709dbc19" file="5" linestart="88" lineend="88" access="public" proto="glm::detail::tvec2::(anonymous union at C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\include\glm/detail/type_vec2.hpp:88:4)">
+<rt>
+<cr id="d02fcd10780b91a55c473144bcb3a13f_fbd8daf94b43bde2c5cf9a77dde0458e"/>
+</rt>
+</fl>
+</cr>
+</tm>
+<cr parent="d02fcd10780b91a55c473144bcb3a13f_32acb8042f00826c599fbc9f8453977a" access="public" depth="0" pod="true" kind="union" name="" id="d02fcd10780b91a55c473144bcb3a13f_fbd8daf94b43bde2c5cf9a77dde0458e" file="5" linestart="88" lineend="88">
+<fl name="x" id="d02fcd10780b91a55c473144bcb3a13f_1be8107be52d4da53aa7e7aa1fb00749" file="5" linestart="88" lineend="88" isLiteral="true" access="public" proto="int">
+<sttp/>
+</fl>
+</cr>
+<cr parent="d02fcd10780b91a55c473144bcb3a13f_32acb8042f00826c599fbc9f8453977a" access="public" depth="0" pod="true" kind="union" name="" id="d02fcd10780b91a55c473144bcb3a13f_736a1906e3a6cbb09bdc0a4f3545c3ab" file="5" linestart="89" lineend="89">
+<fl name="y" id="d02fcd10780b91a55c473144bcb3a13f_e3f6afefaf2de02b24fb8b5a13a35903" file="5" linestart="89" lineend="89" isLiteral="true" access="public" proto="int">
+<sttp/>
+</fl>
+</cr>
+</Externals>
