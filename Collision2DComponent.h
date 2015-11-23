@@ -13,8 +13,7 @@ private:
 	RECT* m_bounds;
 
 public:
-
-	Collision2DComponent() {}
+	Collision2DComponent() { m_bounds = new RECT; }
 	~Collision2DComponent() {}
 
 	//getters

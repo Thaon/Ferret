@@ -3,6 +3,8 @@
 #include <time.h>
 #include "cWNDManager.h"
 #include"RenderSystem.h"
+#include "BehaviourSystem.h"
+#include "CollisionSystem.h"
 
 class FerretGame
 {
@@ -10,12 +12,16 @@ private:
 	float m_lastTime = 0;
 	bool m_isRunning;
 	bool isPaused;
+	float deltaTime;
 
 	cWNDManager* window;
 	Scenegraph* sceneGraph;
 	cInputMgr* theInputMgr;
-
-	RenderSystem renderSys;
+	cFontMgr* fontMgr;
+	cSoundMgr* audioMgr;
+	BehaviourSystem* behaviourSys;
+	RenderSystem* renderSys;
+	CollisionSystem* collisionSys;
 	static FerretGame* pInstance;
 	FerretGame* pgmWNDMgr;
 
@@ -31,6 +37,8 @@ public:
 
 	Scenegraph* GetSceneGraph() { return sceneGraph; }
 	cInputMgr* Input() { return theInputMgr; }
+	cFontMgr* Text() { return fontMgr; }
+	cSoundMgr* Audio() { return audioMgr; }
 
 	int Run();
 	void Init(int windowWidth, int windowHeight, int BPP);

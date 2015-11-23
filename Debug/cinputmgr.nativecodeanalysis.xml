@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\</FILEPATH><FILENAME>cinputmgr.cpp</FILENAME><LINE>115</LINE><COLUMN>1</COLUMN></SFA><DEFECTCODE>6294</DEFECTCODE><DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION><FUNCTION>cInputMgr::anyKeyPressed</FUNCTION><DECORATED>?anyKeyPressed@cInputMgr@@QAE_NXZ</DECORATED><FUNCLINE>113</FUNCLINE><PATH/></DEFECT></DEFECTS>

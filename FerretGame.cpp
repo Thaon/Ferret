@@ -14,9 +14,7 @@ FerretGame::~FerretGame()
 float FerretGame::GetElapsedSeconds()
 {
 	float currentTime = float(GetTickCount()) / 1000.0f;
-	float seconds = float(currentTime - m_lastTime);
-	m_lastTime = currentTime;
-	return seconds;
+	return currentTime;
 }
 
 void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
@@ -24,17 +22,12 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 	//this is our windowing system
 	window = cWNDManager::getInstance();
 
-	//This is our render system
-	RenderSystem renderSys;
-
 	//The example OpenGL code
 	windowOGL theOGLWnd;
 
 	// Attach the keyboard manager
 	theInputMgr = new cInputMgr;
 	window->attachInputMgr(theInputMgr);
-
-	// Cube
 
 	//Attempt to create the window
 	if (!window->createWND(windowWidth, windowHeight, BPP))
@@ -53,14 +46,27 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 		return;
 	}
 
-	//RenderSystem renderSys;
 	sceneGraph = new Scenegraph;
-	//InputSystem input; actually not needed...
+
+	//This is our render system
+	renderSys = new RenderSystem;
+
+	//create the font manager
+	fontMgr = new cFontMgr(renderSys);
+
+	//create the audio manager
+	audioMgr = new cSoundMgr;
 
 	// This is the input manager
 	cInputMgr* theInputMgr = cInputMgr::getInstance();
 	//Clear key buffers
 	theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
+
+	//and this is our Behaviour system
+	behaviourSys = new BehaviourSystem;
+
+	//this is the collision system... quite obviously
+	collisionSys = new CollisionSystem;
 }
 
 bool FerretGame::isRunning()
@@ -73,42 +79,34 @@ int FerretGame::Run()
 	m_isRunning = true;
 
 	//we are starting the game, therefore we call start on every Entity in the Scenegraph
-	for each (Entity* gameObject in sceneGraph->GetEntities())
-	{
-		if (gameObject->GetBehaviour() != NULL)
-		{
-			gameObject->GetBehaviour()->SetInput(theInputMgr);//put this in the input system instead!
-			gameObject->GetBehaviour()->SetTransform(gameObject->GetTransform());
-			gameObject->GetBehaviour()->SetSpriteComponent(gameObject->GetSpriteComponent());
-			gameObject->GetBehaviour()->Start();
-		}
-	}
+	behaviourSys->Start(sceneGraph, theInputMgr, fontMgr, audioMgr);
+
+	float oldTime = GetElapsedSeconds();
+
 	while (isRunning())
 	{
+		float newTime = GetElapsedSeconds();
+		deltaTime = newTime - oldTime;
+
 		window->processWNDEvents(); //Process any window events
 
 		//Update entities
-		for each (Entity* gameObject in sceneGraph->GetEntities())
-		{
-			if (gameObject->GetBehaviour() != NULL)
-			{
-				gameObject->GetBehaviour()->Update();
-			}
-		}
+		behaviourSys->Update(deltaTime);
 
 		//Calculate collisions here
-
-		//We get the time that passed since the last frame
-		float elapsedTime = GetElapsedSeconds();
+		collisionSys->Update(sceneGraph);
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
-		renderSys.Render(sceneGraph);
+		renderSys->Render(sceneGraph);
 		window->swapBuffers();
 		if (!window->isWNDRunning())
 		{
 			m_isRunning = false;
 		}
+
+		//We update the delta time
+		oldTime = newTime;
 	}
 
 	//theOGLWnd.shutdown(); //Free any resources Seems a bit unnecessary as the method is empty...

@@ -2,22 +2,22 @@
 
 #include <ctime>
 #include "Scenegraph.h"
+#include "cFontMgr.h"
 
 class RenderSystem
 {
 public:
+	void SetColor(float r, float g, float b);
+
 	void RenderSprite(Entity* entity);
 	void Render(Scenegraph* sceneGraph);
 
-	RenderSystem* getInstance();
-
+	void RenderFont(FTFont* font, LPCSTR text, FTPoint textPos);
 
 	RenderSystem();
 	~RenderSystem();
 
 private:
-	RenderSystem* pInstance;
-
 	//don't need a reference to the scenegraph as it will be passed to the render method by the FerretGame class
 };
 

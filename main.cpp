@@ -21,14 +21,24 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	FerretGame game;
 	game.Init(windowWidth, windowHeight, windowBPP);
 
+	//declare our entities here
 	Entity test("test");
 	test.AddTransform();
 	test.AddSprite();
 	test.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");
+	test.AddCollision2DComponent();
 	test.AddBehaviour();
 	test.SetBehaviour(new RocketBehaviour);
 
-	game.GetSceneGraph()->Instantiate(&test, glm::vec2(100, 100), 0);
+	Entity test2("Test2");
+	test2.AddTransform();
+	test2.AddSprite();
+	test2.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");
+	test2.AddCollision2DComponent();
+
+	//instantiate them here
+	game.GetSceneGraph()->Instantiate(&test, glm::vec2(500, 200), 0);
+	game.GetSceneGraph()->Instantiate(&test2, glm::vec2(600, 200), 0);
 
 	game.Run();
 

@@ -11,14 +11,6 @@ RenderSystem::~RenderSystem()
 {
 }
 
-RenderSystem* RenderSystem::getInstance() // singleton
-{
-	if (pInstance == NULL)
-	{
-		pInstance = new RenderSystem();
-	}
-	return RenderSystem::pInstance;
-}
 
 // WE NOW START WITH RENDERING INDIVIDUAL SPRITES!
 
@@ -62,4 +54,18 @@ void RenderSystem::Render(Scenegraph* sceneGraph)
 	{
 		RenderSprite(entity);
 	}
+}
+
+void RenderSystem::RenderFont(FTFont* font, LPCSTR text, FTPoint textPos)
+{
+	glPushMatrix();
+
+	font->Render(text, -1, textPos);
+
+	glPopMatrix();
+}
+
+void RenderSystem::SetColor(float r, float g, float b)
+{
+	glColor3f(r, g, b);
 }

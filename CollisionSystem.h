@@ -7,10 +7,9 @@
 class CollisionSystem
 {
 private:
-	Scenegraph* sceneGraph;
+
 public:
-	void Start(Scenegraph* scene);
-	void Update();
+	void Update(Scenegraph* scene);
 
 	CollisionSystem();
 	~CollisionSystem();
