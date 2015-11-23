@@ -12,7 +12,7 @@ public:
 	void RenderSprite(Entity* entity);
 	void Render(Scenegraph* sceneGraph);
 
-	void RenderFont(FTFont* font, LPCSTR text, FTPoint textPos);
+	//void RenderFont(FTFont* font, LPCSTR text, FTPoint textPos);
 
 	RenderSystem();
 	~RenderSystem();

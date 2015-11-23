@@ -6,7 +6,7 @@
 #include "cInputMgr.h"
 #include "cFontMgr.h"
 
-//class cSoundMgr;
+class cSoundMgr;
 class Entity;
 
 class BehaviourComponent

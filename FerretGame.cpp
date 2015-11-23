@@ -52,7 +52,7 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 	renderSys = new RenderSystem;
 
 	//create the font manager
-	fontMgr = new cFontMgr(renderSys);
+	fontMgr = new cFontMgr;
 
 	//create the audio manager
 	audioMgr = new cSoundMgr;

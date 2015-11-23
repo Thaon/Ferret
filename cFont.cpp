@@ -21,10 +21,9 @@ cFont::cFont()
 Overloaded constructor
 ==========================================================================
 */
-cFont::cFont(LPCSTR fontFileName, int fontSize, RenderSystem* renderSys)
+cFont::cFont(LPCSTR fontFileName, int fontSize)
 {
 	theFont = new FTTextureFont(fontFileName);
-	renderSystem= renderSys;
 
 	if (theFont == NULL)
 	{

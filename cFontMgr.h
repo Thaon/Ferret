@@ -14,12 +14,10 @@ class cFontMgr
 {
 private:
 
-	map<LPCSTR, cFont*> gameFonts;
-	RenderSystem* renderSys;
+	std::map<LPCSTR, cFont*> gameFonts;
 
 public:
 	cFontMgr();								// Default Constructor
-	cFontMgr(RenderSystem* renderSystem);
 	~cFontMgr();							// Destructor.
 	void addFont(LPCSTR fontName, LPCSTR fileName, int fontSize);  // add font to the Font collection
 	cFont* getFont(LPCSTR fontName);				// return the font for use

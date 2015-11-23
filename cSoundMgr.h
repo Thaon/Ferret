@@ -17,7 +17,7 @@ private:
 	ALCcontext *m_OALContext;
 	ALCdevice *m_OALDevice;
 
-protected:
+public:
 	cSoundMgr();
 	~cSoundMgr();
 	map <LPCSTR, cSound*> gameSnds;

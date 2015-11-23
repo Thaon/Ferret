@@ -17,11 +17,6 @@ cFontMgr::cFontMgr()
 {
 }
 
-cFontMgr::cFontMgr(RenderSystem* renderSystem)
-{
-	renderSys = renderSystem;
-}
-
 cFontMgr::~cFontMgr()							// Destructor.
 {
 	deleteFont();
@@ -30,14 +25,14 @@ void cFontMgr::addFont(LPCSTR fontName, LPCSTR fileName, int fontSize)  // add f
 {
 	if (!getFont(fontName))
 	{
-		cFont * newFont = new cFont(fileName, fontSize, renderSys);
-		gameFonts.insert(make_pair(fontName, newFont));
+		cFont * newFont = new cFont(fileName, fontSize);
+		gameFonts.insert(std::make_pair(fontName, newFont));
 	}
 }
 
 cFont* cFontMgr::getFont(LPCSTR fontName)				// return the font for use
 {
-	map<LPCSTR, cFont*>::iterator theFont = gameFonts.find(fontName);
+	std::map<LPCSTR, cFont*>::iterator theFont = gameFonts.find(fontName);
 	if (theFont != gameFonts.end())
 	{
 		return theFont->second;
@@ -50,7 +45,7 @@ cFont* cFontMgr::getFont(LPCSTR fontName)				// return the font for use
 
 void cFontMgr::deleteFont()								// delete font.
 {
-	for (map<LPCSTR, cFont*>::const_iterator theFont = gameFonts.begin(); theFont != gameFonts.end(); theFont++)
+	for (std::map<LPCSTR, cFont*>::const_iterator theFont = gameFonts.begin(); theFont != gameFonts.end(); theFont++)
 	{
 		delete theFont->second;
 	}
