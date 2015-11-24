@@ -30,7 +30,7 @@
 
 /* _STANDALONE_ is from ftgrays.c */
 #ifndef _STANDALONE_
-#include "../includes/ft2build.h"
+#include <ft2build.h>
 #endif
 
 

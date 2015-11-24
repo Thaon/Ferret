@@ -29,6 +29,12 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 	theInputMgr = new cInputMgr;
 	window->attachInputMgr(theInputMgr);
 
+	//Clear key buffers
+	theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
+
+	//create the font manager
+	fontMgr = new cFontMgr;
+
 	//Attempt to create the window
 	if (!window->createWND(windowWidth, windowHeight, BPP))
 	{
@@ -51,16 +57,8 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 	//This is our render system
 	renderSys = new RenderSystem;
 
-	//create the font manager
-	fontMgr = new cFontMgr;
-
 	//create the audio manager
 	audioMgr = new cSoundMgr;
-
-	// This is the input manager
-	cInputMgr* theInputMgr = cInputMgr::getInstance();
-	//Clear key buffers
-	theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
 
 	//and this is our Behaviour system
 	behaviourSys = new BehaviourSystem;

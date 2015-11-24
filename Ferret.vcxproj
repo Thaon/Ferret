@@ -72,7 +72,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <ExecutablePath>$(ProjectDir)/include;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>$(ProjectDir)/include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Thaon\Documents\Visual Studio 2015\Projects\Ferret\Ferret\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)/include/Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -90,14 +90,13 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <ShowIncludes>true</ShowIncludes>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>DeviL.lib;freeglut.lib;ILU.lib;ILUT.lib;OpenAL32.lib;ftgl.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>DeviL.lib;freeglut.lib;ILU.lib;ILUT.lib;OpenAL32.lib;freetype.lib;ftgl.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

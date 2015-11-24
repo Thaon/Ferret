@@ -21,14 +21,18 @@ cFont::cFont()
 Overloaded constructor
 ==========================================================================
 */
-cFont::cFont(LPCSTR fontFileName, int fontSize)
+cFont::cFont(LPCSTR fontFileName, const unsigned int fontSize)
 {
-	theFont = new FTTextureFont(fontFileName);
+	theFont = new FTGLTextureFont(fontFileName);
 
-	if (theFont == NULL)
+	//FT_Error error = theFont->Error();
+	//MessageBox(NULL, (LPCSTR)error, "Error Code", MB_OK);
+
+	if (theFont->Error())
 	{
-		MessageBox(NULL, "Unable to create the required Font!", "An error occurred", MB_ICONERROR | MB_OK);
+		MessageBox(NULL, "Unable to create the required Font!", "Error!", MB_ICONERROR | MB_OK);
 		delete theFont;
+		return;
 	}
 
 	if (!theFont->FaceSize(fontSize))

@@ -9,7 +9,7 @@ cFont.h
 #include <Windows.h>
 #include <map>
 #include <FTGL\ftgl.h>
-#include "GL\glut.h"
+#include <GL/glut.h>
 
 class cFont
 {
@@ -18,7 +18,7 @@ private:
 
 public:
 	cFont();
-	cFont(LPCSTR fontFileName, int fontSize);
+	cFont(LPCSTR fontFileName, const unsigned int fontSize);
 	~cFont();
 	FTFont* getFont();
 	void printText(LPCSTR text, FTPoint textPos);
