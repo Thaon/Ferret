@@ -88,20 +88,20 @@ int FerretGame::Run()
 
 		window->processWNDEvents(); //Process any window events
 
-		//Update entities
-		behaviourSys->Update(deltaTime);
 
-		//Calculate collisions here
-		collisionSys->Update(sceneGraph);
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
 		renderSys->Render(sceneGraph);
-		window->swapBuffers();
+		//Update entities
+		behaviourSys->Update(deltaTime);
+		//Calculate collisions here
+		collisionSys->Update(sceneGraph);
 		if (!window->isWNDRunning())
 		{
 			m_isRunning = false;
 		}
+		window->swapBuffers();
 
 		//We update the delta time
 		oldTime = newTime;

@@ -1,4 +1,4 @@
-﻿Build started 24/11/2015 13:03:50.
+﻿Build started 24/11/2015 14:22:42.
      1>Project "C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\Ferret.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt RocketBehaviour.cpp
@@ -504,4 +504,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.51
+Time Elapsed 00:00:02.06

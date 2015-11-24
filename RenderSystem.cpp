@@ -52,7 +52,10 @@ void RenderSystem::Render(Scenegraph* sceneGraph)
 {
 	for each (Entity* entity in sceneGraph->GetEntities())
 	{
-		RenderSprite(entity);
+		if (entity->GetSpriteComponent())
+		{
+			RenderSprite(entity);
+		}
 	}
 }
 
