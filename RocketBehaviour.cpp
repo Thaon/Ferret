@@ -21,6 +21,6 @@ class RocketBehaviour : public BehaviourComponent
 
 	virtual void OnCollisionEnter(Entity* other)
 	{
-		GetFontMgr()->getFont("Space")->printText("Collision!", FTPoint(0.0f, -1.0f, 0.0f));
+		GetFontMgr()->getFont("Space")->printText("Collision!", FTPoint(GetTransform()->GetPosition().x, GetTransform()->GetPosition().y, 0.0f));
 	}
 };
