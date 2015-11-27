@@ -16,7 +16,7 @@ private:
 	float deltaTime;
 
 	cWNDManager* window;
-	Scenegraph* sceneGraph;
+	std::vector<Scenegraph*> sceneGraph;
 	cInputMgr* theInputMgr;
 	cFontMgr* fontMgr;
 	cSoundMgr* audioMgr;
@@ -28,6 +28,8 @@ private:
 
 	std::string m_gameTitle;
 
+	int m_activeScene;
+
 public:
 	FerretGame();
 	~FerretGame();
@@ -36,12 +38,13 @@ public:
 
 	float GetElapsedSeconds();
 
-	Scenegraph* GetSceneGraph() { return sceneGraph; }
+	Scenegraph* GetSceneGraph(int scene) { return sceneGraph[scene]; }
+	void CreateSceneGraph() { sceneGraph.push_back(new Scenegraph); }
 	cInputMgr* Input() { return theInputMgr; }
 	cFontMgr* Text() { return fontMgr; }
 	cSoundMgr* Audio() { return audioMgr; }
 
-	int Run();
+	int Run(int activeScene);
 	void Init(int windowWidth, int windowHeight, int BPP);
 
 };

@@ -20,6 +20,8 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	FerretGame game;
 	game.Init(windowWidth, windowHeight, windowBPP);
+	game.CreateSceneGraph();// we create our scenegraph 0 and 1 here
+	game.CreateSceneGraph();
 
 	//declare our entities here
 	Entity test("test");
@@ -41,13 +43,13 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	camera.SetEntityToFollow(&test, windowWidth/2, windowHeight/2);
 
 	//instantiate them here
-	game.GetSceneGraph()->Instantiate(&test, glm::vec2(500, 200), 0);
-	game.GetSceneGraph()->Instantiate(&test2, glm::vec2(600, 200), 0);
+	game.GetSceneGraph(0)->Instantiate(&test, glm::vec2(500, 200), 0);
+	game.GetSceneGraph(0)->Instantiate(&test2, glm::vec2(600, 200), 0);
 
 	//instantiate the camera here
-	game.GetSceneGraph()->Instantiate(&camera, glm::vec2(0, 0));
+	game.GetSceneGraph(0)->Instantiate(&camera, glm::vec2(0, 0));
 
-	game.Run();
+	game.Run(0);
 
 	return 0; //Return success
 }

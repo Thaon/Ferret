@@ -27,6 +27,15 @@ class RocketBehaviour : public BehaviourComponent
 		{
 			GetTransform()->SetPosition(-1, 0);
 		}
+		if (GetInput()->isKeyDown(VK_UP))
+		{
+			GetTransform()->SetPosition(0, -1);
+
+		}
+		if (GetInput()->isKeyDown(VK_DOWN))
+		{
+			GetTransform()->SetPosition(0, 1);
+		}
 	}
 
 	virtual void OnCollisionEnter(Entity* other)

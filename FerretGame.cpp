@@ -52,7 +52,7 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 		return;
 	}
 
-	sceneGraph = new Scenegraph;
+	//sceneGraph = new Scenegraph; not creating the scenegraph from here anymore!
 
 	//This is our render system
 	renderSys = new RenderSystem;
@@ -72,12 +72,12 @@ bool FerretGame::isRunning()
 	return m_isRunning;
 }
 
-int FerretGame::Run()
+int FerretGame::Run(int activeScene)
 {
 	m_isRunning = true;
 
 	//we are starting the game, therefore we call start on every Entity in the Scenegraph
-	behaviourSys->Start(sceneGraph, theInputMgr, fontMgr, audioMgr);
+	behaviourSys->Start(sceneGraph[activeScene], theInputMgr, fontMgr, audioMgr);
 
 	float oldTime = GetElapsedSeconds();
 
@@ -88,18 +88,17 @@ int FerretGame::Run()
 
 		window->processWNDEvents(); //Process any window events
 
-
 		//update all the cameras
-		for each (Camera* camera in sceneGraph->GetCameras())
+		for each (Camera* camera in sceneGraph[activeScene]->GetCameras())
 		{
 			camera->Update(deltaTime);
 		}
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
-		renderSys->Render(sceneGraph);
+		renderSys->Render(sceneGraph[activeScene]);
 		//Calculate collisions here
-		collisionSys->Update(sceneGraph);
+		collisionSys->Update(sceneGraph[activeScene]);
 		//Update entities
 		behaviourSys->Update(deltaTime);
 		if (!window->isWNDRunning())
