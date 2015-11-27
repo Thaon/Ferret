@@ -8,6 +8,7 @@ cSoundMgr.h
 
 #include "cSound.h"
 #include <map>
+#include <stdlib.h>
 
 using namespace std;
 

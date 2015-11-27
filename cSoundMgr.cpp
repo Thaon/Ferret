@@ -27,6 +27,10 @@ void cSoundMgr::createContext()
 		//Set active context
 		alcMakeContextCurrent(m_OALContext);
 	}
+	else
+	{
+		MessageBox(NULL, "Could not create openAL context!", "AUDIO ERROR", MB_OK);
+	}
 }
 
 void cSoundMgr::add(LPCSTR sndName, LPCSTR fileName)

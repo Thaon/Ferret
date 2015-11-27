@@ -58,7 +58,7 @@ void FerretGame::Init(int windowWidth, int windowHeight, int BPP)
 	renderSys = new RenderSystem;
 
 	//create the audio manager
-	audioMgr = new cSoundMgr;
+	audioMgr = new cSoundMgr();
 
 	//and this is our Behaviour system
 	behaviourSys = new BehaviourSystem;

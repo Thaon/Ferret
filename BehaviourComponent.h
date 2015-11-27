@@ -5,8 +5,8 @@
 
 #include "cInputMgr.h"
 #include "cFontMgr.h"
+#include "cSoundMgr.h"
 
-class cSoundMgr;
 class Entity;
 
 class BehaviourComponent
