@@ -12,6 +12,8 @@ private:
 
 	RECT* m_bounds;
 
+	bool m_isColliding = false;
+
 public:
 	Collision2DComponent() { m_bounds = new RECT; }
 	~Collision2DComponent() {}

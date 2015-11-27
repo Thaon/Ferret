@@ -93,10 +93,10 @@ int FerretGame::Run()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
 		renderSys->Render(sceneGraph);
-		//Update entities
-		behaviourSys->Update(deltaTime);
 		//Calculate collisions here
 		collisionSys->Update(sceneGraph);
+		//Update entities
+		behaviourSys->Update(deltaTime);
 		if (!window->isWNDRunning())
 		{
 			m_isRunning = false;

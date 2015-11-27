@@ -20,6 +20,9 @@ public:
 	Entity(){}
 	Entity(std::string name) { m_name = name; }
 
+	void SetName(std::string value) { m_name = value; }
+	std::string GetName() { return m_name; }
+
 	void AddTransform() { transformComponent = new TransformComponent(); }
 	TransformComponent* GetTransform() { return transformComponent; }
 
@@ -34,6 +37,4 @@ public:
 	void AddCollision2DComponent() { collision2DComponent = new Collision2DComponent(); }
 	Collision2DComponent* GetCollision2DComponent() { return collision2DComponent; }
 
-	//getters
-	std::string GetName() { return m_name; }
 };

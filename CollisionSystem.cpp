@@ -15,8 +15,8 @@ void CollisionSystem::Update(Scenegraph* scene)
 	{
 		if (collider->GetCollision2DComponent() != NULL)
 		{
-		//update the position of the colliders
-		collider->GetCollision2DComponent()->SetBoundingBox(collider->GetTransform()->GetPosition(), collider->GetSpriteComponent()->GetWidth(), collider->GetSpriteComponent()->GetHeight());
+			//update the position of the colliders
+			collider->GetCollision2DComponent()->SetBoundingBox(collider->GetTransform()->GetPosition(), collider->GetSpriteComponent()->GetWidth(), collider->GetSpriteComponent()->GetHeight());
 			//check for collisions against other colliders
 			for each (Entity* collider2 in scene->GetEntities())
 			{

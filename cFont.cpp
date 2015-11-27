@@ -68,7 +68,12 @@ Render the text using the desired font
 */
 void cFont::printText(LPCSTR text, FTPoint textPos)
 {
+	//glLoadIdentity();
 	glPushMatrix();
+	glTranslatef(textPos.X(), textPos.Y(), textPos.Z());
+	//glMatrixMode(GL_MODELVIEW);
+	glScalef(1.0f, -1.0f, 1.0f);
+	glTranslatef(-textPos.X(), -textPos.Y(), -textPos.Z());
 
 	glColor3f(1.0, 1.0, 1.0);
 	theFont->Render(text, -1, textPos);
