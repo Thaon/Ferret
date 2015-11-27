@@ -21,6 +21,7 @@ class RocketBehaviour : public BehaviourComponent
 		if (GetInput()->isKeyDown(VK_RIGHT))
 		{
 			GetTransform()->SetPosition(1, 0);
+
 		}
 		if (GetInput()->isKeyDown(VK_LEFT))
 		{
@@ -32,11 +33,13 @@ class RocketBehaviour : public BehaviourComponent
 	{
 		if (other->GetName() == "Wall")
 		{
-			GetFontMgr()->getFont("Space")->printText("Wall!", FTPoint(GetTransform()->GetPosition().x, GetTransform()->GetPosition().y, 1.0f));
+			//GetFontMgr()->getFont("Space")->printText("Wall!", FTPoint(GetTransform()->GetPosition().x, GetTransform()->GetPosition().y, 1.0f));
+			GetTransform()->SetPosition(previousPosition);
 		}
 		if (other->GetName() == "Test2")
 		{
 			GetFontMgr()->getFont("Space")->printText("Rocket!", FTPoint(GetTransform()->GetPosition().x, GetTransform()->GetPosition().y, 1.0f));
+			GetSoundMgr()->getSnd("boop")->playAudio(AL_FALSE);
 		}
 		//GetTransform()->SetPosition(previousPosition);
 		//GetFontMgr()->getFont("Space")->printText("Collision! YEEEEEEEEEEEEEEEEEEEEEE", FTPoint(GetTransform()->GetPosition().x, GetTransform()->GetPosition().y, 1.0f));

@@ -34,7 +34,20 @@ Entity* Scenegraph::Instantiate(Entity* entity, glm::vec2 position, float orient
 	return entity;
 }
 
+Camera* Scenegraph::Instantiate(Camera* camera, glm::vec2 position)
+{
+	m_cameras.reserve(m_size);
+	m_cameras.push_back(camera);
+	camera->SetPosition(position);
+	return camera;
+}
+
 std::vector<Entity*> Scenegraph::GetEntities()
 {
 	return m_gameObjects;
+}
+
+std::vector<Camera*> Scenegraph::GetCameras()
+{
+	return m_cameras;
 }

@@ -154,6 +154,7 @@
     <ClInclude Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.h" />
     <ClInclude Include="BehaviourComponent.h" />
     <ClInclude Include="BehaviourSystem.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="cFont.h" />
     <ClInclude Include="cFontMgr.h" />
     <ClInclude Include="cInputMgr.h" />
@@ -178,6 +179,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp" />
     <ClCompile Include="BehaviourSystem.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="cFont.cpp" />
     <ClCompile Include="cFontMgr.cpp" />
     <ClCompile Include="cInputMgr.cpp" />

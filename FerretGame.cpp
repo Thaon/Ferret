@@ -89,6 +89,11 @@ int FerretGame::Run()
 		window->processWNDEvents(); //Process any window events
 
 
+		//update all the cameras
+		for each (Camera* camera in sceneGraph->GetCameras())
+		{
+			camera->Update(deltaTime);
+		}
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
@@ -101,6 +106,7 @@ int FerretGame::Run()
 		{
 			m_isRunning = false;
 		}
+
 		window->swapBuffers();
 
 		//We update the delta time

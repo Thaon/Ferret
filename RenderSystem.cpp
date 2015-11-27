@@ -14,10 +14,12 @@ RenderSystem::~RenderSystem()
 
 // WE NOW START WITH RENDERING INDIVIDUAL SPRITES!
 
-void RenderSystem::RenderSprite(Entity* entity)
+void RenderSystem::RenderSprite(Entity* entity, Camera* camera)
 {
 	glLoadIdentity();
 	glPushMatrix();
+
+	glTranslatef(-camera->GetPosition().x, -camera->GetPosition().y, 0.0f);
 
 	//glMatrixMode(GL_TEXTURE);
 	glTranslatef(entity->GetSpriteComponent()->GetCenter(entity->GetTransform()->GetPosition()).x, entity->GetSpriteComponent()->GetCenter(entity->GetTransform()->GetPosition()).y, 0.0f);
@@ -50,11 +52,14 @@ void RenderSystem::RenderSprite(Entity* entity)
 
 void RenderSystem::Render(Scenegraph* sceneGraph)
 {
-	for each (Entity* entity in sceneGraph->GetEntities())
+	for each(Camera* camera in sceneGraph->GetCameras())
 	{
-		if (entity->GetSpriteComponent())
+		for each (Entity* entity in sceneGraph->GetEntities())
 		{
-			RenderSprite(entity);
+			if (entity->GetSpriteComponent())
+			{
+				RenderSprite(entity, camera);
+			}
 		}
 	}
 }

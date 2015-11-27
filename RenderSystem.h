@@ -3,13 +3,14 @@
 #include <ctime>
 #include "Scenegraph.h"
 #include "cFontMgr.h"
+#include "Camera.h"
 
 class RenderSystem
 {
 public:
 	void SetColor(float r, float g, float b);
 
-	void RenderSprite(Entity* entity);
+	void RenderSprite(Entity* entity, Camera* camera);
 	void Render(Scenegraph* sceneGraph);
 
 	//void RenderFont(FTFont* font, LPCSTR text, FTPoint textPos);
