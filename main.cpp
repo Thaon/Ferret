@@ -32,7 +32,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	test.AddBehaviour();
 	test.SetBehaviour(new RocketBehaviour);
 
-	Entity test2("Wall");
+	Entity test2("test2");
 	test2.AddTransform();
 	test2.AddSprite();
 	test2.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");

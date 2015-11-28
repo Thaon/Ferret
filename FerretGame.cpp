@@ -97,10 +97,17 @@ int FerretGame::Run(int activeScene)
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		//Render all the sprites here!!
 		renderSys->Render(sceneGraph[activeScene]);
+
+		//translating the scene according to the camera coordinates so that when text is drawn either during collisions or from behaviors, it will be in the correct position
+		glTranslatef(-(sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().x), -(sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().y), 0.0f);
+		
 		//Calculate collisions here
 		collisionSys->Update(sceneGraph[activeScene]);
 		//Update entities
 		behaviourSys->Update(deltaTime);
+
+		glTranslatef((sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().x), (sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().y), 0.0f);
+
 		if (!window->isWNDRunning())
 		{
 			m_isRunning = false;
