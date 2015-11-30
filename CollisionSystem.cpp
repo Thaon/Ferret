@@ -20,22 +20,25 @@ void CollisionSystem::Update(Scenegraph* scene)
 			//check for collisions against other colliders
 			for each (Entity* collider2 in scene->GetEntities())
 			{
-				//need to check if the last collider was tested and break or each collider will be tested N times, massive slow down ahead!!!
-				if (collider2 != collider)//we cannot collide with ourselves
+				if (collider2->GetCollision2DComponent() != NULL)
 				{
-					if ((collider->GetCollision2DComponent()->GetBoundingBox()->left < collider2->GetCollision2DComponent()->GetBoundingBox()->right
-						&& collider->GetCollision2DComponent()->GetBoundingBox()->right > collider2->GetCollision2DComponent()->GetBoundingBox()->left
-						&& collider->GetCollision2DComponent()->GetBoundingBox()->top < collider2->GetCollision2DComponent()->GetBoundingBox()->bottom
-						&& collider->GetCollision2DComponent()->GetBoundingBox()->bottom > collider2->GetCollision2DComponent()->GetBoundingBox()->top))
+					//need to check if the last collider was tested and break or each collider will be tested N times, massive slow down ahead!!!
+					if (collider2 != collider)//we cannot collide with ourselves
 					{
-						if (collider->GetBehaviour() != NULL)//notify collider 1
+						if ((collider->GetCollision2DComponent()->GetBoundingBox()->left < collider2->GetCollision2DComponent()->GetBoundingBox()->right
+							&& collider->GetCollision2DComponent()->GetBoundingBox()->right > collider2->GetCollision2DComponent()->GetBoundingBox()->left
+							&& collider->GetCollision2DComponent()->GetBoundingBox()->top < collider2->GetCollision2DComponent()->GetBoundingBox()->bottom
+							&& collider->GetCollision2DComponent()->GetBoundingBox()->bottom > collider2->GetCollision2DComponent()->GetBoundingBox()->top))
 						{
-							collider->GetBehaviour()->OnCollisionEnter(collider2);
-						}
+							if (collider->GetBehaviour() != NULL)//notify collider 1
+							{
+								collider->GetBehaviour()->OnCollisionEnter(collider2);
+							}
 
-						if (collider2->GetBehaviour() != NULL)//notify collider 2
-						{
-							collider2->GetBehaviour()->OnCollisionEnter(collider);
+							if (collider2->GetBehaviour() != NULL)//notify collider 2
+							{
+								collider2->GetBehaviour()->OnCollisionEnter(collider);
+							}
 						}
 					}
 				}

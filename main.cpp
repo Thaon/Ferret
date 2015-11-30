@@ -24,27 +24,45 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	game.CreateSceneGraph();
 
 	//declare our entities here
-	Entity test("test");
-	test.AddTransform();
-	test.AddSprite();
-	test.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");
-	test.AddCollision2DComponent();
-	test.AddBehaviour();
-	test.SetBehaviour(new RocketBehaviour);
+	Entity player("Player");
+	player.AddTransform();
+	player.AddSprite();
+	player.GetSpriteComponent()->SetSprite("Images\\player.png");
+	player.AddCollision2DComponent();
+	player.AddBehaviour();
+	player.SetBehaviour(new RocketBehaviour);
 
-	Entity test2("test2");
-	test2.AddTransform();
-	test2.AddSprite();
-	test2.GetSpriteComponent()->SetSprite("Images\\rocketSprite.png");
-	test2.AddCollision2DComponent();
+	Entity floor("Floor");
+	floor.AddTransform();
+	floor.AddSprite();
+	floor.GetSpriteComponent()->SetSprite("Images\\floor.png");
+
+	Entity wall("Wall");
+	wall.AddTransform();
+	wall.AddSprite();
+	wall.GetSpriteComponent()->SetSprite("Images\\wall.png");
+	wall.AddCollision2DComponent();
+
+	std::vector<Entity> instances; //creating a vector of instances that will hold the actual entity objects
 
 	//create a camera for the game
 	Camera camera(windowWidth, windowHeight);
-	camera.SetEntityToFollow(&test, windowWidth/2, windowHeight/2);
+	camera.SetEntityToFollow(&player, windowWidth/2, windowHeight/2);
 
 	//instantiate them here
-	game.GetSceneGraph(0)->Instantiate(&test, glm::vec2(500, 200), 0);
-	game.GetSceneGraph(0)->Instantiate(&test2, glm::vec2(600, 200), 0);
+
+	//first the level
+	/*for (int xx = 0; xx < 20; xx++)
+	{
+		for (int yy = 0; yy < 20; yy++)
+		{
+			Entity newInstance = floor;
+			instances.push_back(newInstance);
+			game.GetSceneGraph(0)->Instantiate(&instances[instances.size() - 1], glm::vec2(xx * 32, yy * 32), 0);
+		}
+	}*/
+	
+	game.GetSceneGraph(0)->Instantiate(&player, glm::vec2(320, 320), 0);
 
 	//instantiate the camera here
 	game.GetSceneGraph(0)->Instantiate(&camera, glm::vec2(0, 0));
