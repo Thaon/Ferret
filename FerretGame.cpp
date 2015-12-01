@@ -72,6 +72,11 @@ bool FerretGame::isRunning()
 	return m_isRunning;
 }
 
+void FerretGame::ChangeScene(int activeScene)
+{
+	behaviourSys->Start(sceneGraph[activeScene], theInputMgr, fontMgr, audioMgr);
+}
+
 int FerretGame::Run(int activeScene)
 {
 	m_isRunning = true;
@@ -99,14 +104,15 @@ int FerretGame::Run(int activeScene)
 		renderSys->Render(sceneGraph[activeScene]);
 
 		//translating the scene according to the camera coordinates so that when text is drawn either during collisions or from behaviors, it will be in the correct position
-		glTranslatef(-(sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().x), -(sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().y), 0.0f);
+		if (sceneGraph[activeScene]->GetCameras()[0] != NULL)
+			glTranslatef(-(sceneGraph[activeScene]->GetCameras()[0]->GetPosition().x), -(sceneGraph[activeScene]->GetCameras()[0]->GetPosition().y), 0.0f);
 		
 		//Calculate collisions here
 		collisionSys->Update(sceneGraph[activeScene]);
 		//Update entities
 		behaviourSys->Update(deltaTime);
 
-		glTranslatef((sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().x), (sceneGraph[m_activeScene]->GetCameras()[m_activeScene]->GetPosition().y), 0.0f);
+		glTranslatef((sceneGraph[activeScene]->GetCameras()[0]->GetPosition().x), (sceneGraph[activeScene]->GetCameras()[0]->GetPosition().y), 0.0f);
 
 		if (!window->isWNDRunning())
 		{
@@ -117,6 +123,15 @@ int FerretGame::Run(int activeScene)
 
 		//We update the delta time
 		oldTime = newTime;
+
+		//here we get into the Pong game specs:
+		if (activeScene == 1) //if we are in the game
+			if (sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->GetGameState() == 2) //goal was scored by AI
+			{
+				//reset game state and game until the score is more than 5
+				sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->SetGameState(-1);
+				ChangeScene(1);
+			}
 	}
 
 	//theOGLWnd.shutdown(); //Free any resources Seems a bit unnecessary as the method is empty...

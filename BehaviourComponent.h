@@ -16,9 +16,14 @@ private:
 	cFontMgr* m_text;
 	cSoundMgr* m_audio;
 
+	int m_gameState = -1;
+
 	TransformComponent* transformComponent;
 	SpriteComponent* spriteComponent;
 public:
+	void SetGameState(int value) { m_gameState = value; }
+	int GetGameState() { return m_gameState; }
+
 	void SetInput(cInputMgr* input) { m_input = input; }
 	cInputMgr* GetInput() { return m_input; }
 

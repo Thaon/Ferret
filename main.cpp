@@ -5,7 +5,8 @@
 
 #include "FerretGame.h"
 
-#include "RocketBehaviour.cpp"
+#include "PlayerBehaviour.h"
+#include "Ball.h"
 
 int WINAPI WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -14,7 +15,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 {
 
 	//Set our window settings
-	const int windowWidth = 1024;
+	const int windowWidth = 1280;
 	const int windowHeight = 768;
 	const int windowBPP = 16;
 
@@ -24,50 +25,46 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	game.CreateSceneGraph();
 
 	//declare our entities here
-	Entity player("Player");
+	Entity player("Player Paddle");
 	player.AddTransform();
 	player.AddSprite();
 	player.GetSpriteComponent()->SetSprite("Images\\player.png");
 	player.AddCollision2DComponent();
 	player.AddBehaviour();
-	player.SetBehaviour(new RocketBehaviour);
+	player.SetBehaviour(new PlayerBehaviour);
 
-	Entity floor("Floor");
-	floor.AddTransform();
-	floor.AddSprite();
-	floor.GetSpriteComponent()->SetSprite("Images\\floor.png");
+	Entity ball("Ball");
+	ball.AddTransform();
+	ball.AddSprite();
+	ball.GetSpriteComponent()->SetSprite("Images\\ball.png");
+	ball.AddCollision2DComponent();
+	ball.AddBehaviour();
+	ball.SetBehaviour(new Ball);
 
-	Entity wall("Wall");
-	wall.AddTransform();
-	wall.AddSprite();
-	wall.GetSpriteComponent()->SetSprite("Images\\wall.png");
-	wall.AddCollision2DComponent();
-
-	std::vector<Entity> instances; //creating a vector of instances that will hold the actual entity objects
+	Entity ai("AI Paddle");
+	ai.AddTransform();
+	ai.AddSprite();
+	ai.GetSpriteComponent()->SetSprite("Images\\wall.png");
+	ai.AddCollision2DComponent();
+	ai.AddBehaviour();
+	//ai.SetBehaviour(new RocketBehaviour);
 
 	//create a camera for the game
 	Camera camera(windowWidth, windowHeight);
-	camera.SetEntityToFollow(&player, windowWidth/2, windowHeight/2);
+	//camera.SetEntityToFollow(&player, windowWidth/2, windowHeight/2);
+
 
 	//instantiate them here
 
-	//first the level
-	/*for (int xx = 0; xx < 20; xx++)
-	{
-		for (int yy = 0; yy < 20; yy++)
-		{
-			Entity newInstance = floor;
-			instances.push_back(newInstance);
-			game.GetSceneGraph(0)->Instantiate(&instances[instances.size() - 1], glm::vec2(xx * 32, yy * 32), 0);
-		}
-	}*/
 	
-	game.GetSceneGraph(0)->Instantiate(&player, glm::vec2(320, 320), 0);
+	game.GetSceneGraph(1)->Instantiate(&player, glm::vec2(0, 320), 0);
+	game.GetSceneGraph(1)->Instantiate(&ball, glm::vec2(640, 320), 0);
 
-	//instantiate the camera here
-	game.GetSceneGraph(0)->Instantiate(&camera, glm::vec2(0, 0));
+	//instantiate the cameras here
+	game.GetSceneGraph(1)->Instantiate(&camera, glm::vec2(0, 0));
 
-	game.Run(0);
+
+	game.Run(1);
 
 	return 0; //Return success
 }

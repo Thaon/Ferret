@@ -35,6 +35,7 @@ public:
 	~FerretGame();
 
 	bool isRunning();
+	void ChangeScene(int activeScene);
 
 	float GetElapsedSeconds();
 

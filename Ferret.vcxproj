@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.h" />
+    <ClInclude Include="Ball.h" />
     <ClInclude Include="BehaviourComponent.h" />
     <ClInclude Include="BehaviourSystem.h" />
     <ClInclude Include="Camera.h" />
@@ -167,6 +168,7 @@
     <ClInclude Include="GameConstants.h" />
     <ClInclude Include="InputSystem.h" />
     <ClInclude Include="CollisionSystem.h" />
+    <ClInclude Include="PlayerBehaviour.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scenegraph.h" />
     <ClInclude Include="SpriteComponent.h" />
@@ -178,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp" />
+    <ClCompile Include="Ball.cpp" />
     <ClCompile Include="BehaviourSystem.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="cFont.cpp" />
@@ -191,6 +194,7 @@
     <ClCompile Include="InputSystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="CollisionSystem.cpp" />
+    <ClCompile Include="PlayerBehaviour.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="RocketBehaviour.cpp" />
     <ClCompile Include="Scenegraph.cpp" />
