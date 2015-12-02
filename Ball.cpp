@@ -19,7 +19,7 @@ void Ball::Start()
 	m_ySpeed = rand() % 100 + 150;
 	//but direct it into the player first
 	m_xDir = -1;
-	m_yDir = (int)IntervalRandom(-1, 1);
+	m_yDir = IntervalRandom(-1, 1);
 
 	GetFontMgr()->addFont("space", "Fonts/space age.ttf", 24);
 
@@ -69,7 +69,7 @@ void Ball::OnCollisionEnter(Entity* other)
 
 		//calculate point of impact
 		//if (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - (other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y) < 0)
-		m_yDir = (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y) / 100;
+		m_yDir = (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - (other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y + 100)) / 100;
 
 		m_xDir = -m_xDir * 1.1f; //we reverse and amplify the speed
 		m_canChangeDir = false;

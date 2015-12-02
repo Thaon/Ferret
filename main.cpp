@@ -7,6 +7,7 @@
 
 #include "PlayerBehaviour.h"
 #include "Ball.h"
+#include "AIBehaviour.h"
 
 int WINAPI WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -44,10 +45,12 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	Entity ai("AI Paddle");
 	ai.AddTransform();
 	ai.AddSprite();
-	ai.GetSpriteComponent()->SetSprite("Images\\wall.png");
+	ai.GetSpriteComponent()->SetSprite("Images\\ai.png");
 	ai.AddCollision2DComponent();
 	ai.AddBehaviour();
-	//ai.SetBehaviour(new RocketBehaviour);
+	AIBehaviour aiBehaviour;
+	ai.SetBehaviour(&aiBehaviour);
+	aiBehaviour.m_ball = &ball; //if I store a reference to the behaviour I can then access it's methods and member variables!
 
 	//create a camera for the game
 	Camera camera(windowWidth, windowHeight);
@@ -57,7 +60,8 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	//instantiate them here
 
 	
-	game.GetSceneGraph(1)->Instantiate(&player, glm::vec2(0, 320), 0);
+	game.GetSceneGraph(1)->Instantiate(&player, glm::vec2(10, 320), 0);
+	game.GetSceneGraph(1)->Instantiate(&ai, glm::vec2(1190, 320), 0);
 	game.GetSceneGraph(1)->Instantiate(&ball, glm::vec2(640, 320), 0);
 
 	//instantiate the cameras here

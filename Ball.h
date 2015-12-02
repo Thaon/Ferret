@@ -6,7 +6,7 @@ class Ball : public BehaviourComponent
 {
 private:
 	float m_xSpeed, m_ySpeed;
-	int m_xDir, m_yDir;
+	float m_xDir, m_yDir;
 	glm::vec2 m_previousPosition;
 	bool m_canChangeDir = true;
 public:

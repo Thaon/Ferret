@@ -1,4 +1,4 @@
-﻿Build started 01/12/2015 13:28:30.
+﻿Build started 02/12/2015 14:34:07.
      1>Project "C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Ferret\Ferret.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt Ball.cpp
@@ -497,10 +497,9 @@
      1>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\collision2dcomponent.h(30): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
      1>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\ball.cpp(18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
      1>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\ball.cpp(19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-     1>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\ball.cpp(72): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\thaon\documents\visual studio 2015\projects\ferret\ferret\ball.cpp(74): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Debug\Ferret.exe" /INCREMENTAL /NOLOGO DeviL.lib freeglut.lib ILU.lib ILUT.lib OpenAL32.lib freetype.lib ftgl.lib alut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Debug\Ferret.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Thaon\documents\visual studio 2015\Projects\Ferret\Debug\Ferret.lib" /MACHINE:X86 Debug\cWNDManager.obj
+         Debug\AIBehaviour.obj
          Debug\Ball.obj
          Debug\BehaviourSystem.obj
          Debug\Camera.obj
@@ -526,4 +525,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:02.16

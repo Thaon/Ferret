@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.h" />
+    <ClInclude Include="AIBehaviour.h" />
     <ClInclude Include="Ball.h" />
     <ClInclude Include="BehaviourComponent.h" />
     <ClInclude Include="BehaviourSystem.h" />
@@ -180,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp" />
+    <ClCompile Include="AIBehaviour.cpp" />
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="BehaviourSystem.cpp" />
     <ClCompile Include="Camera.cpp" />

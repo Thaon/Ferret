@@ -13,7 +13,7 @@ PlayerBehaviour::~PlayerBehaviour()
 
 void PlayerBehaviour::Start()
 {
-	GetTransform()->SetPosition(glm::vec2(0, 320));
+	GetTransform()->SetPosition(glm::vec2(10, 320));
 	GetFontMgr()->addFont("space", "Fonts/space age.ttf", 24);
 }
 
