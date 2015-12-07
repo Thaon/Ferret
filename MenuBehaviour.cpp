@@ -14,6 +14,8 @@ MenuBehaviour::~MenuBehaviour()
 void MenuBehaviour::Start()
 {
 	SetGameState(-1);
+	//play the menu song
+	GetSoundMgr()->getSnd("Game music")->playAudio(AL_FALSE);
 }
 
 void MenuBehaviour::Update(float deltaTime)

@@ -27,6 +27,9 @@ void Ball::Start()
 
 	m_previousPosition = GetTransform()->GetPosition();
 
+	GetSoundMgr()->getSnd("boop")->playAudio(AL_TRUE);
+	//GetSoundMgr()->getSnd("Game music")->playAudio(AL_FALSE);
+
 }
 
 float Ball::IntervalRandom(float x0, float x1) //from http://c-faq.com/lib/randrange.html

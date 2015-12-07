@@ -27,6 +27,10 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	FerretGame game;
 	game.Init(windowWidth, windowHeight, windowBPP);
 
+	//load sounds
+	game.Audio()->add("Game music", "Audio/ShippingUpToBoston.wav");
+	game.Audio()->add("boop", "Audio/explosion2.wav");
+
 	//declare our entities here
 
 	//MENU
@@ -42,7 +46,6 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 
 	//GAME
-
 	Entity background("Background");
 	background.AddTransform();
 	background.AddSprite();
