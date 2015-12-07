@@ -44,4 +44,6 @@ public:
 
 	virtual void Start() {};
 	virtual void Update(float deltaTime) {};
+
+	virtual void Signal(std::string signal) {};
 };

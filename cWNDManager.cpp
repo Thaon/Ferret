@@ -68,7 +68,7 @@ bool cWNDManager::createWND(int width, int height, int bpp)
 	}
 
 	dwExStyle = WS_EX_APPWINDOW | WS_EX_WINDOWEDGE;   // Window Extended Style
-	dwStyle = WS_OVERLAPPEDWINDOW;                    // Windows Style
+	dwStyle = WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX;                    // Windows Style
 
 	AdjustWindowRectEx(&m_windowRect, dwStyle, false, dwExStyle);     // Adjust Window To True Requested Size
 
@@ -76,7 +76,7 @@ bool cWNDManager::createWND(int width, int height, int bpp)
 	m_hwnd = CreateWindowEx(NULL,                                 // extended style
 		"winOGL",                          // class name
 		WINDOW_TITLE,      // app name
-		WS_OVERLAPPEDWINDOW,	// the window style
+		dwStyle,	// the window style
 		CW_USEDEFAULT, // the starting x coordinate
 		CW_USEDEFAULT, // the starting y coordinate
 		m_windowRect.right - m_windowRect.left, // the pixel width of the window
@@ -248,6 +248,15 @@ LRESULT CALLBACK cWNDManager::WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARA
 	}
 
 		break;
+
+	case WM_LBUTTONDOWN:
+	{
+		pInstance->m_InputMgr->setLeftMouseBtn(true);
+		pInstance->m_InputMgr->mouseXY(lParam);
+		return 0;
+	}
+		break;
+
 	default:
 		break;
 	}

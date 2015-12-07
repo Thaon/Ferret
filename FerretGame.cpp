@@ -88,6 +88,8 @@ int FerretGame::Run(int activeScene)
 
 	while (isRunning())
 	{
+		theInputMgr->setLeftMouseBtn(false); //resetting the mouse state
+
 		float newTime = GetElapsedSeconds();
 		deltaTime = newTime - oldTime;
 
@@ -104,15 +106,15 @@ int FerretGame::Run(int activeScene)
 		renderSys->Render(sceneGraph[activeScene]);
 
 		//translating the scene according to the camera coordinates so that when text is drawn either during collisions or from behaviors, it will be in the correct position
-		if (sceneGraph[activeScene]->GetCameras()[0] != NULL)
+		if (sceneGraph[activeScene]->GetCameras().size() > 0 && sceneGraph[activeScene]->GetCameras()[0] != NULL)
 			glTranslatef(-(sceneGraph[activeScene]->GetCameras()[0]->GetPosition().x), -(sceneGraph[activeScene]->GetCameras()[0]->GetPosition().y), 0.0f);
 		
 		//Calculate collisions here
 		collisionSys->Update(sceneGraph[activeScene]);
 		//Update entities
 		behaviourSys->Update(deltaTime);
-
-		glTranslatef((sceneGraph[activeScene]->GetCameras()[0]->GetPosition().x), (sceneGraph[activeScene]->GetCameras()[0]->GetPosition().y), 0.0f);
+		if (sceneGraph[activeScene]->GetCameras().size() > 0 && sceneGraph[activeScene]->GetCameras()[0] != NULL)
+			glTranslatef((sceneGraph[activeScene]->GetCameras()[0]->GetPosition().x), (sceneGraph[activeScene]->GetCameras()[0]->GetPosition().y), 0.0f);
 
 		if (!window->isWNDRunning())
 		{
@@ -124,14 +126,87 @@ int FerretGame::Run(int activeScene)
 		//We update the delta time
 		oldTime = newTime;
 
-		//here we get into the Pong game specs:
+
+
+		//here we get into the Pong game specs: I could not find a way to work around this as the changing scene method must be called from within the FerretGame class, a bit hacky, but gets the job done.
+		//on second thought I could have used signals and slots... next time, next time...
+		if (activeScene == 0) //we are in the menu
+		{
+			if (sceneGraph[activeScene]->Find("Main Menu")->GetBehaviour()->GetGameState() == 1) //we are switching to the game scene
+			{
+				activeScene = 1;
+				ChangeScene(activeScene); //going to the game scene!
+			}
+			
+			if (sceneGraph[activeScene]->Find("Main Menu")->GetBehaviour()->GetGameState() == 2) //we are going back to DOS
+			{
+				m_isRunning = false;
+				return 0;
+			}
+		}
 		if (activeScene == 1) //if we are in the game
+		{
 			if (sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->GetGameState() == 2) //goal was scored by AI
 			{
 				//reset game state and game until the score is more than 5
 				sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->SetGameState(-1);
-				ChangeScene(1);
+				sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->Signal("Increase Ai Points");
+				activeScene = 1;
+				ChangeScene(activeScene); //reloads the current scene
 			}
+
+			if (sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->GetGameState() == 1) //goal was scored by player
+			{
+				//reset game state and game until the score is more than 5
+				sceneGraph[activeScene]->Find("Ball")->GetBehaviour()->SetGameState(-1);
+				sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->Signal("Increase Player Points");
+				activeScene = 1;
+				ChangeScene(activeScene);
+			}
+
+			if (sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->GetGameState() == 2) //player won
+			{
+				sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->Signal("Reset Points");
+				activeScene = 2;
+				ChangeScene(activeScene); //going to the won game scene
+			}
+
+			if (sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->GetGameState() == 1) //player won
+			{
+				sceneGraph[activeScene]->Find("Points counter")->GetBehaviour()->Signal("Reset Points");
+				activeScene = 3;
+				ChangeScene(activeScene); //going to the lost game scene
+			}
+		}
+		if (activeScene == 2) //if we are in the win scene
+		{
+			if (sceneGraph[activeScene]->Find("Win Screen Menu")->GetBehaviour()->GetGameState() == 1) //we are playing again
+			{
+				activeScene = 1;
+				ChangeScene(activeScene); //going to the game scene!
+			}
+
+			if (sceneGraph[activeScene]->Find("Win Screen Menu")->GetBehaviour()->GetGameState() == 2) //we are going back to DOS
+			{
+				m_isRunning = false;
+				return 0;
+			}
+		}
+
+		if (activeScene == 3) //if we are in the lose scene
+		{
+			if (sceneGraph[activeScene]->Find("Lose Screen Menu")->GetBehaviour()->GetGameState() == 1) //we are playing again
+			{
+				activeScene = 1;
+				ChangeScene(activeScene); //going to the game scene!
+			}
+
+			if (sceneGraph[activeScene]->Find("Lose Screen Menu")->GetBehaviour()->GetGameState() == 2) //we are going back to DOS
+			{
+				m_isRunning = false;
+				return 0;
+			}
+		}
 	}
 
 	//theOGLWnd.shutdown(); //Free any resources Seems a bit unnecessary as the method is empty...

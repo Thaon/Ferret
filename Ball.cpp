@@ -12,6 +12,8 @@ Ball::~Ball()
 
 void Ball::Start()
 {
+	//reset the game state
+	SetGameState(-1);
 	//set the ball in the center
 	GetTransform()->SetPosition(glm::vec2(600, 360));
 	//start it moving
@@ -38,22 +40,22 @@ void Ball::Update(float deltaTime)
 
 	GetTransform()->SetPosition(m_xSpeed * m_xDir * deltaTime, m_ySpeed * m_yDir * deltaTime);
 
-	if (GetTransform()->GetPosition().y < 40 || GetTransform()->GetPosition().y > 700)
+	if (GetTransform()->GetPosition().y < 60 || GetTransform()->GetPosition().y > 700) //if going out of bounds up and down
 	{
 		GetTransform()->SetPosition(m_previousPosition);
 		m_yDir = -m_yDir;
 	}
 	if (GetTransform()->GetPosition().x > 1200)
 	{
-		GetTransform()->SetPosition(m_previousPosition);
-		m_xDir = -m_xDir;
+		m_previousPosition = GetTransform()->GetPosition(); //we get the position here cause when the game is reset the ball gets dragged back to the previous position, if not updated it will go back to beyond the player
+		SetGameState(1); //point scored by player, see FerretGame.cpp
 	}
 
 	//scoring
 	if (GetTransform()->GetPosition().x < -40)
 	{
 		m_previousPosition = GetTransform()->GetPosition();
-		SetGameState(2);
+		SetGameState(2); //point scored by AI, see FerretGame.cpp
 	}
 
 	//draw center for debug
@@ -69,7 +71,11 @@ void Ball::OnCollisionEnter(Entity* other)
 
 		//calculate point of impact
 		//if (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - (other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y) < 0)
-		m_yDir = (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - (other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y + 100)) / 100;
+
+		float myY = GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y;
+		float otherY = other->GetSpriteComponent()->GetCenter(other->GetTransform()->GetPosition()).y;
+
+		m_yDir = (myY - otherY) / 100;
 
 		m_xDir = -m_xDir * 1.1f; //we reverse and amplify the speed
 		m_canChangeDir = false;

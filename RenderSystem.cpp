@@ -19,7 +19,8 @@ void RenderSystem::RenderSprite(Entity* entity, Camera* camera)
 	glLoadIdentity();
 	glPushMatrix();
 
-	glTranslatef(-camera->GetPosition().x, -camera->GetPosition().y, 0.0f);
+	if (camera != NULL)
+		glTranslatef(-camera->GetPosition().x, -camera->GetPosition().y, 0.0f);
 
 	//glMatrixMode(GL_TEXTURE);
 	glTranslatef(entity->GetSpriteComponent()->GetCenter(entity->GetTransform()->GetPosition()).x, entity->GetSpriteComponent()->GetCenter(entity->GetTransform()->GetPosition()).y, 0.0f);

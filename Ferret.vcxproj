@@ -28,7 +28,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -72,7 +72,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <ExecutablePath>$(ProjectDir)/include;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Users\Thaon\Documents\Visual Studio 2015\Projects\Ferret\Ferret\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)/include;$(IncludePath)</IncludePath>
     <LibraryPath>$(ProjectDir)/include/Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -92,12 +92,16 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ShowIncludes>true</ShowIncludes>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>DeviL.lib;freeglut.lib;ILU.lib;ILUT.lib;OpenAL32.lib;freetype.lib;ftgl.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -169,7 +173,10 @@
     <ClInclude Include="GameConstants.h" />
     <ClInclude Include="InputSystem.h" />
     <ClInclude Include="CollisionSystem.h" />
+    <ClInclude Include="LoseScreenBehaviour.h" />
+    <ClInclude Include="MenuBehaviour.h" />
     <ClInclude Include="PlayerBehaviour.h" />
+    <ClInclude Include="PointsCounterBehaviour.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scenegraph.h" />
     <ClInclude Include="SpriteComponent.h" />
@@ -178,9 +185,9 @@
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="wglext.h" />
     <ClInclude Include="windowOGL.h" />
+    <ClInclude Include="WinScreenBehaviour.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\cWNDManager.cpp" />
     <ClCompile Include="AIBehaviour.cpp" />
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="BehaviourSystem.cpp" />
@@ -191,17 +198,22 @@
     <ClCompile Include="cSound.cpp" />
     <ClCompile Include="cSoundMgr.cpp" />
     <ClCompile Include="cTexture.cpp" />
+    <ClCompile Include="cWNDManager.cpp" />
     <ClCompile Include="FerretGame.cpp" />
     <ClCompile Include="HelloBehaviour.cpp" />
     <ClCompile Include="InputSystem.cpp" />
+    <ClCompile Include="LoseScreenBehaviour.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="CollisionSystem.cpp" />
+    <ClCompile Include="MenuBehaviour.cpp" />
     <ClCompile Include="PlayerBehaviour.cpp" />
+    <ClCompile Include="PointsCounterBehaviour.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="RocketBehaviour.cpp" />
     <ClCompile Include="Scenegraph.cpp" />
     <ClCompile Include="SpriteComponent.cpp" />
     <ClCompile Include="windowOGL.cpp" />
+    <ClCompile Include="WinScreenBehaviour.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\Visual Studio 2013\Projects\RocketGL\RocketGL\RocketGL\ReadMe.txt" />

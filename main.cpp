@@ -8,6 +8,10 @@
 #include "PlayerBehaviour.h"
 #include "Ball.h"
 #include "AIBehaviour.h"
+#include "PointsCounterBehaviour.h"
+#include "MenuBehaviour.h"
+#include "WinScreenBehaviour.h"
+#include "LoseScreenBehaviour.h"
 
 int WINAPI WinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -22,10 +26,28 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	FerretGame game;
 	game.Init(windowWidth, windowHeight, windowBPP);
-	game.CreateSceneGraph();// we create our scenegraph 0 and 1 here
-	game.CreateSceneGraph();
 
 	//declare our entities here
+
+	//MENU
+	Entity menuBkg("Menu Background");
+	menuBkg.AddTransform();
+	menuBkg.AddSprite();
+	menuBkg.GetSpriteComponent()->SetSprite("Images\\Menu.png");
+
+	Entity menu("Main Menu");
+	menu.AddTransform();
+	menu.AddBehaviour();
+	menu.SetBehaviour(new MenuBehaviour);
+
+
+	//GAME
+
+	Entity background("Background");
+	background.AddTransform();
+	background.AddSprite();
+	background.GetSpriteComponent()->SetSprite("Images\\BKGND.png");
+
 	Entity player("Player Paddle");
 	player.AddTransform();
 	player.AddSprite();
@@ -52,6 +74,27 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	ai.SetBehaviour(&aiBehaviour);
 	aiBehaviour.m_ball = &ball; //if I store a reference to the behaviour I can then access it's methods and member variables!
 
+	Entity pointsCounter("Points counter");
+	pointsCounter.AddBehaviour();
+	PointsCounterBehaviour pointsCounterBehaviour;
+	pointsCounter.SetBehaviour(&pointsCounterBehaviour);
+	pointsCounterBehaviour.ResetPoints();
+
+	//Win and Lose screens
+
+	Entity winScreen("Win Screen Menu");
+	winScreen.AddSprite();
+	winScreen.GetSpriteComponent()->SetSprite("Images\\WinScreen.png");
+	winScreen.AddBehaviour();
+	winScreen.SetBehaviour(new WinScreenBehaviour);
+
+
+	Entity loseScreen("Lose Screen Menu");
+	loseScreen.AddSprite();
+	loseScreen.GetSpriteComponent()->SetSprite("Images\\LoseScreen.png");
+	loseScreen.AddBehaviour();
+	loseScreen.SetBehaviour(new LoseScreenBehaviour);
+
 	//create a camera for the game
 	Camera camera(windowWidth, windowHeight);
 	//camera.SetEntityToFollow(&player, windowWidth/2, windowHeight/2);
@@ -59,16 +102,34 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	//instantiate them here
 
-	
+	//Menu scene
+	game.CreateSceneGraph();// we create our scenegraphs for the game here
+	game.GetSceneGraph(0)->Instantiate(&menuBkg, glm::vec2(0, 0), 0);
+	game.GetSceneGraph(0)->Instantiate(&menu, glm::vec2(0, 0), 0);
+
+	//Game scene
+	game.CreateSceneGraph();
+	game.GetSceneGraph(1)->Instantiate(&background, glm::vec2(0, 0), 0);
 	game.GetSceneGraph(1)->Instantiate(&player, glm::vec2(10, 320), 0);
 	game.GetSceneGraph(1)->Instantiate(&ai, glm::vec2(1190, 320), 0);
 	game.GetSceneGraph(1)->Instantiate(&ball, glm::vec2(640, 320), 0);
+	game.GetSceneGraph(1)->Instantiate(&pointsCounter, glm::vec2(0, 0), 0);
+
+	//Win scene
+	game.CreateSceneGraph();
+	game.GetSceneGraph(2)->Instantiate(&winScreen, glm::vec2(0, 0), 0);
+
+	//Lose scene
+	game.CreateSceneGraph();
+	game.GetSceneGraph(3)->Instantiate(&loseScreen, glm::vec2(0, 0), 0);
 
 	//instantiate the cameras here
+	game.GetSceneGraph(0)->Instantiate(&camera, glm::vec2(0, 0));
 	game.GetSceneGraph(1)->Instantiate(&camera, glm::vec2(0, 0));
+	game.GetSceneGraph(2)->Instantiate(&camera, glm::vec2(0, 0));
+	game.GetSceneGraph(3)->Instantiate(&camera, glm::vec2(0, 0));
 
-
-	game.Run(1);
+	game.Run(0);
 
 	return 0; //Return success
 }
