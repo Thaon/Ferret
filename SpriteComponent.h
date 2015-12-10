@@ -31,7 +31,7 @@ public:
 
 	//getters
 	glm::vec2 GetCenter(glm::vec2 position);
-	GLuint GetTexture();  // Return the sprites current image
+	GLuint GetTexture();  // Return the sprite's current image
 	RECT* GetRekt();
 	glm::vec2* GetTexCoordData();
 	int GetWidth() { return textureWidth; }

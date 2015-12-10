@@ -19,7 +19,7 @@ void PlayerBehaviour::Start()
 
 void PlayerBehaviour::Update(float deltaTime)
 {
-	if (GetInput()->isKeyDown(VK_UP) && GetTransform()->GetPosition().y - 40 > 0)
+	if (GetInput()->isKeyDown(VK_UP) && GetTransform()->GetPosition().y - 60 > 0)
 	{
 		GetTransform()->SetPosition(0, -100 * deltaTime);
 

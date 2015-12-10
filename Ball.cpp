@@ -26,10 +26,6 @@ void Ball::Start()
 	GetFontMgr()->addFont("space", "Fonts/space age.ttf", 24);
 
 	m_previousPosition = GetTransform()->GetPosition();
-
-	GetSoundMgr()->getSnd("boop")->playAudio(AL_TRUE);
-	//GetSoundMgr()->getSnd("Game music")->playAudio(AL_FALSE);
-
 }
 
 float Ball::IntervalRandom(float x0, float x1) //from http://c-faq.com/lib/randrange.html
@@ -72,9 +68,9 @@ void Ball::OnCollisionEnter(Entity* other)
 	{
 		GetTransform()->SetPosition(m_previousPosition);
 
-		//calculate point of impact
-		//if (GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y - (other->GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y) < 0)
+		GetSoundMgr()->getSnd("boop")->playAudio(AL_FALSE);
 
+		//calculate point of impact
 		float myY = GetSpriteComponent()->GetCenter(GetTransform()->GetPosition()).y;
 		float otherY = other->GetSpriteComponent()->GetCenter(other->GetTransform()->GetPosition()).y;
 

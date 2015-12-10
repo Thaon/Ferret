@@ -171,7 +171,6 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="FerretGame.h" />
     <ClInclude Include="GameConstants.h" />
-    <ClInclude Include="InputSystem.h" />
     <ClInclude Include="CollisionSystem.h" />
     <ClInclude Include="LoseScreenBehaviour.h" />
     <ClInclude Include="MenuBehaviour.h" />
@@ -181,7 +180,6 @@
     <ClInclude Include="Scenegraph.h" />
     <ClInclude Include="SpriteComponent.h" />
     <ClInclude Include="System.h" />
-    <ClInclude Include="TextComponent.h" />
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="wglext.h" />
     <ClInclude Include="windowOGL.h" />
